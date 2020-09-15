@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.17)  15 SEP 2020 18:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.17)  15 SEP 2020 22:11
 entering extended mode
 **"d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/bachelorarbeit.tex"
 ("d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/bachelorarbeit.tex"
@@ -677,29 +677,67 @@ LaTeX Info: Redefining \nameref on input line 139.
 \@outlinefile=\write6
 \openout6 = `bachelorarbeit.out'.
 
+ ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.toc"
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4.
+ ("C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4.
+ ("C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 4.
+ ("C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 4.
+ ("C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+ ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+ ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+\tf@toc=\write7
+\openout7 = `bachelorarbeit.toc'.
+
  [1
 
 {C:/Users/Nikolas/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 146.
+ ("C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd"
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [2] [3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
  ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 142.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 142.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 192.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
 Package rerunfilecheck Info: File `bachelorarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: B49BDA55E9B24405159D5F2B0595F38F;46.
+(rerunfilecheck)             Checksum: DF192CC56C9CAE10CA081883C1A16C07;1127.
  ) 
 Here is how much of TeX's memory you used:
- 18826 strings out of 481212
- 343985 string characters out of 2915721
- 611032 words of memory out of 3000000
- 34040 multiletter control sequences out of 15000+200000
- 545268 words of font info for 35 fonts, out of 3000000 for 9000
+ 18997 strings out of 481212
+ 347446 string characters out of 2915721
+ 615032 words of memory out of 3000000
+ 34153 multiletter control sequences out of 15000+200000
+ 566898 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,5n,75p,910b,334s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
-Output written on "d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.pdf" (1 page, 45574 bytes).
+ 59i,5n,75p,910b,399s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
+Output written on "d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.pdf" (3 pages, 75654 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 125 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 
