@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.17)  15 SEP 2020 22:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.17)  25 SEP 2020 18:19
 entering extended mode
 **"d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/bachelorarbeit.tex"
 ("d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/bachelorarbeit.tex"
@@ -576,30 +576,270 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
 \Hy@SectionHShift=\skip73
-) ("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def"
+) ("C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.sty"
+Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
+\csq@reset=\count295
+\csq@gtype=\count296
+\csq@glevel=\count297
+\csq@qlevel=\count298
+\csq@maxlvl=\count299
+\csq@tshold=\count300
+\csq@ltx@everypar=\toks46
+ ("C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.def"
+File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ ("C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.cfg"
+File: csquotes.cfg 
+)) ("C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.sty"
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+ ("C:\Program Files\MiKTeX\tex/latex/logreq\logreq.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count301
+ ("C:\Program Files\MiKTeX\tex/latex/logreq\logreq.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) ("C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count302
+\c@listtotal=\count303
+\c@listcount=\count304
+\c@liststart=\count305
+\c@liststop=\count306
+\c@citecount=\count307
+\c@citetotal=\count308
+\c@multicitecount=\count309
+\c@multicitetotal=\count310
+\c@instcount=\count311
+\c@maxnames=\count312
+\c@minnames=\count313
+\c@maxitems=\count314
+\c@minitems=\count315
+\c@citecounter=\count316
+\c@maxcitecounter=\count317
+\c@savedcitecounter=\count318
+\c@uniquelist=\count319
+\c@uniquename=\count320
+\c@refsection=\count321
+\c@refsegment=\count322
+\c@maxextratitle=\count323
+\c@maxextratitleyear=\count324
+\c@maxextraname=\count325
+\c@maxextradate=\count326
+\c@maxextraalpha=\count327
+\c@abbrvpenalty=\count328
+\c@highnamepenalty=\count329
+\c@lownamepenalty=\count330
+\c@maxparens=\count331
+\c@parenlevel=\count332
+\blx@tempcnta=\count333
+\blx@tempcntb=\count334
+\blx@tempcntc=\count335
+\blx@maxsection=\count336
+\blx@maxsegment@0=\count337
+\blx@notetype=\count338
+\blx@parenlevel@text=\count339
+\blx@parenlevel@foot=\count340
+\blx@sectionciteorder@0=\count341
+\blx@entrysetcounter=\count342
+\labelnumberwidth=\skip74
+\labelalphawidth=\skip75
+\biblabelsep=\skip76
+\bibitemsep=\skip77
+\bibnamesep=\skip78
+\bibinitsep=\skip79
+\bibparsep=\skip80
+\bibhang=\skip81
+\blx@bcfin=\read5
+\blx@bcfout=\write6
+\blx@langwohyphens=\language80
+\c@mincomprange=\count343
+\c@maxcomprange=\count344
+\c@mincompwidth=\count345
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex\blx-dm.def"
+File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'alphabetic.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count346
+\c@savedafterword=\count347
+\c@annotator=\count348
+\c@savedannotator=\count349
+\c@author=\count350
+\c@savedauthor=\count351
+\c@bookauthor=\count352
+\c@savedbookauthor=\count353
+\c@commentator=\count354
+\c@savedcommentator=\count355
+\c@editor=\count356
+\c@savededitor=\count357
+\c@editora=\count358
+\c@savededitora=\count359
+\c@editorb=\count360
+\c@savededitorb=\count361
+\c@editorc=\count362
+\c@savededitorc=\count363
+\c@foreword=\count364
+\c@savedforeword=\count365
+\c@holder=\count366
+\c@savedholder=\count367
+\c@introduction=\count368
+\c@savedintroduction=\count369
+\c@namea=\count370
+\c@savednamea=\count371
+\c@nameb=\count372
+\c@savednameb=\count373
+\c@namec=\count374
+\c@savednamec=\count375
+\c@translator=\count376
+\c@savedtranslator=\count377
+\c@shortauthor=\count378
+\c@savedshortauthor=\count379
+\c@shorteditor=\count380
+\c@savedshorteditor=\count381
+\c@labelname=\count382
+\c@savedlabelname=\count383
+\c@institution=\count384
+\c@savedinstitution=\count385
+\c@lista=\count386
+\c@savedlista=\count387
+\c@listb=\count388
+\c@savedlistb=\count389
+\c@listc=\count390
+\c@savedlistc=\count391
+\c@listd=\count392
+\c@savedlistd=\count393
+\c@liste=\count394
+\c@savedliste=\count395
+\c@listf=\count396
+\c@savedlistf=\count397
+\c@location=\count398
+\c@savedlocation=\count399
+\c@organization=\count400
+\c@savedorganization=\count401
+\c@origlocation=\count402
+\c@savedoriglocation=\count403
+\c@origpublisher=\count404
+\c@savedorigpublisher=\count405
+\c@publisher=\count406
+\c@savedpublisher=\count407
+\c@language=\count408
+\c@savedlanguage=\count409
+\c@origlanguage=\count410
+\c@savedoriglanguage=\count411
+\c@pageref=\count412
+\c@savedpageref=\count413
+\shorthandwidth=\skip82
+\shortjournalwidth=\skip83
+\shortserieswidth=\skip84
+\shorttitlewidth=\skip85
+\shortauthorwidth=\skip86
+\shorteditorwidth=\skip87
+\locallabelnumberwidth=\skip88
+\locallabelalphawidth=\skip89
+\localshorthandwidth=\skip90
+\localshortjournalwidth=\skip91
+\localshortserieswidth=\skip92
+\localshorttitlewidth=\skip93
+\localshortauthorwidth=\skip94
+\localshorteditorwidth=\skip95
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex\blx-compat.def"
+File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex\blx-bibtex.def"
+File: blx-bibtex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.def"
+File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+\c@textcitecount=\count414
+\c@textcitetotal=\count415
+\c@textcitemaxnames=\count416
+\c@biburlbigbreakpenalty=\count417
+\c@biburlbreakpenalty=\count418
+\c@biburlnumpenalty=\count419
+\c@biburlucpenalty=\count420
+\c@biburllcpenalty=\count421
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count422
+)
+Package biblatex Info: Trying to load bibliography style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.bbx' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\alphabetic.bbx"
+File: alphabetic.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\standard.bbx"
+File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count423
+\c@bbx:relatedtotal=\count424
+))
+Package biblatex Info: Trying to load citation style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.cbx' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex/cbx\alphabetic.cbx"
+File: alphabetic.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.cfg"
+File: biblatex.cfg 
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
+ ("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def"
 File: l3backend-pdfmode.def 2020-08-07 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count295
+\l__kernel_color_stack_int=\count425
 \l__pdf_internal_box=\box71
 ) ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.aux")
 \openout1 = `bachelorarbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 139.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 138.
  ("C:\Program Files\MiKTeX\tex/latex/lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -612,17 +852,17 @@ Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 Package caption Info: End \AtBeginDocument code.
  ("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count296
+\scratchcounter=\count426
 \scratchdimen=\dimen273
 \scratchbox=\box72
-\nofMPsegments=\count297
-\nofMParguments=\count298
-\everyMPshowfont=\toks46
-\MPscratchCnt=\count299
+\nofMPsegments=\count427
+\nofMParguments=\count428
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count429
 \MPscratchDim=\dimen274
-\MPnumerator=\count300
-\makeMPintoPDFobject=\count301
-\everyMPtoPDFconversion=\toks47
+\MPnumerator=\count430
+\makeMPintoPDFobject=\count431
+\everyMPtoPDFconversion=\toks48
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -660,7 +900,7 @@ Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box73
-Package hyperref Info: Link coloring ON on input line 139.
+Package hyperref Info: Link coloring ON on input line 138.
  ("C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  ("C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty"
@@ -668,76 +908,120 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) ("C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count302
+\c@section@level=\count432
 )
-LaTeX Info: Redefining \ref on input line 139.
-LaTeX Info: Redefining \pageref on input line 139.
-LaTeX Info: Redefining \nameref on input line 139.
+LaTeX Info: Redefining \ref on input line 138.
+LaTeX Info: Redefining \pageref on input line 138.
+LaTeX Info: Redefining \nameref on input line 138.
  ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.out") ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.out")
-\@outlinefile=\write6
-\openout6 = `bachelorarbeit.out'.
+\@outlinefile=\write7
+\openout7 = `bachelorarbeit.out'.
 
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\ngerman.lbx"
+File: ngerman.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\german.lbx"
+File: german.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\german.lbx"
+File: german.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout6 = `bachelorarbeit-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'bachelorarbeit.bbl' found.
+ ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.bbl")
+Package biblatex Info: Reference section=0 on input line 138.
+Package biblatex Info: Reference segment=0 on input line 138.
  ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.toc"
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8.
  ("C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8.
  ("C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 4.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 8.
  ("C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 4.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 8.
  ("C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 4.
+(Font)              <12> on input line 8.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 4.
+(Font)              <8> on input line 8.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 4.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+(Font)              <6> on input line 8.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
  ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
  ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
-\tf@toc=\write7
-\openout7 = `bachelorarbeit.toc'.
+\tf@toc=\write8
+\openout8 = `bachelorarbeit.toc'.
 
  [1
 
 {C:/Users/Nikolas/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 146.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 151.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 151.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 151.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 151.
+ ("C:\Program Files\MiKTeX\tex/latex/lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [2]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 197.
  ("C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [2] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
+) [3]
+
+LaTeX Warning: Empty bibliography on input line 234.
+
+[4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 237.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 237.
  ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 192.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 237.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 237.
 Package rerunfilecheck Info: File `bachelorarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: DF192CC56C9CAE10CA081883C1A16C07;1127.
+(rerunfilecheck)             Checksum: 23009D8E7DF97720AAB78934FB92248E;1132.
+Package logreq Info: Writing requests to 'bachelorarbeit.run.xml'.
+\openout1 = `bachelorarbeit.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 18997 strings out of 481212
- 347446 string characters out of 2915721
- 615032 words of memory out of 3000000
- 34153 multiletter control sequences out of 15000+200000
- 566898 words of font info for 55 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 59i,5n,75p,910b,399s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
-Output written on "d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.pdf" (3 pages, 75654 bytes).
+ 26122 strings out of 481212
+ 485324 string characters out of 2915721
+ 973742 words of memory out of 3000000
+ 41191 multiletter control sequences out of 15000+200000
+ 588222 words of font info for 74 fonts, out of 3000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 59i,8n,75p,1214b,2193s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
+Output written on "d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.pdf" (4 pages, 177431 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
+ 155 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
  149 words of extra memory for PDF output out of 10000 (max. 10000000)
 

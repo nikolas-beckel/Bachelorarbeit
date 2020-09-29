@@ -123,12 +123,11 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
 
 % Das Paket "biblatex" für autom. 
 % Literaturverzeichnisse:
-%\usepackage{csquotes} % Für sprachangepasste Anführungszeichen
-%\usepackage[backend=bibtex,style=alphabetic]  
-%           {biblatex}
-%\addbibresource{bib/literatur.bib}           
+\usepackage{csquotes} % Für sprachangepasste Anführungszeichen
+\usepackage[backend=bibtex,style=alphabetic]{biblatex}
+\addbibresource{bib/literatur.bib}
 
-\title{Bachelorarbeit}
+\title{Entwicklung von Darstellungs- und Interaktionsmöglichkeiten in Virtual Reality für das Cranach Digital Archive}
 \author{Nikolas Beckel (11103435)}
 \date{15. September 2020}
 % Use \maketitle for generated title
@@ -140,15 +139,56 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
   \tableofcontents
   \newpage
   \section{Einleitung}
-    Hier auch Danksagung.
+    % \begin{itemize}
+    %   \item Das Thema vorzustellen
+    %   \item Das Ziel vorzustellen
+    %   \item Den Leser neugierig machen
+    %   \item Die Relevanz zu beschreiben
+    % \end{itemize}
+      
+    Virtual Reality ist nicht mehr nur Zukunftsmusik oder ein Anwendungsbereich für Forscher
+    großer Konzerne. Immer mehr rückt Virtual Reality in den Massenmarkt. Wo zu Beginn
+    leistungsfähige Computer benötigt wurden, entstehen nun All-in-One VR-Brillen\footnote{Oculus Quest 2 - All-in-One VR-Brille | \url{https://www.oculus.com/quest-2/} (21.09.2020)}.
+    Die Anwendungsbereiche von Virtual Reality sind vielfältig: Gaming, Unterhaltung durch VR-Filme oder
+    das Treffen von Freunden in virtuellen Welten\footnote{Mozilla Hubs | \url{https://labs.mozilla.org/projects/hubs/} (21.09.2020)}.
+    Die Pandemie durch das Virus SARS-CoV-2 hat uns auch gezeigt, dass immer mehr digitale Lösungen
+    benötigt werden. Durch solche Krisen bekommen plötzlich Anwendungsbereiche, die nicht als
+    notwendig betrachtet worden, völlig neue Relevanz.\\
+    Durch Virtual Reality ist man nicht mehr an einen Ort gebunden und kann gewisse Aktionen
+    statt in der realen Welt, in einer virtuellen Welt ausführen. Da man von der realen Welt
+    losgelöst ist, entstehen auch völlig neue Möglichkeiten, diese aufzuführen.\\
+    In dieser Bachelorarbeit wird das digitale Archiv der Cranachs\footnote{Cranach Digital Archive | \url{http://lucascranach.org/} (21.09.2020)}
+    als Ressource genutzt, um neue Möglichkeiten der Darstellung für Kunst und Kultur zu erforschen.
+    Dabei sollen aktuelle Entwicklungen im musealen Bereich miteinbezogen und deren Erkenntnisse
+    berücksichtigt werden.\\
+    Auf Basis der recherchierten Ergebnisse sollen ein oder mehrere Prototypen entwickelt werden,
+    die zeigen, wie man Virtual Reality im Bereich Kunst und Kultur anwenden kann. Dabei sollen die
+    aktuellsten Technologien miteinbezogen und abgewägt werden, mit welcher Technologie die
+    besten Ergebnisse erzielt werden können.
+
   \section{Grundlage und Datenbasis}
-    \begin{itemize}
-      \item Das Thema vorzustellen
-      \item Das Ziel vorzustellen
-      \item Den Leser neugierig machen
-      \item Die Relevanz zu beschreiben
-    \end{itemize}
+    In diesem Kapitel werden die Grundlagen von Virtual Reality und die Datenbasis die
+    für dieses Forschungsprojekt zur Verfügung steht erklärt. Auf Grund dieses Wissens wird in
+    das nächste Kapitel übergegangen, welche sich tiefgründiger mit der Umsetzung von virtuellen
+    Welten beschäftigt und diese durch Literatur untermauert. Dazu soll der aktuelle Forschungsstand
+    berücksichtigt werden und dabei helfen, die ersten Prototypen zu entwickeln.
     \subsection{Das Cranach Digital Archive}
+    Das Cranach Digital Archive beinhaltet über tausende Gemälde und Archivalien von Lucas Cranach und seinen
+    zwei Söhnen. Diese Forschungsdatenbank ist frei zugänglich und kann von jedem*r mit einem
+    Internetzugang abgerufen werden.
+    Lucas Cranach war einer der bedeutendsten deutschen Künstler der Renaissance. Seine Werkstatt
+    brachte viele Kunstwerke hervor, die nicht nur er alleine, sondern auch mit seinen Söhnen 
+    Hans Cranach und Lucas Cranach der Jüngere entwickelte. In dieser Datenbank befinden sich die digitalisierten
+    Versionen seiner Gemälde, inklusive Röntgenaufnahmen und Infrarotreflektogramme, wodurch die
+    verschiedenen Schichten der Gemälde analysiert werden können. So lassen sich beispielsweise die
+    Skizzen der Gemälde ansehen, die vor Beginn der Zeichnung gemacht wurden. Neben den Gemälden
+    lassen sich auch Archivalien der Cranachs einsehen, die Ereignisse aus ihrem Leben zeigen.
+    Diese Gemälde und Archivalien sind in der Datenbank mit vielen Informationen angereichert, wie zum Beispiel
+    woraus der Bildträger besteht, in welchem Jahr es entstanden ist oder welche verwandten Werke es dazu gibt.
+    Lucas Cranach stand in enger Beziehung mit Martin Luther und porträtierte ihn oft als Junker Jörg. Junker Jörg
+    war ein Tarnname von Martin Luther, um sich unerkannt vor seinen Verfolgern verstecken zu können. Das digitale
+    Archiv beinhaltet einige Gemälde zu Junker Jörg, die unter verschiedenen Kriterien eine Beziehung zueinander haben.
+    Beispielsweise, ob sie aus der selben Druckerei stammen oder auf dem selben Papier gedruckt wurden.
     \subsection{Virtual Reality im musealen Kontext}
   \section{Theoretische Einordnung}
     \subsection{Nutzung von Virtual Reality}
@@ -158,11 +198,15 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
         \item Anhand von Literaturstudie beantworten
       \end{itemize}
   \section{Prototyping}
-    \begin{itemize}
-      \item Hier beschreiben, wie ich meine Forschung betreibe
-      \item Durch Entwicklung von Prototypen
-    \end{itemize}
+    Das Prototyping ist eine Methode in der Softwareentwicklung, um schnell an
+    Ergebnisse zu gelangen. Anhand eines Prototypen kann schnell erkannt werden,
+    ob eine Idee technisch umsetzbar ist und was noch benötigt wird, um das Produkt
+    zu verbessern. Je nach Fortschritt des Prototypen können auch schon Nutzererfahrungen
+    und Feedback gesammelt werden.
+    Diese Methode wird in diesem Forschungsprojekt angewandt, um mehrere Ergebnisse
+    zu erzielen und zu erörtern, welche technischen Möglichkeiten heutzutage existieren.
     \subsection{Auswahl der Technologie}
+    
     \subsection{Umsetzung der Softwareentwicklung}
   \section{Ergebnisse}
     \begin{itemize}
@@ -187,6 +231,7 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
   \section{Anhang}
     \subsection{Abbildungen}
     \subsection{Literaturverzeichnis}
+      \printbibliography
     \subsection{Abbildungsverzeichnis}
     \subsection{Eidesstattliche Erklärung}
 \end{document}
