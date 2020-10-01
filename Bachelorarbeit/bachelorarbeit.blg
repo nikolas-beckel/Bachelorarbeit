@@ -1,68 +1,15 @@
-This is BibTeX, Version 0.99d
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: bachelorarbeit.aux
-Reallocating 'name_of_file' (item size: 1) to 9 items.
-The style file: biblatex.bst
-Reallocating 'name_of_file' (item size: 1) to 19 items.
-Reallocating 'name_of_file' (item size: 1) to 14 items.
-Reallocating 'glb_str_end' (item size: 4) to 20 items.
-Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
-Reallocating 'global_strs' (item size: 1) to 4000000 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'wiz_functions' (item size: 4) to 6000 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Database file #1: bachelorarbeit-blx.bib
-Database file #2: bib/literatur.bib
-Biblatex version: 3.13
-Reallocating 'wiz_functions' (item size: 4) to 9000 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 1 entry,
-            6365 wiz_defined-function locations,
-            1193 strings with 8915 characters,
-and the built_in function-call counts, 1557 in all, are:
-= -- 73
-> -- 73
-< -- 1
-+ -- 52
-- -- 30
-* -- 32
-:= -- 373
-add.period$ -- 0
-call.type$ -- 1
-change.case$ -- 0
-chr.to.int$ -- 44
-cite$ -- 0
-duplicate$ -- 11
-empty$ -- 104
-format.name$ -- 0
-if$ -- 333
-int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 20
-num.names$ -- 0
-pop$ -- 47
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 78
-stack$ -- 0
-substring$ -- 155
-swap$ -- 1
-text.length$ -- 20
-text.prefix$ -- 0
-top$ -- 1
-type$ -- 22
-warning$ -- 0
-while$ -- 65
-width$ -- 0
-write$ -- 20
+[0] Config.pm:312> INFO - This is Biber 2.15 (beta)
+[0] Config.pm:315> INFO - Logfile is 'bachelorarbeit.blg'
+[104] biber-MSWIN64:330> INFO - === 
+[127] Biber.pm:415> INFO - Reading 'bachelorarbeit.bcf'
+[256] Biber.pm:952> INFO - Found 1 citekeys in bib section 0
+[281] Biber.pm:4334> INFO - Processing section 0
+[307] Biber.pm:4523> INFO - Looking for bibtex format file 'bib/literatur.bib' for section 0
+[317] bibtex.pm:1682> INFO - LaTeX decoding ...
+[327] bibtex.pm:1494> INFO - Found BibTeX data source 'bib/literatur.bib'
+[383] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[383] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[383] Biber.pm:4162> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de-DE'
+[383] Biber.pm:4168> INFO - No sort tailoring available for locale 'de-DE'
+[391] bbl.pm:651> INFO - Writing 'bachelorarbeit.bbl' with encoding 'UTF-8'
+[392] bbl.pm:754> INFO - Output to bachelorarbeit.bbl
