@@ -6,16 +6,9 @@
     <meta name="description" content="Learning Platform">
     <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
-    <script src="components/hello-world.js"></script>
-    <script src="components/box.js"></script>
-    <script src="components/follow.js"></script>
-    <script src="components/change-position-on-hover.js"></script>
-    <script src="components/move-forward.js"></script>
-    <script src="components/painting-details-on-hover.js"></script>
-    <script src="components/confirm-button.js"></script>
-    <script src="components/image-switcher.js"></script>
-    <script src="components/paintings-loader.js"></script>
-<!--    <script src="test.js"></script>-->
+    <script type="module" src="components/confirm-button.js"></script>
+    <script type="module" src="components/image-switcher.js"></script>
+    <script type="module" src="components/paintings-loader.js"></script>
 </head>
 <body>
 <a-scene
@@ -39,7 +32,6 @@
     <a-entity
         id="camera"
         position="0 0 0"
-        move-forward
     >
         <a-camera>
             <a-cursor

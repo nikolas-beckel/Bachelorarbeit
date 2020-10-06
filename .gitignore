@@ -1,3 +1,7 @@
-node_modules/
 .idea/
 Bachelorarbeit/
+Code/node_modules/
+Code/components/*.js
+Code/components/models/*.js
+Code/package-lock.json
+backup/
