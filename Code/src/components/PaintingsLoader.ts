@@ -1,27 +1,34 @@
 import { Entity, THREE } from 'aframe';
-import { Painting, PaintingsComponent } from './models/Painting';
+import { Painting, PaintingsComponent } from '../models/Painting';
 
 AFRAME.registerComponent<PaintingsComponent>('paintings-loader', {
     paintingsData: undefined,
     paintingElement: undefined,
 
     init() {
-        fetch('../data/DE_MdbKL_946.json')
+        const three: THREE.Vector3 = new THREE.Vector3(0, 0, 0);
+        fetch('data/paintings.json')
             .then(result => result.json())
             .then(paintingsData => this.paintingsData = paintingsData)
             .then(_ => {
                 if (this.paintingsData) {
-                    this.paintingsData.forEach(it => this.buildPaintingEntity(it));
+                    this.paintingsData.forEach((it, index) => this.buildPaintingEntity(it, index));
                 }
             });
     },
 
-    buildPaintingEntity(paintingData: Painting) {
+    buildPaintingEntity(paintingData: Painting, index: number) {
+        const defaultPosition = new THREE.Vector3(-0.325, 2, -4.415);
         const paintingEntity = document.createElement('a-entity');
         paintingEntity.setAttribute('id', paintingData.id);
 
         const paintingEntityAs3D = paintingEntity.object3D;
-        paintingEntityAs3D.position.set(-0.325, 2, -4.415);
+        if (index === 0) {
+            paintingEntityAs3D.position.set(defaultPosition.x, defaultPosition.y, defaultPosition.z);
+        } else {
+            paintingEntityAs3D.position.set(defaultPosition.x + 7, defaultPosition.y, defaultPosition.z + 2);
+            paintingEntityAs3D.rotateY(-45);
+        }
 
         paintingEntity.append(this.buildPainting(paintingData));
         if (this.paintingElement) {
@@ -96,7 +103,7 @@ AFRAME.registerComponent<PaintingsComponent>('paintings-loader', {
         const buttonEntity = document.createElement('a-entity');
         buttonEntity.setAttribute('position', '0.8 -1.4 0');
         buttonEntity.setAttribute('width', '1.5');
-        buttonEntity.setAttribute('confirm-button', 'id:' + paintingData.id);
+        buttonEntity.setAttribute('confirm-button', 'id:' + paintingData.id + ';src:' + paintingData.src);
         // Button für Interaktion generieren.
         const buttonElement = document.createElement('a-box');
         buttonElement.setAttribute('width', '1.5');
@@ -105,7 +112,7 @@ AFRAME.registerComponent<PaintingsComponent>('paintings-loader', {
         buttonEntity.appendChild(buttonElement);
         // Text für Button generieren.
         const buttonTextElement = document.createElement('a-text');
-        buttonTextElement.setAttribute('position', -(x / 1.85) + ' 0 0.05');
+        buttonTextElement.setAttribute('position', '-0.67 0 0.05');
         buttonTextElement.setAttribute('color', 'black');
         buttonTextElement.setAttribute('value', 'Detailansicht');
         buttonEntity.appendChild(buttonTextElement);

@@ -5,7 +5,7 @@ interface Painting {
     src: string;
     title: string;
     attribution: string;
-    dating: number;
+    dating: string;
     support: string;
     description: string;
     details: PaintingDetails[];
@@ -20,7 +20,7 @@ interface PaintingDetails {
 interface PaintingsComponent extends ComponentDefinition {
     paintingsData: Painting[] | undefined;
     paintingElement:  Entity | undefined;
-    buildPaintingEntity: (paintingData: Painting) => void;
+    buildPaintingEntity: (paintingData: Painting, index: number) => void;
     buildPainting: (paintingData: Painting) => Entity;
     buildDetailOfPainting: (paintingData: Painting) => Entity;
 }

@@ -16,12 +16,12 @@ AFRAME.registerComponent('image-switcher', {
                 .querySelectorAll('#' + this.data.id + ' > .painting > .detail')
                 .forEach(it => (it as Entity).object3D.visible = false);
         });
+
         this.el.addEventListener('mouseenter', () => {
             this.el.setAttribute('color', '#00008B');
         });
         this.el.addEventListener('mouseleave', () => {
             this.el.setAttribute('color', 'blue');
-
         });
     }
 });
