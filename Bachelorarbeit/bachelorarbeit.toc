@@ -7,34 +7,34 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1}Das Cranach Digital Archive}{2}{subsection.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1}Lucas Cranach der Ältere}{3}{subsubsection.12}%
+\contentsline {subsubsection}{\numberline {2.1.1}Lucas Cranach der Ältere}{3}{subsubsection.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2}Martin Luther als Junker Jörg}{4}{subsubsection.29}%
+\contentsline {subsubsection}{\numberline {2.1.2}Martin Luther als Junker Jörg}{4}{subsubsection.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Virtual Reality im musealen Kontext}{4}{subsection.30}%
+\contentsline {subsection}{\numberline {2.2}Virtual Reality im musealen Kontext}{4}{subsection.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Theoretische Einordnung}{4}{section.31}%
+\contentsline {section}{\numberline {3}Theoretische Einordnung}{4}{section.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Nutzung von Virtual Reality}{4}{subsection.32}%
+\contentsline {subsection}{\numberline {3.1}Nutzung von Virtual Reality}{4}{subsection.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Aktueller Forschungsstand}{4}{subsection.33}%
+\contentsline {subsection}{\numberline {3.2}Aktueller Forschungsstand}{4}{subsection.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Prototyping}{4}{section.34}%
+\contentsline {section}{\numberline {4}Prototyping}{4}{section.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Auswahl der Technologie}{5}{subsection.35}%
+\contentsline {subsection}{\numberline {4.1}Auswahl der Technologie}{4}{subsection.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Umsetzung der Softwareentwicklung}{5}{subsection.36}%
+\contentsline {subsection}{\numberline {4.2}Umsetzung der Softwareentwicklung}{4}{subsection.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Ergebnisse}{5}{section.37}%
+\contentsline {section}{\numberline {5}Ergebnisse}{4}{section.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Diskussion und Fazit}{5}{section.38}%
+\contentsline {section}{\numberline {6}Diskussion und Fazit}{4}{section.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Anhang}{5}{section.39}%
+\contentsline {section}{\numberline {7}Anhang}{5}{section.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Abbildungen}{5}{subsection.40}%
+\contentsline {subsection}{\numberline {7.1}Abbildungen}{5}{subsection.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2}Literaturverzeichnis}{5}{subsection.41}%
+\contentsline {subsection}{\numberline {7.2}Literaturverzeichnis}{5}{subsection.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3}Abbildungsverzeichnis}{6}{subsection.43}%
+\contentsline {subsection}{\numberline {7.3}Abbildungsverzeichnis}{5}{subsection.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4}Eidesstattliche Erklärung}{6}{subsection.44}%
+\contentsline {subsection}{\numberline {7.4}Eidesstattliche Erklärung}{5}{subsection.24}%

@@ -18,7 +18,7 @@
 
 
 \refsection{0}
-  \datalist[entry]{anyt/global//global/global}
+  \datalist[entry]{nyt/global//global/global}
     \entry{heydenreich2017lucas}{book}{}
       \name{author}{4}{}{%
         {{hash=ec72771ffa9e23c98fb76d1ddd5926d1}{%
@@ -51,9 +51,10 @@
       \strng{authorbibnamehash}{c9968d8419a5034dd00e67968aafe310}
       \strng{authornamehash}{c9968d8419a5034dd00e67968aafe310}
       \strng{authorfullhash}{7c5d269876cb74ba4a1bb9163fe9042c}
-      \field{labelalpha}{Hey+17}
       \field{sortinit}{H}
       \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9783777427447}
