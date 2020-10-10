@@ -1,15 +1,15 @@
 [0] Config.pm:312> INFO - This is Biber 2.15 (beta)
 [0] Config.pm:315> INFO - Logfile is 'bachelorarbeit.blg'
-[114] biber-MSWIN64:330> INFO - === 
-[134] Biber.pm:415> INFO - Reading 'bachelorarbeit.bcf'
-[243] Biber.pm:952> INFO - Found 1 citekeys in bib section 0
-[259] Biber.pm:4334> INFO - Processing section 0
-[275] Biber.pm:4523> INFO - Looking for bibtex format file 'bib/literatur.bib' for section 0
-[310] bibtex.pm:1682> INFO - LaTeX decoding ...
-[320] bibtex.pm:1494> INFO - Found BibTeX data source 'bib/literatur.bib'
-[369] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[369] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[370] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
-[370] Biber.pm:4168> INFO - No sort tailoring available for locale 'de-DE'
-[377] bbl.pm:651> INFO - Writing 'bachelorarbeit.bbl' with encoding 'UTF-8'
-[378] bbl.pm:754> INFO - Output to bachelorarbeit.bbl
+[170] biber-MSWIN64:330> INFO - === 
+[202] Biber.pm:415> INFO - Reading 'bachelorarbeit.bcf'
+[347] Biber.pm:952> INFO - Found 1 citekeys in bib section 0
+[371] Biber.pm:4334> INFO - Processing section 0
+[387] Biber.pm:4523> INFO - Looking for bibtex format file 'bib/literatur.bib' for section 0
+[421] bibtex.pm:1682> INFO - LaTeX decoding ...
+[435] bibtex.pm:1494> INFO - Found BibTeX data source 'bib/literatur.bib'
+[496] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[496] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[497] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
+[497] Biber.pm:4168> INFO - No sort tailoring available for locale 'de-DE'
+[504] bbl.pm:651> INFO - Writing 'bachelorarbeit.bbl' with encoding 'UTF-8'
+[506] bbl.pm:754> INFO - Output to bachelorarbeit.bbl
