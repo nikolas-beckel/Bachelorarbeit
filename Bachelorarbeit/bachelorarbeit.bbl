@@ -19,6 +19,60 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{Dorner2019}{book}{}
+      \name{author}{4}{}{%
+        {{hash=d2d2025e4c6db6214c030fe18f9ce745}{%
+           family={D{\ifmmode\ddot{o}\elseö\fi}rner},
+           familyi={D\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d1213355904537623e55c22e5033c88e}{%
+           family={Broll},
+           familyi={B\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=d280bc6d7237ee08ab9caa5ee7f41cc5}{%
+           family={Grimm},
+           familyi={G\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=caebbd0ebc799288994b9859465f0eec}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Germany}%
+      }
+      \list{publisher}{1}{%
+        {Springer Vieweg}%
+      }
+      \strng{namehash}{f92c491dfbccf4657fbdb0adafc5aaf2}
+      \strng{fullhash}{9b921fdf65061b76b536482e11dc372c}
+      \strng{bibnamehash}{f92c491dfbccf4657fbdb0adafc5aaf2}
+      \strng{authorbibnamehash}{f92c491dfbccf4657fbdb0adafc5aaf2}
+      \strng{authornamehash}{f92c491dfbccf4657fbdb0adafc5aaf2}
+      \strng{authorfullhash}{9b921fdf65061b76b536482e11dc372c}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-662-58860-4}
+      \field{title}{{Virtual und Augmented Reality (VR/AR)}}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1007/978-3-662-58861-1
+      \endverb
+      \verb{urlraw}
+      \verb https://www.springer.com/gp/book/9783662588604
+      \endverb
+      \verb{url}
+      \verb https://www.springer.com/gp/book/9783662588604
+      \endverb
+    \endentry
     \entry{heydenreich2017lucas}{book}{}
       \name{author}{4}{}{%
         {{hash=ec72771ffa9e23c98fb76d1ddd5926d1}{%
@@ -57,7 +111,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{9783777427447}
+      \field{isbn}{978-3-777-42744-7}
       \field{title}{Lucas Cranach der Ältere: Meister, Marke, Moderne}
       \field{year}{2017}
       \verb{urlraw}

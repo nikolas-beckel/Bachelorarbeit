@@ -13,28 +13,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2}Konzept und Nutzung von Virtual Reality}{4}{subsection.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Theoretische Einordnung}{4}{section.11}%
+\contentsline {section}{\numberline {3}Theoretische Einordnung}{5}{section.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Aktueller Forschungsstand}{4}{subsection.12}%
+\contentsline {subsection}{\numberline {3.1}Aktueller Forschungsstand}{5}{subsection.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Virtual Reality im musealen Kontext}{4}{subsection.13}%
+\contentsline {subsection}{\numberline {3.2}Virtual Reality im musealen Kontext}{5}{subsection.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Prototyping}{5}{section.14}%
+\contentsline {section}{\numberline {4}Prototyping}{5}{section.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Auswahl der Technologie}{5}{subsection.15}%
+\contentsline {subsection}{\numberline {4.1}Auswahl der Technologie}{6}{subsection.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Umsetzung der Softwareentwicklung}{5}{subsection.16}%
+\contentsline {subsection}{\numberline {4.2}Umsetzung der Softwareentwicklung}{6}{subsection.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Ergebnisse}{5}{section.17}%
+\contentsline {section}{\numberline {5}Ergebnisse}{6}{section.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Diskussion und Fazit}{5}{section.18}%
+\contentsline {section}{\numberline {6}Diskussion und Fazit}{6}{section.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Anhang}{6}{section.19}%
+\contentsline {section}{\numberline {7}Anhang}{6}{section.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Abbildungen}{6}{subsection.20}%
+\contentsline {subsection}{\numberline {7.1}Abbildungen}{6}{subsection.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2}Literaturverzeichnis}{6}{subsection.21}%
+\contentsline {subsection}{\numberline {7.2}Literaturverzeichnis}{6}{subsection.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3}Abbildungsverzeichnis}{6}{subsection.23}%
+\contentsline {subsection}{\numberline {7.3}Abbildungsverzeichnis}{7}{subsection.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4}Eidesstattliche Erklärung}{6}{subsection.24}%
+\contentsline {subsection}{\numberline {7.4}Eidesstattliche Erklärung}{7}{subsection.25}%
