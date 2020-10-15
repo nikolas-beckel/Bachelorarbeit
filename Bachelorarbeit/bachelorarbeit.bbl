@@ -19,6 +19,50 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{Bertsche2007}{book}{}
+      \name{author}{2}{}{%
+        {{hash=568579fb03bcbfad384a46ba9e452cf9}{%
+           family={Bertsche},
+           familyi={B\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod}}}%
+        {{hash=68402aa9fe436bda362aa6e301c2578b}{%
+           family={Bullinger},
+           familyi={B\bibinitperiod},
+           given={Hans-J{\ifmmode\ddot{o}\elseö\fi}rg},
+           giveni={H\bibinithyphendelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Deutschland}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{e81b9dab40158771885ae484092c6f19}
+      \strng{fullhash}{e81b9dab40158771885ae484092c6f19}
+      \strng{bibnamehash}{e81b9dab40158771885ae484092c6f19}
+      \strng{authorbibnamehash}{e81b9dab40158771885ae484092c6f19}
+      \strng{authornamehash}{e81b9dab40158771885ae484092c6f19}
+      \strng{authorfullhash}{e81b9dab40158771885ae484092c6f19}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-540-69879-1}
+      \field{title}{{Entwicklung und Erprobung innovativer Produkte {\ifmmode---\else—\fi} Rapid Prototyping}}
+      \field{year}{2007}
+      \verb{doi}
+      \verb 10.1007/978-3-540-69880-7
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/book/10.1007%2F978-3-540-69880-7
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/book/10.1007%2F978-3-540-69880-7
+      \endverb
+    \endentry
     \entry{Dorner2019}{book}{}
       \name{author}{4}{}{%
         {{hash=d2d2025e4c6db6214c030fe18f9ce745}{%
@@ -43,7 +87,7 @@
            giveni={B\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Berlin, Germany}%
+        {Berlin, Deutschland}%
       }
       \list{publisher}{1}{%
         {Springer Vieweg}%
@@ -71,6 +115,39 @@
       \endverb
       \verb{url}
       \verb https://www.springer.com/gp/book/9783662588604
+      \endverb
+    \endentry
+    \entry{Heidsiek2019}{book}{}
+      \name{author}{1}{}{%
+        {{hash=adf8286d102f50f434d94d3078780e7e}{%
+           family={Heidsiek},
+           familyi={H\bibinitperiod},
+           given={Katie},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Deutsches Auswandererhaus Bremerhaven, edition DAH}%
+      }
+      \strng{namehash}{adf8286d102f50f434d94d3078780e7e}
+      \strng{fullhash}{adf8286d102f50f434d94d3078780e7e}
+      \strng{bibnamehash}{adf8286d102f50f434d94d3078780e7e}
+      \strng{authorbibnamehash}{adf8286d102f50f434d94d3078780e7e}
+      \strng{authornamehash}{adf8286d102f50f434d94d3078780e7e}
+      \strng{authorfullhash}{adf8286d102f50f434d94d3078780e7e}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-9817-8619-4}
+      \field{title}{Berührt es mich? Virtual Reality und ihre Wirkung auf das Besuchserlebnis in Museen – eine Untersuchung am Deutschen Auswandererhaus}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://dah-bremerhaven.de/beruehrt-es-mich-virtual-reality-und-ihre-wirkung-auf-das-besuchserlebnis-in-museen-eine-untersuchung-am-deutschen-auswandererhaus/
+      \endverb
+      \verb{url}
+      \verb https://dah-bremerhaven.de/beruehrt-es-mich-virtual-reality-und-ihre-wirkung-auf-das-besuchserlebnis-in-museen-eine-untersuchung-am-deutschen-auswandererhaus/
       \endverb
     \endentry
     \entry{heydenreich2017lucas}{book}{}
@@ -119,6 +196,35 @@
       \endverb
       \verb{url}
       \verb https://www.hirmerverlag.de/de/titel-87-2/lucas_cranach_der_aeltere-1463/
+      \endverb
+    \endentry
+    \entry{Slater2003}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=df83b602f850d5091f5ab7de4726e66e}{%
+           family={Slater},
+           familyi={S\bibinitperiod},
+           given={Mel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{df83b602f850d5091f5ab7de4726e66e}
+      \strng{fullhash}{df83b602f850d5091f5ab7de4726e66e}
+      \strng{bibnamehash}{df83b602f850d5091f5ab7de4726e66e}
+      \strng{authorbibnamehash}{df83b602f850d5091f5ab7de4726e66e}
+      \strng{authornamehash}{df83b602f850d5091f5ab7de4726e66e}
+      \strng{authorfullhash}{df83b602f850d5091f5ab7de4726e66e}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Note on Presence Terminology}
+      \field{year}{2003}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/242608507_A_Note_on_Presence_Terminology
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/242608507_A_Note_on_Presence_Terminology
       \endverb
     \endentry
   \enddatalist

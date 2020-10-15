@@ -15,26 +15,42 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Theoretische Einordnung}{5}{section.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Aktueller Forschungsstand}{5}{subsection.13}%
+\contentsline {subsection}{\numberline {3.1}Aktueller Forschungsstand von Virtual Reality}{6}{subsection.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Virtual Reality im musealen Kontext}{5}{subsection.14}%
+\contentsline {subsubsection}{\numberline {3.1.1}Entstehung}{6}{subsubsection.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Prototyping}{5}{section.15}%
+\contentsline {subsubsection}{\numberline {3.1.2}Wahrnehmungsaspekte}{7}{subsubsection.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Auswahl der Technologie}{6}{subsection.16}%
+\contentsline {subsubsection}{\numberline {3.1.3}VR-Brillen}{8}{subsubsection.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Umsetzung der Softwareentwicklung}{6}{subsection.17}%
+\contentsline {subsubsection}{\numberline {3.1.4}Native und webbasierte Anwendungen}{8}{subsubsection.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Ergebnisse}{6}{section.18}%
+\contentsline {subsubsection}{\numberline {3.1.5}Aktuelle Produkte und Lösungen}{8}{subsubsection.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Diskussion und Fazit}{6}{section.19}%
+\contentsline {subsection}{\numberline {3.2}Virtual Reality im musealen Kontext}{8}{subsection.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Anhang}{6}{section.20}%
+\contentsline {subsubsection}{\numberline {3.2.1}Chancen}{8}{subsubsection.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Abbildungen}{6}{subsection.21}%
+\contentsline {subsubsection}{\numberline {3.2.2}Umsetzung}{8}{subsubsection.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2}Literaturverzeichnis}{6}{subsection.22}%
+\contentsline {subsubsection}{\numberline {3.2.3}Aktuelle Produkte und Lösungen}{8}{subsubsection.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3}Abbildungsverzeichnis}{7}{subsection.24}%
+\contentsline {section}{\numberline {4}Prototyping}{8}{section.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4}Eidesstattliche Erklärung}{7}{subsection.25}%
+\contentsline {subsection}{\numberline {4.1}Auswahl der Technologie}{8}{subsection.25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Umsetzung der Softwareentwicklung}{8}{subsection.26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Ergebnisse}{8}{section.27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Diskussion und Fazit}{8}{section.28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Anhang}{9}{section.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1}Abbildungen}{9}{subsection.30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2}Literaturverzeichnis}{9}{subsection.31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3}Abbildungsverzeichnis}{9}{subsection.33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.4}Eidesstattliche Erklärung}{9}{subsection.34}%

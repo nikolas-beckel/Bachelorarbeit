@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.1)  15 OCT 2020 20:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.1)  15 OCT 2020 18:15
 entering extended mode
-**"d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/bachelorarbeit.tex"
-("d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/bachelorarbeit.tex"
+**"d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/__latexindent_temp.tex"
+("d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/__latexindent_temp.tex"
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-09-03> ("C:\Program Files\MiKTeX\tex/latex/base\article.cls"
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -663,7 +663,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2020/08/23 v3.15a biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: ... file 'alphabetic.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count347
@@ -793,10 +793,10 @@ File: biblatex.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
 \biburllcskip=\muskip21
 \c@smartand=\count428
 )
-Package biblatex Info: Trying to load bibliography style 'authoryear'...
-Package biblatex Info: ... file 'authoryear.bbx' found.
- ("C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\authoryear.bbx"
-File: authoryear.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.bbx' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\alphabetic.bbx"
+File: alphabetic.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  ("C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\standard.bbx"
@@ -836,8 +836,8 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
- ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.aux")
-\openout1 = `bachelorarbeit.aux'.
+ ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\__latexindent_temp.aux")
+\openout1 = `__latexindent_temp.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
 LaTeX Font Info:    ... okay on input line 138.
@@ -929,9 +929,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 138.
 LaTeX Info: Redefining \pageref on input line 138.
 LaTeX Info: Redefining \nameref on input line 138.
- ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.out") ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.out")
+ ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\__latexindent_temp.out") ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\__latexindent_temp.out")
 \@outlinefile=\write7
-\openout7 = `bachelorarbeit.out'.
+\openout7 = `__latexindent_temp.out'.
 
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
@@ -950,14 +950,14 @@ File: german.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout6 = `bachelorarbeit.bcf'.
+\openout6 = `__latexindent_temp.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'bachelorarbeit.bbl' found.
- ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.bbl")
+Package biblatex Info: ... file '__latexindent_temp.bbl' found.
+ ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\__latexindent_temp.bbl")
 Package biblatex Info: Reference section=0 on input line 138.
 Package biblatex Info: Reference segment=0 on input line 138.
- ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.toc"
+ ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\__latexindent_temp.toc"
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8.
  ("C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -989,7 +989,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write8
-\openout8 = `bachelorarbeit.toc'.
+\openout8 = `__latexindent_temp.toc'.
 
  [1
 
@@ -1003,39 +1003,34 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 151.
  ("C:\Program Files\MiKTeX\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [2] [3] [4] [5] [6] [7]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 417.
+) [2] [3]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 222.
  ("C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [8]
-Overfull \hbox (3.728pt too wide) in paragraph at lines 439--439
-[][]\T1/lmr/m/n/12 Slater, Mel (2003).   A No-te on Pre-sence Ter-mi-no-lo-gy. \T1/lmr/m/sc/12 url\T1/lmr/m/n/12 : [][]$\T1/lmtt/m/n/12 https : / / www . researchgate .
- []
-
-[9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 441.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 441.
- ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 441.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 441.
-Package rerunfilecheck Info: File `bachelorarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: A60B1F87E89877AC3F98265711793C12;1988.
-Package logreq Info: Writing requests to 'bachelorarbeit.run.xml'.
-\openout1 = `bachelorarbeit.run.xml'.
+) [4] [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
+ ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\__latexindent_temp.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
+Package rerunfilecheck Info: File `__latexindent_temp.out' has not changed.
+(rerunfilecheck)             Checksum: D2505DF7BE006944D10B186A91B9A63B;1399.
+Package logreq Info: Writing requests to '__latexindent_temp.run.xml'.
+\openout1 = `__latexindent_temp.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27057 strings out of 481199
- 510279 string characters out of 2915343
- 1222474 words of memory out of 3000000
- 42104 multiletter control sequences out of 15000+200000
+ 26989 strings out of 481199
+ 509107 string characters out of 2915343
+ 1215865 words of memory out of 3000000
+ 42046 multiletter control sequences out of 15000+200000
  595597 words of font info for 77 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 59i,8n,75p,1214b,2229s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 59i,8n,75p,1218b,2229s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on "d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.pdf" (9 pages, 283748 bytes).
+Output written on "d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\__latexindent_temp.pdf" (5 pages, 255617 bytes).
 PDF statistics:
- 289 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
- 229 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 209 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 500000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
 
