@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber bachelorarbeit"] 1602785534 "bachelorarbeit.bcf" "bachelorarbeit.bbl" "bachelorarbeit" 1602785542
-  "bachelorarbeit.bcf" 1602785541 108198 159407dbf51602e3d8b08f09c356b014 "pdflatex"
-  "bib/literatur.bib" 1602778552 1890 ab70c5e15158cd9096d97b3dbf7a56b7 ""
+["biber bachelorarbeit"] 1602964025 "bachelorarbeit.bcf" "bachelorarbeit.bbl" "bachelorarbeit" 1602965657
+  "bachelorarbeit.bcf" 1602965657 109258 e35715af217c97231ecc523dde0911f2 "pdflatex"
+  "bib/literatur.bib" 1602957576 4131 782af2c1143011183ed9274a80cffa9d ""
   (generated)
   "bachelorarbeit.blg"
   "bachelorarbeit.bbl"
-["pdflatex"] 1602785539 "d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/bachelorarbeit.tex" "d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/bachelorarbeit.pdf" "bachelorarbeit" 1602785542
+["pdflatex"] 1602965655 "d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/bachelorarbeit.tex" "d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/bachelorarbeit.pdf" "bachelorarbeit" 1602965657
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1254938640 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc" 1254938640 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecrm1200.tfm" 993062126 3152 4850ff0163852b7fab34bd55e1197f28 ""
@@ -217,21 +217,21 @@
   "C:/Program Files/MiKTeX/tex/latex/xcolor/xcolor.sty" 1463135581 57049 34128738f682d033422ca125f82e5d62 ""
   "C:/Users/Nikolas/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1601556336 10050592 c94ae18e63e0a00ba48bcb44f2bd022a ""
   "C:/Users/Nikolas/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1601556331 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
-  "bachelorarbeit.aux" 1602785541 8136 97fed2f90152f4c4d63299a55efd3e76 "pdflatex"
-  "bachelorarbeit.bbl" 1602785537 9085 d733cc594ab3ed8e2ad4f2df8a66322b "biber bachelorarbeit"
-  "bachelorarbeit.out" 1602785541 1988 a60b1f87e89877ac3f98265711793c12 "pdflatex"
-  "bachelorarbeit.run.xml" 1602785541 2445 aa8e997076ef6d66d9747c7faa090655 "pdflatex"
-  "bachelorarbeit.tex" 1602785530 28613 612b5139ab2f6102b0e191510dccadca ""
-  "bachelorarbeit.toc" 1602785541 3436 a316db8d173ccf4a746fc8a48a65138c "pdflatex"
-  "d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/bachelorarbeit.aux" 1602785541 8136 97fed2f90152f4c4d63299a55efd3e76 ""
-  "d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/bachelorarbeit.tex" 1602785530 28613 612b5139ab2f6102b0e191510dccadca ""
+  "bachelorarbeit.aux" 1602965657 9913 72a1fcc02bfc4b1c35f072a2b16767d1 "pdflatex"
+  "bachelorarbeit.bbl" 1602964027 12407 a2db042655bfe10a9c5fee82a48e3b53 "biber bachelorarbeit"
+  "bachelorarbeit.out" 1602965657 1988 a60b1f87e89877ac3f98265711793c12 "pdflatex"
+  "bachelorarbeit.run.xml" 1602965657 2445 aa8e997076ef6d66d9747c7faa090655 "pdflatex"
+  "bachelorarbeit.tex" 1602965654 35101 01b8bbb4681234e06a613cce1ae4020e ""
+  "bachelorarbeit.toc" 1602965657 3445 23c37b810ea9366d74dd79ea88ef31f9 "pdflatex"
+  "d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/bachelorarbeit.aux" 1602965657 9913 72a1fcc02bfc4b1c35f072a2b16767d1 ""
+  "d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/bachelorarbeit.tex" 1602965654 35101 01b8bbb4681234e06a613cce1ae4020e ""
   (generated)
-  "bachelorarbeit.aux"
   "bachelorarbeit.toc"
+  "bachelorarbeit.log"
+  "bachelorarbeit.aux"
   "bachelorarbeit.out"
-  "bachelorarbeit.run.xml"
   "d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/bachelorarbeit.log"
+  "bachelorarbeit.run.xml"
   "d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/bachelorarbeit.pdf"
   "bachelorarbeit.pdf"
   "bachelorarbeit.bcf"
-  "bachelorarbeit.log"

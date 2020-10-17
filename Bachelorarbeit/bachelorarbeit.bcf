@@ -2365,11 +2365,31 @@
     <bcf:citekey order="12">Dorner2019</bcf:citekey>
     <bcf:citekey order="13">Dorner2019</bcf:citekey>
     <bcf:citekey order="14">Dorner2019</bcf:citekey>
-    <bcf:citekey order="15">Slater2003</bcf:citekey>
-    <bcf:citekey order="16">Dorner2019</bcf:citekey>
-    <bcf:citekey order="17">Slater2003</bcf:citekey>
-    <bcf:citekey order="18">Dorner2019</bcf:citekey>
-    <bcf:citekey order="19">Bertsche2007</bcf:citekey>
+    <bcf:citekey order="15">Slater2009</bcf:citekey>
+    <bcf:citekey order="16">Slater2009</bcf:citekey>
+    <bcf:citekey order="17">Slater2009</bcf:citekey>
+    <bcf:citekey order="18">Slater2009</bcf:citekey>
+    <bcf:citekey order="19">Slater2009</bcf:citekey>
+    <bcf:citekey order="20">Dorner2019</bcf:citekey>
+    <bcf:citekey order="21">Slater2009</bcf:citekey>
+    <bcf:citekey order="22">Dorner2019</bcf:citekey>
+    <bcf:citekey order="23">Slater2009</bcf:citekey>
+    <bcf:citekey order="24">Slater2009</bcf:citekey>
+    <bcf:citekey order="25">Dorner2019</bcf:citekey>
+    <bcf:citekey order="26">Slater2009</bcf:citekey>
+    <bcf:citekey order="27">Slater2009</bcf:citekey>
+    <bcf:citekey order="28">Slater2009</bcf:citekey>
+    <bcf:citekey order="29">Slater2009</bcf:citekey>
+    <bcf:citekey order="30">Slater2009</bcf:citekey>
+    <bcf:citekey order="31">Slater2009</bcf:citekey>
+    <bcf:citekey order="32">Slater2009</bcf:citekey>
+    <bcf:citekey order="33">Slater2009</bcf:citekey>
+    <bcf:citekey order="34">Dorner2019</bcf:citekey>
+    <bcf:citekey order="35">Slater2009</bcf:citekey>
+    <bcf:citekey order="36">Witmer1998</bcf:citekey>
+    <bcf:citekey order="37">Witmer1998</bcf:citekey>
+    <bcf:citekey order="38">Slater2009</bcf:citekey>
+    <bcf:citekey order="39">Bertsche2007</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
