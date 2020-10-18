@@ -2389,7 +2389,10 @@
     <bcf:citekey order="36">Witmer1998</bcf:citekey>
     <bcf:citekey order="37">Witmer1998</bcf:citekey>
     <bcf:citekey order="38">Slater2009</bcf:citekey>
-    <bcf:citekey order="39">Bertsche2007</bcf:citekey>
+    <bcf:citekey order="39">Dorner2019</bcf:citekey>
+    <bcf:citekey order="40">Dorner2019</bcf:citekey>
+    <bcf:citekey order="41">Dorner2019</bcf:citekey>
+    <bcf:citekey order="42">Bertsche2007</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

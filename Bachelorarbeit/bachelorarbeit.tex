@@ -259,7 +259,7 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
       bereits ausreichen. Das Team hinter \url{lucascranach.org} hat die Daten bereits
       digitalisiert und aufgearbeitet, weswegen Werke und Gemälde, die miteinander
       verwandt oder in Beziehung stehen, bereits miteinander verknüpft sind.
-    \subsection{Konzept und Nutzung von Virtual Reality} \label{Kapitel 2.2}
+    \subsection{Konzept und Nutzung von Virtual Reality} \label{Konzept und Nutzung von VR}
       Virtual Reality stammt aus dem Wissenschaftsgebiet der Computergrafik, denn eine
       virtuelle Realität besteht immer aus einer dreidimensionalen Simulation [\cite[13]{Dorner2019}].
       Es gibt mehrere Wege, eine virtuelle Realität zu simulieren. Nicht immer ist eine 
@@ -374,7 +374,7 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
         Seit 2003 hat sogar die Gesellschaft für Informatik eine Fachgruppe für das Thema
         Virtual und Augmented Reality. [\cite[19-21]{Dorner2019}]
         --- --- (Bisschen noch was zum aktuellen Stand schreiben)
-      \subsubsection{Wahrnehmungsaspekte}
+      \subsubsection{Wahrnehmungsaspekte} \label{Wahrnehmungsaspekte}
         Wie Menschen Informationen wahrnehmen, ist ein wichtiger Aspekt für die Gestaltung
         von virtuellen Welten. In einer perfekte virtuellen Realität würde der Konsument
         alle Sinneseindrücke die er aus der realen Welt kennt, in der simulierten Welt
@@ -406,7 +406,8 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
         Wissen, dass man nicht wirklich dort ist [\cite{Slater2009}]. Einer der wichtigsten
         Kriterien, um diese Illusion beim Benutzer zu erreichen, ist die zuvor erwähnte
         blickpunktabhängige Bildgenerierung der VR-Brille (siehe Kapitel 
-        \ref{Kapitel 2.2}) [\cite[18]{Dorner2019}]. Bei der Plausibilitätsillusion handelt
+        \ref{Konzept und Nutzung von VR}) [\cite[18]{Dorner2019}]. 
+        Bei der Plausibilitätsillusion handelt
         es sich um das Gefühl, dass die Geschehnisse innerhalb der virtuellen Welt 
         wirklich passieren, mit dem Wissen, dass dies nicht wirklich passiert
         [\cite{Slater2009}]. Eine Schlüsselkomponente, um diese Illusion hervorzurufen,
@@ -466,7 +467,79 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
         virtuelle Realitäten entwickeln, welche durch das Ansprechen der richtigen Gefühle
         des Benutzers eine erfolgreiche Nutzungserfahrung hervorbringt.
       \subsubsection{VR-Brillen}
+        (Etwas mehr auf die Technik dahinter eingehen?)
+        Neben den ganzen Aspekten, die es zu berücksichtigen gibt für die Erstellung von
+        Nutzungserfahrungen innerhalb virtueller Welten, muss das technische System auch
+        diese Aspekte abbilden können. In der heutigen Zeit haben sich VR-Brillen in 
+        Kombination mit 3D-Eingabegeräte durchgesetzt. Diese sind mittlerweile sehr kompakt,
+        leistungsstark und preislich erschwinglich. Dadurch, dass Hardware kleiner
+        und günstiger wird, kann man den Trend beobachten, dass VR-Brillen auch ohne
+        einen stationären Computer funktionieren.
+        Der Vorteil von VR-Brillen, im Gegensatz zu Projektionssystemen, ist die 
+        Möglichkeit diese überall anziehen und nutzen zu können [\cite[129]{Dorner2019}].
+        Dementsprechend haben sich Head-Mounted-Displays als VR-Systeme im Massenmarkt
+        durchgesetzt, da diese Kompakt sind und nicht zwingend einen Computer benötigen.
+        Je nach Anwendungsfall ist sogar eine VR-Brille nicht notwendig, da heutige 
+        mobile Endgeräte wie Smartphones bereits genügend Leistung für eine 
+        Echtzeit-Simulation mitbringen. Dementsprechend gibt es Aufsätze für das Smartphone,
+        womit es sich in eine VR-Brille umfunktionieren lässt (siehe Abb. \ref{fig:google-cardboard})
+        \footnote{Google Cardboard | \url{https://arvr.google.com/cardboard/} (18.10.2020)}.
+        Da diese Lösung sehr kostengünstig und einfach umzusetzen ist, gilt dies als 
+        gute Einstiegsmöglichkeit für VR-Interessierte oder Personen, die gerne
+        VR-Erfahrungen erleben würden, sich jedoch nicht eine autarke VR-Brille leisten
+        möchten.
+        \begin{figure}[t]
+          \centering
+          \includegraphics{img/google-cardboard.jpg}
+          \caption{Google Cardboard für Smartphones}
+          \label{fig:google-cardboard}
+        \end{figure}
+        Doch ist man durch das Fehlen der 3D-Eingaberäte bei dieser Lösung, je
+        nach Anwendungsfall, etwas eingeschränkt. Je nach Smartphone kann auch eine geringe
+        Bildschirmauflösung die in Kapitel \ref{Wahrnehmungsaspekte} genannten Aspekte
+        beinträchtigen und einen Bruch der Illusionen hervorrufen.
+        Projektionssysteme, die die simulierte Umgebung auf ganzen Leinwänden darstellen,
+        haben den Vorteil, dass sich der Benutzer nicht unmittelbar vor dem Bildschirm
+        befindet [\cite[134]{Dorner2019}]. Dadurch können keine einzelnen Pixel mit dem Auge 
+        erfasst werden. Deshalb ist eins der kritischsten Kriterien bei einer VR-Brille 
+        die Bildschirmauflösung [\cite[134]{Dorner2019}].
+        Aktuelle Unternehmen die sich mit VR-Brillen beschäftigen und diese Technologie
+        maßgeblich vorgeben, sind unter anderem  Facebook mit Oculus
+        \footnote{Oculus | \url{https://www.oculus.com/?locale=de_DE} (18.10.2020)}, 
+        HTC mit Vive \footnote{HTC VIVE | \url{https://www.vive.com/de/} (18.10.2020)},
+        Playstation mit PlaystationVR
+        \footnote{PlaystationVR | \url{https://www.playstation.com/de-de/explore/playstation-vr/} (18.10.2020)}
+        und Valve Corporation mit der Valve Index
+        \footnote{Valve Index | \url{https://www.valvesoftware.com/de/index/headset} (19.10.2020)}.
+        Samsung beschäftigt sich ebenfalls mit Virtual
+        Reality, jedoch bieten diese nur eine hochwertige Brille an ohne Rechenleistung.
+        Für den vollständigen Funktionsumfang wird ein Samsung Smartphone vorausgesetzt
+        \footnote{Samsung Gear VR | \url{https://www.samsung.com/de/wearables/gear-vr-r323/} (18.10.2020)}.
+        Auch Nintendo hat mit ihrer Konsole Nintendo Switch den Weg zu Virtual Reality
+        gefunden
+        \footnote{Nintendo Labo VR-SET | \url{https://www.nintendo.de/Nintendo-Labo/Nintendo-Labo-1328637.html} (18.10.2020)}.
+        Das VR-Set für die Nintendo Switch bietet sich gut für Kinder an, um erste 
+        Erfahrungen mit Virtual Reality machen zu können.
+        Aber auch Google ist in diesem Markt involviert, wie man an der zuvor erwähnten
+        Google Cardboard (siehe. Abb. \ref{fig:google-cardboard}), bieten jedoch keine 
+        VR-Brille mit integrierter Hardware.
       \subsubsection{Native und webbasierte Anwendungen}
+        Viele VR-Brillen bedeuten auch viele SDKs die damit einhergehen. VR-Anwendungen
+        können heutzutage mit Hilfe von vielen Programmen oder Frameworks entwickelt
+        werden. Dabei besteht die Wahl, nativ für eine Plattform zu entwickeln oder auf
+        Webanwendungen zurückzugreifen, die plattformunabhängig funktionieren. Beide Wege
+        bieten ihre Vor- und Nachteile, sind deshalb vom jeweiligen Anwendungsfall abhängig.
+        Native Lösungen bieten in der Softwareentwicklung in der Regel eine bessere 
+        Performance, da diese Anwendungen letztlich kompiliert und optimiert werden.
+        Webanwendungen, die in der Regel in JavaScript geschrieben werden, werden nicht 
+        kompiliert und der Quellcode wird zur Laufzeit vom Browser gelesen. Hinzu kommt
+        noch, dass der Browser den Quellcode interpretieren und dann selber ausführen muss.
+        Seit 2018 gibt es jedoch die Möglichkeiten Webanwendung in der Programmiersprache
+        WebAssembly zu entwickeln. WebAssembly erlaubte nahezu native Performance, da es
+        sich hierbei um Bytecode handelt. Noch ist die Verbreitung von WebAssembly nicht
+        sehr groß, bietet jedoch für die Zukunft enormes Potenzial. Gerade VR-Anwendungen
+        können von WebAssembly profitieren, da diese viel Leistung für die Berechnungen
+        der virtuellen Welt benötigen.
       \subsubsection{Aktuelle Produkte und Lösungen}
     \subsection{Virtual Reality im musealen Kontext}
       \subsubsection{Chancen}

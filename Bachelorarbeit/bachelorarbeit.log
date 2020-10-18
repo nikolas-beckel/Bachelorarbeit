@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.1)  17 OCT 2020 22:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.1)  18 OCT 2020 21:26
 entering extended mode
 **"d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/bachelorarbeit.tex"
 ("d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/bachelorarbeit.tex"
@@ -1003,34 +1003,45 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 151.
  ("C:\Program Files\MiKTeX\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [2] [3] [4] [5] [6] [7] [8] [9]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 489.
+) [2] [3] [4] [5] [6] [7] [8]
+<img/google-cardboard.jpg, id=246, 462.528pt x 406.3983pt>
+File: img/google-cardboard.jpg Graphic file (type jpg)
+<use img/google-cardboard.jpg>
+Package pdftex.def Info: img/google-cardboard.jpg  used on input line 493.
+(pdftex.def)             Requested size: 462.52686pt x 406.39731pt.
+
+Overfull \hbox (7.28275pt too wide) in paragraph at lines 493--494
+ [][] 
+ []
+
+[9] [10 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/google-cardboard.jpg>] [11]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 562.
  ("C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [10] [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 513.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 513.
+) [12] [13] [14]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 586.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 586.
  ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 513.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 513.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 586.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 586.
 Package rerunfilecheck Info: File `bachelorarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: A60B1F87E89877AC3F98265711793C12;1988.
+(rerunfilecheck)             Checksum: FD0AC9B404C29B6DE35F629503D35EB6;1988.
 Package logreq Info: Writing requests to 'bachelorarbeit.run.xml'.
 \openout1 = `bachelorarbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27085 strings out of 481199
- 510650 string characters out of 2915343
- 1231682 words of memory out of 3000000
- 42129 multiletter control sequences out of 15000+200000
+ 27115 strings out of 481199
+ 511140 string characters out of 2915343
+ 1232815 words of memory out of 3000000
+ 42145 multiletter control sequences out of 15000+200000
  595597 words of font info for 77 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  59i,8n,75p,1648b,2229s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on "d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.pdf" (11 pages, 294391 bytes).
+Output written on "d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.pdf" (14 pages, 740790 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
- 229 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 367 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 234 words of extra memory for PDF output out of 10000 (max. 10000000)
 
