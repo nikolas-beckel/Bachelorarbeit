@@ -1,0 +1,125 @@
+[
+  {
+    "id": "DE_MdbKL_946",
+    "src": "assets/paintings/DE_MdbKL_946/Overall.jpg",
+    "title": "Bildnis Luthers als Junker Joerg",
+    "attribution": "Lucas Cranach der Aeltere",
+    "dating": "1521",
+    "support": "Malerei auf Buchenholz",
+    "description": "Brustildnis Martin Luthers als Junker Jörg vor grünem Hintergrund, nach rechts gewandt. Luther trägt ein schwarzes Gewand dessen Kragen vom buschigen braunen Bart verdeckt wird. Die linke Hand ruht auf dem Knauf eines Schwertes. [Görres, cda 2015]",
+    "details": [
+      {
+        "id": "020",
+        "src": "assets/paintings/DE_MdbKL_946/Detail-020.jpg",
+        "position": {
+          "x": -0.771,
+          "y": -1.090,
+          "z": 0
+        }
+      },
+      {
+        "id": "016",
+        "src": "assets/paintings/DE_MdbKL_946/Detail-016.jpg",
+        "position": {
+          "x": -0.483,
+          "y": -1.051,
+          "z": 0
+        }
+      },
+      {
+        "id": "014",
+        "src": "assets/paintings/DE_MdbKL_946/Detail-014.jpg",
+        "position": {
+          "x": 0.153,
+          "y": 0.354,
+          "z": 0
+        }
+      },
+      {
+        "id": "007",
+        "src": "assets/paintings/DE_MdbKL_946/Detail-007.jpg",
+        "position": {
+          "x": 0.759,
+          "y": -1.082,
+          "z": 0
+        }
+      }
+    ],
+    "position": {
+      "x": 0,
+      "y": 2,
+      "z": -3
+    },
+    "rotation": 0
+  },
+  {
+    "id": "DE_KSW_G9",
+    "src": "assets/paintings/DE_KSW_G9/Overall.jpg",
+    "title": "Martin Luther als Junker Joerg",
+    "attribution": "Lucas Cranach der Aeltere",
+    "dating": "1521 - 1522",
+    "support": "Malerei auf Buchenholz",
+    "description": "Halbfiguriges Bildnis Martin Luthers als Junker Jörg vor grünem Hintergrund, nach rechts gewandt. Luther trägt ein schwarzes Gewand dessen Kragen vom buschigen braunen Bart verdeckt wird. Die rechte Wand ist wie zu einem Redegestus geöffnet, der rechte Arm ist angewinkelt, auf ihm ruht der Knauf des Schwertes, das Luther mit der Linken hält. [Görres, cda 2015]",
+    "details": [
+      {
+        "id": "006",
+        "src": "assets/paintings/DE_KSW_G9/Detail-006.jpg",
+        "position": {
+          "x": 0.227,
+          "y": 0.673,
+          "z": 0.013
+        }
+      },
+      {
+        "id": "008",
+        "src": "assets/paintings/DE_KSW_G9/Detail-008.jpg",
+        "position": {
+          "x": 0.278,
+          "y": -1.19,
+          "z": 0.013
+        }
+      },
+      {
+        "id": "004",
+        "src": "assets/paintings/DE_KSW_G9/Detail-004.jpg",
+        "position": {
+          "x": 0.020,
+          "y": 0.918,
+          "z": 0.013
+        }
+      }
+    ],
+    "position": {
+      "x": -5,
+      "y": 2,
+      "z": 2
+    },
+    "rotation": 90
+  },
+  {
+    "id": "US_MMA_39-5",
+    "src": "assets/paintings/US_MMA_39-5/Overall.jpg",
+    "title": "Martin Luther",
+    "attribution": "Lucas Cranach der Aeltere",
+    "dating": "1537",
+    "support": "Malerei auf Buchenholz",
+    "description": "Halbfiguriges Bildnis Martin Luthers und Katharina von Boras im Dreiviertelprofil. Luther blickt nach rechts, Katharina nach links. Der bärtige Luther ist als Junker Jörg in schwarz gekleidet und legt seine Hand auf den Knauf seines Schwertes. Im unteren Bereich ist die angeschnittene linke Hand unterhalb der Parierstange angesetzt. Die Tafel besitzt einen grünen Hintergrund und ist signiert und datiert \"1537\". [http://www.baumanconservation.com/SolvingTheCranachMystery.html]",
+    "details": [
+      {
+        "id": "005",
+        "src": "assets/paintings/US_MMA_39-5/Detail-005.jpg",
+        "position": {
+          "x": -0.904,
+          "y": 0.486,
+          "z": 0
+        }
+      }
+    ],
+    "position": {
+      "x": 5,
+      "y": 2,
+      "z": 0
+    },
+    "rotation": -90
+  }
+]

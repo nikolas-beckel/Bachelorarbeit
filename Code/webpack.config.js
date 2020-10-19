@@ -4,7 +4,7 @@ module.exports = {
     mode: 'development',
     devtool: 'eval-source-map',
     entry: [
-        './src/index.ts'
+        './src/components/PaintingsLoader.ts'
     ],
     module: {
       rules: [
