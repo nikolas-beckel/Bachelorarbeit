@@ -9,6 +9,8 @@ interface Painting {
     support: string;
     description: string;
     details: PaintingDetails[];
+    position: THREE.Vector3;
+    rotation: number;
 }
 
 interface PaintingDetails {
@@ -20,6 +22,7 @@ interface PaintingDetails {
 interface PaintingsComponent extends ComponentDefinition {
     paintingsData: Painting[] | undefined;
     paintingElement:  Entity | undefined;
+    nextRotationOfPainting: number;
     buildPaintingEntity: (paintingData: Painting, index: number) => void;
     buildPainting: (paintingData: Painting) => Entity;
     buildDetailOfPainting: (paintingData: Painting) => Entity;

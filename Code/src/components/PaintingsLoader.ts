@@ -1,9 +1,11 @@
 import { Entity, THREE } from 'aframe';
 import { Painting, PaintingsComponent } from '../models/Painting';
+import { degToRad } from '../utils/utils';
 
 AFRAME.registerComponent<PaintingsComponent>('paintings-loader', {
     paintingsData: undefined,
     paintingElement: undefined,
+    nextRotationOfPainting: 0,
 
     init() {
         const three: THREE.Vector3 = new THREE.Vector3(0, 0, 0);
@@ -18,17 +20,12 @@ AFRAME.registerComponent<PaintingsComponent>('paintings-loader', {
     },
 
     buildPaintingEntity(paintingData: Painting, index: number) {
-        const defaultPosition = new THREE.Vector3(-0.325, 2, -4.415);
         const paintingEntity = document.createElement('a-entity');
         paintingEntity.setAttribute('id', paintingData.id);
 
         const paintingEntityAs3D = paintingEntity.object3D;
-        if (index === 0) {
-            paintingEntityAs3D.position.set(defaultPosition.x, defaultPosition.y, defaultPosition.z);
-        } else {
-            paintingEntityAs3D.position.set(defaultPosition.x + 7, defaultPosition.y, defaultPosition.z + 2);
-            paintingEntityAs3D.rotateY(-45);
-        }
+        paintingEntityAs3D.position.set(paintingData.position.x, paintingData.position.y, paintingData.position.z)
+        paintingEntityAs3D.rotation.set(0, degToRad(paintingData.rotation), 0);
 
         paintingEntity.append(this.buildPainting(paintingData));
         if (this.paintingElement) {
