@@ -56,6 +56,7 @@ AFRAME.registerComponent<PaintingsComponent>('paintings-loader', {
             detailSphereElement.setAttribute('class', 'detail ' + it.id);
             detailSphereElement.setAttribute('radius', '0.1');
             detailSphereElement.setAttribute('color', 'blue');
+            detailSphereElement.setAttribute('image-switcher', 'id:' + paintingData.id + ';' + 'src:' + it.src);
             const detailSphereObject = detailSphereElement.object3D;
             detailSphereObject.position.set(it.position.x, it.position.y, it.position.z);
             detailSphereObject.visible = false;
