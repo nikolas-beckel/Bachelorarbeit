@@ -12,48 +12,65 @@ AFRAME.registerComponent<DetailButtonComponent>('detail-button', {
 
     init() {
         this.el.addEventListener('click', () => {
+            // Damit keine Doppelklicks entstehen, sofern der Benutzer noch auf den Button schaut.
             if (this.alreadyClicked) {
                 return;
             }
             this.alreadyClicked = true;
 
-            const box = this.el.querySelector('a-box') as Entity;
             const text = this.el.querySelector('a-text') as Entity;
-            box?.setAttribute('color', '#333333');
-            setTimeout(() => this.el.querySelector('a-box')
-                ?.setAttribute('color', 'white'), 200)
+            const box = this.el.querySelector('a-box') as Entity;
+
+            // Button verfärben, um den "Klick" visuell darzustellen. Nach 200ms
+            // wieder auf die ursprüngliche Farbe ändern.
+            box.setAttribute('color', '#333333');
+            setTimeout(
+                () => this.el.querySelector('a-box')
+                    ?.setAttribute('color', 'white'), 200
+            )
 
             if (!this.active) {
-                text?.setAttribute('value', 'Zurueck');
-                text?.object3D.position.set(-0.717, 0, 0.05);
-                box?.setAttribute('width', '0.9');
-                box?.object3D.position.set(-0.3, 0, 0);
-
+                this.setZurueckButton(text, box);
                 this.active = true;
             } else {
-                text?.setAttribute('value', 'Detailansicht');
-                text?.object3D.position.set(-0.67, 0, 0.05);
-                box?.setAttribute('width', '1.5');
-                box?.object3D.position.set(0, 0, 0);
-
-                document
-                    .querySelector('#' + this.data.id + ' > .painting')
-                    .setAttribute('src', this.data.src);
-
+                this.setShowDetailButton(text, box);
+                this.setDefaultPainting();
                 this.active = false;
             }
 
-            document
-                .querySelectorAll('#' + this.data.id + ' > .painting > .detail')
-                .forEach(
-                    it => this.active
-                        ? (it as Entity).object3D.visible = true
-                        : (it as Entity).object3D.visible = false
-                );
+            this.setDetailSpheres(this.active);
         });
 
         this.el.addEventListener('mouseleave', () => {
+            // Wenn der Benutzer den Button verlässt, soll er sich wieder
+            // klicken lassen.
            this.alreadyClicked = false;
         });
+    },
+
+    setShowDetailButton(text: Entity, box: Entity) {
+        text?.setAttribute('value', 'Detailansicht');
+        text?.object3D.position.set(-0.67, 0, 0.05);
+        box?.setAttribute('width', '1.5');
+        box?.object3D.position.set(0, 0, 0);
+    },
+
+    setZurueckButton(text: Entity, box: Entity) {
+        text.setAttribute('value', 'Zurueck');
+        text.object3D.position.set(-0.717, 0, 0.05);
+        box.setAttribute('width', '0.9');
+        box.object3D.position.set(-0.3, 0, 0);
+    },
+
+    setDefaultPainting() {
+        document
+            .querySelector('#' + this.data.id + ' > .painting')
+            .setAttribute('src', this.data.src);
+    },
+
+    setDetailSpheres(visible: boolean) {
+        document
+            .querySelectorAll('#' + this.data.id + ' > .painting > .detail')
+            .forEach(it =>  (it as Entity).object3D.visible = visible);
     }
 });
