@@ -1,7 +1,7 @@
 import AFRAME, { Entity, THREE } from 'aframe';
 import PaintingsComponent from './PaintingsLoader.model';
-import { Painting } from '../models/Painting';
-import { degToRad } from '../utils/utils';
+import { Painting } from '../../models/Painting';
+import { degToRad } from '../../utils/utils';
 
 AFRAME.registerComponent<PaintingsComponent>('paintings-loader', {
     paintingsData: undefined,
@@ -49,7 +49,20 @@ AFRAME.registerComponent<PaintingsComponent>('paintings-loader', {
         const paintingFrameObject = paintingFrameElement.object3D;
         paintingFrameObject.position.set(0, 0, -0.03);
         paintingElement.appendChild(paintingFrameElement);
+        // Sphären der Detailbereiche mit Attributen erzeugen.
+        const detailSphereElements: Entity[] = [];
+        paintingData.details.forEach(it => {
+            const detailSphereElement = document.createElement('a-sphere');
+            detailSphereElement.setAttribute('class', 'detail ' + it.id);
+            detailSphereElement.setAttribute('radius', '0.1');
+            detailSphereElement.setAttribute('color', 'blue');
+            const detailSphereObject = detailSphereElement.object3D;
+            detailSphereObject.position.set(it.position.x, it.position.y, it.position.z);
+            detailSphereObject.visible = false;
+            detailSphereElements.push(detailSphereElement);
+        });
         this.paintingElement = paintingElement;
+        detailSphereElements.forEach(it => paintingElement.appendChild(it));
         return paintingElement;
     },
 
@@ -81,6 +94,24 @@ AFRAME.registerComponent<PaintingsComponent>('paintings-loader', {
         supportElement.setAttribute('value', 'Bildtraeger: ' + paintingData.support);
         supportElement.setAttribute('position', '0 -0.9 0');
         detailEntity.appendChild(supportElement);
+        // Wrapper für Button und Textinhalte generieren
+        const buttonEntity = document.createElement('a-entity');
+        buttonEntity.setAttribute('position', '0.8 -1.4 0');
+        buttonEntity.setAttribute('width', '1.5');
+        buttonEntity.setAttribute('detail-button', 'id:' + paintingData.id + ';src:' + paintingData.src);
+        // Button für Interaktion generieren.
+        const buttonElement = document.createElement('a-box');
+        buttonElement.setAttribute('width', '1.5');
+        buttonElement.setAttribute('height', '0.35');
+        buttonElement.setAttribute('depth', '0.1');
+        buttonEntity.appendChild(buttonElement);
+        // Text für Button generieren.
+        const buttonTextElement = document.createElement('a-text');
+        buttonTextElement.setAttribute('position', '-0.67 0 0.05');
+        buttonTextElement.setAttribute('color', 'black');
+        buttonTextElement.setAttribute('value', 'Detailansicht');
+        buttonEntity.appendChild(buttonTextElement);
+        detailEntity.appendChild(buttonEntity);
         return detailEntity;
     }
 });

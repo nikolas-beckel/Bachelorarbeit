@@ -1,5 +1,5 @@
 import { ComponentDefinition, Entity } from 'aframe';
-import { Painting } from '../models/Painting';
+import { Painting } from '../../models/Painting';
 
 interface PaintingsComponent extends ComponentDefinition {
     paintingsData: Painting[] | undefined;
