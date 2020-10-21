@@ -1,5 +1,5 @@
 import AFRAME, { Entity, THREE } from 'aframe';
-import PaintingsComponent from './PaintingsLoader.model';
+import PaintingsComponent from './PaintingsBuilder.model';
 import { Painting } from '../../models/Painting';
 import { degToRad } from '../../utils/utils';
 
@@ -40,6 +40,10 @@ AFRAME.registerComponent<PaintingsComponent>('paintings-loader', {
         paintingElement.setAttribute('src', paintingData.src);
         paintingElement.setAttribute('height', '2.98');
         paintingElement.setAttribute('width', '2');
+        // Stehfläche vor dem Gemälde erzeugen
+        const standingAreaElement = document.createElement('a-box');
+        standingAreaElement.object3D.position.set(0, 0, 2);
+        paintingElement.appendChild(standingAreaElement);
         // Den Rahmen des Gemäldes mit Attributen erzeugen.
         const paintingFrameElement = document.createElement('a-box');
         paintingFrameElement.setAttribute('height', '3.13');

@@ -4,9 +4,9 @@ module.exports = {
     mode: 'development',
     devtool: 'eval-source-map',
     entry: [
-        './src/components/PaintingsLoader/PaintingsLoader.ts',
+        './src/components/PaintingsBuilder/PaintingsBuilder.ts',
         './src/components/DetailButton/DetailButton.ts',
-        './src/components/ImageSwitcher/ImageSwitcher.ts'
+        './src/components/ImageSwitcher/ImageSwitcher.ts',
     ],
     module: {
       rules: [
