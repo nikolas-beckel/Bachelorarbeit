@@ -42,7 +42,7 @@ AFRAME.registerComponent<PaintingsComponent>('paintings-loader', {
         paintingElement.setAttribute('width', '2');
         // Stehfläche vor dem Gemälde erzeugen
         const standingAreaElement = document.createElement('a-box');
-        standingAreaElement.object3D.position.set(0, 0, 2);
+        standingAreaElement.setAttribute('standing-area', '')
         paintingElement.appendChild(standingAreaElement);
         // Den Rahmen des Gemäldes mit Attributen erzeugen.
         const paintingFrameElement = document.createElement('a-box');
