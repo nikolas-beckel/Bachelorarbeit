@@ -1,7 +1,7 @@
 [
   {
     "id": "DE_MdbKL_946",
-    "src": "assets/paintings/DE_MdbKL_946/Overall.jpg",
+    "src": "https://localhost:8080/public/assets/paintings/DE_MdbKL_946/Overall.jpg",
     "title": "Bildnis Luthers als Junker Joerg",
     "attribution": "Lucas Cranach der Aeltere",
     "dating": "1521",
@@ -10,7 +10,7 @@
     "details": [
       {
         "id": "020",
-        "src": "assets/paintings/DE_MdbKL_946/Detail-020.jpg",
+        "src": "https://localhost:8080/public/assets/paintings/DE_MdbKL_946/Detail-020.jpg",
         "position": {
           "x": -0.771,
           "y": -1.090,
@@ -19,7 +19,7 @@
       },
       {
         "id": "016",
-        "src": "assets/paintings/DE_MdbKL_946/Detail-016.jpg",
+        "src": "https://localhost:8080/public/assets/paintings/DE_MdbKL_946/Detail-016.jpg",
         "position": {
           "x": -0.483,
           "y": -1.051,
@@ -28,7 +28,7 @@
       },
       {
         "id": "014",
-        "src": "assets/paintings/DE_MdbKL_946/Detail-014.jpg",
+        "src": "https://localhost:8080/public/assets/paintings/DE_MdbKL_946/Detail-014.jpg",
         "position": {
           "x": 0.153,
           "y": 0.354,
@@ -37,7 +37,7 @@
       },
       {
         "id": "015",
-        "src": "assets/paintings/DE_MdbKL_946/Detail-015.jpg",
+        "src": "https://localhost:8080/public/assets/paintings/DE_MdbKL_946/Detail-015.jpg",
         "position": {
           "x": -0.344,
           "y": 0.429,
@@ -46,7 +46,7 @@
       },
       {
         "id": "019",
-        "src": "assets/paintings/DE_MdbKL_946/Detail-019.jpg",
+        "src": "https://localhost:8080/public/assets/paintings/DE_MdbKL_946/Detail-019.jpg",
         "position": {
           "x": 0.709,
           "y": 0.988,
@@ -55,7 +55,7 @@
       },
       {
         "id": "007",
-        "src": "assets/paintings/DE_MdbKL_946/Detail-007.jpg",
+        "src": "https://localhost:8080/public/assets/paintings/DE_MdbKL_946/Detail-007.jpg",
         "position": {
           "x": 0.759,
           "y": -1.082,
@@ -72,7 +72,7 @@
   },
   {
     "id": "DE_KSW_G9",
-    "src": "assets/paintings/DE_KSW_G9/Overall.jpg",
+    "src": "https://localhost:8080/public/assets/paintings/DE_KSW_G9/Overall.jpg",
     "title": "Martin Luther als Junker Joerg",
     "attribution": "Lucas Cranach der Aeltere",
     "dating": "1521 - 1522",
@@ -81,7 +81,7 @@
     "details": [
       {
         "id": "006",
-        "src": "assets/paintings/DE_KSW_G9/Detail-006.jpg",
+        "src": "https://localhost:8080/public/assets/paintings/DE_KSW_G9/Detail-006.jpg",
         "position": {
           "x": 0.227,
           "y": 0.673,
@@ -90,7 +90,7 @@
       },
       {
         "id": "008",
-        "src": "assets/paintings/DE_KSW_G9/Detail-008.jpg",
+        "src": "https://localhost:8080/public/assets/paintings/DE_KSW_G9/Detail-008.jpg",
         "position": {
           "x": 0.278,
           "y": -1.19,
@@ -99,7 +99,7 @@
       },
       {
         "id": "004",
-        "src": "assets/paintings/DE_KSW_G9/Detail-004.jpg",
+        "src": "https://localhost:8080/public/assets/paintings/DE_KSW_G9/Detail-004.jpg",
         "position": {
           "x": 0.020,
           "y": 0.918,
@@ -108,7 +108,7 @@
       },
       {
         "id": "007",
-        "src": "assets/paintings/DE_KSW_G9/Detail-007.jpg",
+        "src": "https://localhost:8080/public/assets/paintings/DE_KSW_G9/Detail-007.jpg",
         "position": {
           "x": 0.277,
           "y": -0.437,
@@ -125,7 +125,7 @@
   },
   {
     "id": "US_MMA_39-5",
-    "src": "assets/paintings/US_MMA_39-5/Overall.jpg",
+    "src": "https://localhost:8080/public/assets/paintings/US_MMA_39-5/Overall.jpg",
     "title": "Martin Luther",
     "attribution": "Lucas Cranach der Aeltere",
     "dating": "1537",
@@ -134,7 +134,7 @@
     "details": [
       {
         "id": "005",
-        "src": "assets/paintings/US_MMA_39-5/Detail-005.jpg",
+        "src": "https://localhost:8080/public/assets/paintings/US_MMA_39-5/Detail-005.jpg",
         "position": {
           "x": -0.904,
           "y": 0.486,
@@ -143,7 +143,7 @@
       },
       {
         "id": "002",
-        "src": "assets/paintings/US_MMA_39-5/Detail-002.jpg",
+        "src": "https://localhost:8080/public/assets/paintings/US_MMA_39-5/Detail-002.jpg",
         "position": {
           "x": 0.219,
           "y": 0.638,
@@ -152,7 +152,7 @@
       },
       {
         "id": "001",
-        "src": "assets/paintings/US_MMA_39-5/Detail-001.jpg",
+        "src": "https://localhost:8080/public/assets/paintings/US_MMA_39-5/Detail-001.jpg",
         "position": {
           "x": 0.047,
           "y": 0.927,
