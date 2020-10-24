@@ -8,7 +8,7 @@ AFRAME.registerComponent<PaintingsComponent>('paintings-loader', {
     paintingElement: undefined,
 
     init() {
-        fetch('data/paintings.json')
+        fetch('https://localhost:8080/public/data/paintings.json')
             .then(result => result.json())
             .then(paintingsData => this.paintingsData = paintingsData)
             .then(_ => {
