@@ -5,8 +5,6 @@ interface StandingAreaComponent extends ComponentDefinition {
     color: string;
     /** Die Höhe der Stanging Area. */
     height: number;
-    /** Die Position der Standing Area (i.d.R. relativ zum Gemälde). */
-    position: THREE.Vector3;
     /** Fügt eine Grafik mit Fußspuren auf die Standing Area hinzu. */
     addFootsteps: () => void;
 }

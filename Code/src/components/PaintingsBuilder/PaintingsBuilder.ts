@@ -18,7 +18,7 @@ AFRAME.registerComponent<PaintingsComponent>('paintings-loader', {
             });
     },
 
-    buildPaintingEntity(paintingData: Painting, index: number) {
+    buildPaintingEntity(paintingData: Painting) {
         const paintingEntity = document.createElement('a-entity');
         paintingEntity.setAttribute('id', paintingData.id);
 
@@ -42,7 +42,8 @@ AFRAME.registerComponent<PaintingsComponent>('paintings-loader', {
         paintingElement.setAttribute('width', '2');
         // Stehfläche vor dem Gemälde erzeugen
         const standingAreaElement = document.createElement('a-box');
-        standingAreaElement.setAttribute('standing-area', '')
+        standingAreaElement.setAttribute('standing-area', '');
+        standingAreaElement.object3D.position.set(0, -1.5, 1.5);
         paintingElement.appendChild(standingAreaElement);
         // Den Rahmen des Gemäldes mit Attributen erzeugen.
         const paintingFrameElement = document.createElement('a-box');
