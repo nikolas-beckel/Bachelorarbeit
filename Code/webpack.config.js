@@ -4,10 +4,14 @@ module.exports = {
     mode: 'development',
     devtool: 'eval-source-map',
     entry: [
-        './src/components/PaintingsBuilder/PaintingsBuilder.ts',
+        // Komponenten
         './src/components/DetailButton/DetailButton.ts',
         './src/components/ImageSwitcher/ImageSwitcher.ts',
-        './src/components/StandingArea/StandingArea.ts'
+        './src/components/StandingArea/StandingArea.ts',
+        './src/components/Painting/Painting.ts',
+        './src/components/PaintingDescription/PaintingDescription.ts',
+        // Szenen
+        './src/scenes/PaintingsBuilder/PaintingsBuilder.ts',
     ],
     module: {
       rules: [

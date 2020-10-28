@@ -7,7 +7,7 @@
     "dating": "1521",
     "support": "Malerei auf Buchenholz",
     "description": "Brustildnis Martin Luthers als Junker Jörg vor grünem Hintergrund, nach rechts gewandt. Luther trägt ein schwarzes Gewand dessen Kragen vom buschigen braunen Bart verdeckt wird. Die linke Hand ruht auf dem Knauf eines Schwertes. [Görres, cda 2015]",
-    "details": [
+    "closeUps": [
       {
         "id": "020",
         "src": "https://localhost:8080/public/assets/paintings/DE_MdbKL_946/Detail-020.jpg",
@@ -62,13 +62,7 @@
           "z": 0
         }
       }
-    ],
-    "position": {
-      "x": 0,
-      "y": 2,
-      "z": -3
-    },
-    "rotation": 0
+    ]
   },
   {
     "id": "DE_KSW_G9",
@@ -78,7 +72,7 @@
     "dating": "1521 - 1522",
     "support": "Malerei auf Buchenholz",
     "description": "Halbfiguriges Bildnis Martin Luthers als Junker Jörg vor grünem Hintergrund, nach rechts gewandt. Luther trägt ein schwarzes Gewand dessen Kragen vom buschigen braunen Bart verdeckt wird. Die rechte Wand ist wie zu einem Redegestus geöffnet, der rechte Arm ist angewinkelt, auf ihm ruht der Knauf des Schwertes, das Luther mit der Linken hält. [Görres, cda 2015]",
-    "details": [
+    "closeUps": [
       {
         "id": "006",
         "src": "https://localhost:8080/public/assets/paintings/DE_KSW_G9/Detail-006.jpg",
@@ -115,13 +109,7 @@
           "z": 0
         }
       }
-    ],
-    "position": {
-      "x": -5,
-      "y": 2,
-      "z": 2
-    },
-    "rotation": 90
+    ]
   },
   {
     "id": "US_MMA_39-5",
@@ -131,7 +119,7 @@
     "dating": "1537",
     "support": "Malerei auf Buchenholz",
     "description": "Halbfiguriges Bildnis Martin Luthers und Katharina von Boras im Dreiviertelprofil. Luther blickt nach rechts, Katharina nach links. Der bärtige Luther ist als Junker Jörg in schwarz gekleidet und legt seine Hand auf den Knauf seines Schwertes. Im unteren Bereich ist die angeschnittene linke Hand unterhalb der Parierstange angesetzt. Die Tafel besitzt einen grünen Hintergrund und ist signiert und datiert \"1537\". [http://www.baumanconservation.com/SolvingTheCranachMystery.html]",
-    "details": [
+    "closeUps": [
       {
         "id": "005",
         "src": "https://localhost:8080/public/assets/paintings/US_MMA_39-5/Detail-005.jpg",
@@ -159,12 +147,6 @@
           "z": 0
         }
       }
-    ],
-    "position": {
-      "x": 5,
-      "y": 2,
-      "z": 0
-    },
-    "rotation": -90
+    ]
   }
 ]
