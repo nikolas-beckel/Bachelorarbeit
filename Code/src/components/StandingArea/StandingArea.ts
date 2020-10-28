@@ -1,16 +1,15 @@
 import AFRAME, { THREE } from 'aframe';
 import { degToRad, getCamera } from '../../utils/utils';
-import StandingAreaComponent from './StandingArea.model';
+import StandingAreaComponent from './StandingArea.models';
 
 AFRAME.registerComponent<StandingAreaComponent>('standing-area', {
+    /** Die Farbe der Standing Area. */
     color: '#f4d6be',
+    /** Die Höhe der Stanging Area. */
     height: 0.075,
 
     init() {
-        // Attribute festlegen
-        this.el.setAttribute('color', this.color);
-        this.el.setAttribute('height', this.height.toString());
-
+        this.setAttributes();
         this.addFootsteps();
 
         this.el.addEventListener('click', () => {
@@ -22,10 +21,14 @@ AFRAME.registerComponent<StandingAreaComponent>('standing-area', {
         });
     },
 
-    /**
-     * Fügt eine Grafik mit Fußspuren auf die
-     * Standing Area hinzu.
-     */
+    /** Legt die initialen Attribute für das Element fest. */
+    setAttributes() {
+        this.el.setAttribute('class', 'standing-area');
+        this.el.setAttribute('color', this.color);
+        this.el.setAttribute('height', this.height.toString());
+    },
+
+    /** Fügt eine Grafik mit Fußspuren auf die Standing Area hinzu. */
     addFootsteps() {
         const footsteps = document.createElement('a-plane');
         footsteps.setAttribute('width', '0.5');

@@ -1,8 +1,10 @@
 import { Entity } from 'aframe';
-import ImageSwitcherComponent from './ImageSwitcher.model';
+import ImageSwitcherComponent from './ImageSwitcher.models';
 
 AFRAME.registerComponent<ImageSwitcherComponent>('image-switcher', {
+    /** Default-Farbe der Buttons. */
     defaultColor: 'blue',
+    /** Farbe, welche beim Hovern über die Buttons erscheint. */
     hoverColor: '#00008B',
 
     schema: {
@@ -12,10 +14,6 @@ AFRAME.registerComponent<ImageSwitcherComponent>('image-switcher', {
 
     init() {
         this.el.addEventListener('click', () => {
-            // Button verfärben, um den "Klick" visuell darzustellen. Nach 200ms
-            // wieder auf die ursprüngliche Farbe ändern.
-            this.el.setAttribute('color', '#333333');
-
             this.setDetailImage();
             this.hideDetailSpheres();
         });
@@ -28,15 +26,16 @@ AFRAME.registerComponent<ImageSwitcherComponent>('image-switcher', {
         });
     },
 
+    /** Ersetzt das Gemälde durch die Nahaufnahme. */
     setDetailImage() {
-        document.getElementById(this.data.id)
-            ?.querySelector('.painting')
-            ?.setAttribute('src', this.data.src);
+        document.getElementById(this.data.id)!
+            .setAttribute('src', this.data.src);
     },
 
+    /** Versteckt die DetailPoint-Buttons. */
     hideDetailSpheres() {
         document
-            .querySelectorAll('#' + this.data.id + ' > .painting > .detail')
+            .querySelectorAll('#' + this.data.id + ' > .detail')
             .forEach(it => (it as Entity).object3D.visible = false);
     }
 });
