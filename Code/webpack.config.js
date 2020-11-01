@@ -10,6 +10,7 @@ module.exports = {
         './src/components/StandingArea/StandingArea.ts',
         './src/components/Painting/Painting.ts',
         './src/components/PaintingDescription/PaintingDescription.ts',
+        './src/components/Document/Document.ts',
         // Szenen
         './src/scenes/PaintingsBuilder/PaintingsBuilder.ts',
         './src/scenes/Workshop/Workshop.ts',
