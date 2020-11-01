@@ -1,0 +1,92 @@
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <script src="../../bundle.js"></script>
+    <title>Lucas Cranachs Werkstatt v1</title>
+</head>
+<body>
+<a-scene
+    id="scene"
+    loading-screen="dotsColor: white; backgroundColor: black"
+    workshop-scene
+>
+    <a-assets>
+        <!-- Images-->
+        <img id="stone-wall" src="../../assets/textures/stone_wall.png" />
+        <img id="wooden-ground" src="../../assets/textures/wooden_ground.jpg" />
+        <img id="timber" src="../../assets/textures/tree.png" />
+        <img id="painting" src="../../assets/paintings/DE_MdbKL_946/Overall.jpg" />
+        <!-- Models-->
+        <a-asset-item id="workbench" src="../../assets/models/Workbench/workbench.gltf"></a-asset-item>
+        <a-asset-item id="hammer" src="../../assets/models/Hammer/model.gltf"></a-asset-item>
+        <a-asset-item id="saw" src="../../assets/models/Saw/model.gltf"></a-asset-item>
+        <a-asset-item id="chest" src="../../assets/models/Chest/Treasure_Trunk_01.gltf"></a-asset-item>
+        <a-asset-item id="easel" src="../../assets/models/Easel/model.gltf"></a-asset-item>
+        <a-asset-item id="small-table" src="../../assets/models/SmallTable/smalltable2.gltf"></a-asset-item>
+        <a-asset-item id="paint-palette" src="../../assets/models/PaintPalette/Paint_Palette_01.gltf"></a-asset-item>
+        <a-asset-item id="stool" src="../../assets/models/Stool/Stool_01.gltf"></a-asset-item>
+        <a-asset-item id="chandelier" src="../../assets/models/Chandelier/Chandelier_01.gltf"></a-asset-item>
+        <a-asset-item id="wooden-plank" src="../../assets/models/WoodenPlank/wood plank.gltf"></a-asset-item>
+        <a-asset-item id="door" src="../../assets/models/Door/Door .gltf"></a-asset-item>
+        <a-asset-item id="books" src="../../assets/models/Books/model.gltf"></a-asset-item>
+        <a-asset-item id="chair" src="../../assets/models/Chair/WoodChair_01(1).gltf"></a-asset-item>
+        <a-asset-item id="worktable" src="../../assets/models/Worktable/scene.gltf"></a-asset-item>
+    </a-assets>
+
+    <a-entity
+        id="camera"
+        position="0 0 0"
+        rotation="0 0 0"
+    >
+        <a-camera>
+            <a-cursor
+                color="white"
+                fuse="true"
+                fuseTimeout="1000"
+            >
+            </a-cursor>
+        </a-camera>
+    </a-entity>
+
+    <!-- Gebäude aufbauen -->
+    <!-- Wände -->
+    <a-plane src="#stone-wall" width="7.5" height="4" repeat="3 2" position="0 2 -3.75"></a-plane>
+    <a-plane src="#stone-wall" width="7.5" height="4" repeat="3 2" position="3.75 2 0" rotation="0 -90 0"></a-plane>
+    <a-plane src="#stone-wall" width="7.5" height="4" repeat="3 2" position="-3.75 2 0" rotation="0 90 0"></a-plane>
+    <a-plane src="#stone-wall" width="7.5" height="4" repeat="3 2" position="0 2 3.75" rotation="0 180 0"></a-plane>
+
+    <!-- Decke und Boden -->
+    <a-plane src="#wooden-ground" width="7.5" height="7.5" repeat="4 4" rotation="-90 0 0"></a-plane>
+    <a-plane src="#stone-wall" width="7.5" height="7.5" repeat="4 4" position="0 4 0" rotation="90 0 0"></a-plane>
+    <a-box src="#timber" width="0.5" depth="7.5" height="0.5" position="0 3.75 0"></a-box>
+    <a-box src="#timber" width="0.5" depth="7.5" height="0.5" position="3.5 3.75 0"></a-box>
+    <a-box src="#timber" width="0.5" depth="7.5" height="0.5" position="-3.5 3.75 0"></a-box>
+
+    <!-- Innenausstattung -->
+    <!-- Arbeitsplatz von Lucas Cranach -->
+    <a-gltf-model src="#worktable" position="-3.396 0 1.169" rotation="0 90 0" scale="0.01 0.01 0.01"></a-gltf-model>
+
+    <!-- Gemäldebereich -->
+    <a-gltf-model src="#easel" position="1.371 0.145 1.518" rotation="0 -142.810 0" scale="0.5 0.5 0.5"></a-gltf-model>
+    <a-box position="1.938 0.018 1.823" rotation="0 -143.034 0" standing-area></a-box>
+    <a-gltf-model src="#small-table" position="1.099 0.286 2.424" rotation="0 -28.272 0" scale="0.5 0.5 0.5"></a-gltf-model>
+    <a-gltf-model src="#paint-palette" position="1.310 0.531 2.289" rotation="0 0 90" scale="0.02 0.02 0.02"></a-gltf-model>
+    <a-gltf-model src="#stool" position="0.964 -0.030 1.369" rotation="0 -20.932 0" scale="0.05 0.05 0.05"></a-gltf-model>
+
+    <!-- Dekoration -->
+    <a-gltf-model src="#chest" position="2.852 0 -2.912" rotation="0 -26.518 0" scale="0.1 0.1 0.1"></a-gltf-model>
+    <a-gltf-model src="#wooden-plank" position="-2.522 0 3.518" rotation="0 90 0" scale="0.001 0.001 0.001"></a-gltf-model>
+    <a-gltf-model src="#wooden-plank" position="-2.522 0.06 3.518" rotation="0 90 0" scale="0.001 0.001 0.001"></a-gltf-model>
+    <a-gltf-model src="#wooden-plank" position="-2.522 0.12 3.518" rotation="0 90 0" scale="0.001 0.001 0.001"></a-gltf-model>
+    <a-gltf-model src="#wooden-plank" position="-2.522 0.18 3.518" rotation="0 90 0" scale="0.001 0.001 0.001"></a-gltf-model>
+    <a-gltf-model src="#wooden-plank" position="-2.522 0.24 3.518" rotation="0 90 0" scale="0.001 0.001 0.001"></a-gltf-model>
+    <a-gltf-model src="#wooden-plank" position="-2.054 0.033 1.548" rotation="-7.356 -4.751 -0.635" scale="0.001 0.001 0.001"></a-gltf-model>
+    <a-gltf-model src="#wooden-plank" position="-2.914 0 2.606" rotation="0 73.281 0" scale="0.001 0.001 0.001"></a-gltf-model>
+    <a-gltf-model src="#wooden-plank" position="3.741 1.884 -1.526" rotation="70 -90 0" scale="0.001 0.001 0.001"></a-gltf-model>
+    <a-gltf-model src="#wooden-plank" position="3.59 1.626 -1.541" rotation="54.400 -90 0" scale="0.001 0.001 0.001"></a-gltf-model>
+    <a-gltf-model src="#door" position="0.446 0.026 -3.748" scale="0.008 0.008 0.008"></a-gltf-model>
+    <a-gltf-model src="#chandelier" position="0 2.226 0" scale="0.15 0.15 0.15"></a-gltf-model>
+
+</a-scene>
+</body>
+</html>
