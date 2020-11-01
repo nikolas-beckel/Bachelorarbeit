@@ -12,6 +12,7 @@ module.exports = {
         './src/components/PaintingDescription/PaintingDescription.ts',
         // Szenen
         './src/scenes/PaintingsBuilder/PaintingsBuilder.ts',
+        './src/scenes/Workshop/Workshop.ts',
     ],
     module: {
       rules: [
