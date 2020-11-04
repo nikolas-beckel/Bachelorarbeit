@@ -25,32 +25,34 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.1.4}Native und webbasierte Anwendungen}{11}{subsubsection.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.5}Aktuelle Produkte und Lösungen}{12}{subsubsection.27}%
+\contentsline {subsubsection}{\numberline {3.1.5}Aktuelle Technologien}{13}{subsubsection.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Virtual Reality im musealen Kontext}{12}{subsection.28}%
+\contentsline {subsection}{\numberline {3.2}Virtual Reality im musealen Kontext}{13}{subsection.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.1}Chancen}{12}{subsubsection.29}%
+\contentsline {subsubsection}{\numberline {3.2.1}Chancen und Risiken}{14}{subsubsection.32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.2}Umsetzung}{12}{subsubsection.30}%
+\contentsline {subsubsection}{\numberline {3.2.2}Lerneffekt durch Emotionen}{15}{subsubsection.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3}Aktuelle Produkte und Lösungen}{12}{subsubsection.31}%
+\contentsline {subsubsection}{\numberline {3.2.3}Umsetzung}{16}{subsubsection.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Prototyping}{12}{section.32}%
+\contentsline {subsubsection}{\numberline {3.2.4}Aktuelle Lösungen}{16}{subsubsection.35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Auswahl der Technologie}{12}{subsection.33}%
+\contentsline {section}{\numberline {4}Prototyping}{16}{section.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Umsetzung der Softwareentwicklung}{12}{subsection.34}%
+\contentsline {subsection}{\numberline {4.1}Auswahl der Technologie}{16}{subsection.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Ergebnisse}{12}{section.35}%
+\contentsline {subsection}{\numberline {4.2}Umsetzung der Softwareentwicklung}{16}{subsection.38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Diskussion und Fazit}{12}{section.36}%
+\contentsline {section}{\numberline {5}Ergebnisse}{16}{section.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Anhang}{13}{section.37}%
+\contentsline {section}{\numberline {6}Diskussion und Fazit}{16}{section.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Abbildungen}{13}{subsection.38}%
+\contentsline {section}{\numberline {7}Anhang}{17}{section.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2}Literaturverzeichnis}{13}{subsection.39}%
+\contentsline {subsection}{\numberline {7.1}Abbildungen}{17}{subsection.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3}Abbildungsverzeichnis}{14}{subsection.41}%
+\contentsline {subsection}{\numberline {7.2}Literaturverzeichnis}{17}{subsection.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4}Eidesstattliche Erklärung}{14}{subsection.42}%
+\contentsline {subsection}{\numberline {7.3}Abbildungsverzeichnis}{18}{subsection.45}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.4}Eidesstattliche Erklärung}{18}{subsection.46}%
