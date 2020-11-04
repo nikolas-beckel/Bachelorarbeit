@@ -14,5 +14,8 @@ Hier werden einige Hinweise für die Prüfer notiert, um Missverständnisse zu v
 # Branchbeschreibung
 In diesem Branch landen unter anderem bereits überprüften Codestellen oder Texte, die aus dem Branch [doc/preliminary-work](https://github.com/nikolasbeckel/Bachelorarbeit/tree/doc/preliminary-work) oder [code/playground-and-testarea](https://github.com/nikolasbeckel/Bachelorarbeit/tree/code/playground-and-test-area) stammen. Der master branch stellt das Endergebnis dar. Natürlich kann nicht zu 100% garantiert werden, dass jeder Pull Request vollkommen final ist, deshalb können immer noch Änderungen bereits gepushter Informationen oder Codestellen überarbeitet werden. Für Änderungen innerhalb des master branches muss immer ein feature/* oder bugfix/* (für Code) und doc/* (für Doku) branch erstellt werden. Bei erfolgreichter Prüfung des branches kann dieser mittels Pull Request gemerged werden. So kann gewährleistet werden, dass parallel ausgeführte Aufgaben nicht in Konflikt geraten. Vor jedem Pull Request rebase nicht vergessen 😉.
 
+# Branching-Modell
+Es wird nach einem vereinfachten Git-flow-Workflow gearbeitet. Da es sich hierbei nicht um ein Produkt handelt, welches öffentlich zugänglich ist und regelmäßig Produktupdates erhält, entfällt hier der develop branch. Neue Funktionen werden sofort in ihrem feature branch getestet und sobald der Code refactort und die Funktionen getestet wurden, kann er in den master branch gemergt werden. In diesem Projekt würde ein develop branch nur unnötig Zeit verschwenden und Verwaltungsaufwand mit sich bringen.
+
 # Installationsanleitung für die VR-Anwendung
 Coming soon...
