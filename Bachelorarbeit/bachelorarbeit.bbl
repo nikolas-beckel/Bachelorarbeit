@@ -226,6 +226,48 @@
       \verb 10.1145/3062341.3062363
       \endverb
     \endentry
+    \entry{Katz2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=88daef5acb62a085e052d904d9e06613}{%
+           family={Halpern},
+           familyi={H\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cb0e8334908b3d6afd3d189084386b3e}{%
+           family={Katz},
+           familyi={K\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7c1195e43a21bf2effadf76369218dca}
+      \strng{fullhash}{7c1195e43a21bf2effadf76369218dca}
+      \strng{bibnamehash}{7c1195e43a21bf2effadf76369218dca}
+      \strng{authorbibnamehash}{7c1195e43a21bf2effadf76369218dca}
+      \strng{authornamehash}{7c1195e43a21bf2effadf76369218dca}
+      \strng{authorfullhash}{7c1195e43a21bf2effadf76369218dca}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-1839}
+      \field{journaltitle}{Journal of Science Education and Technology}
+      \field{title}{Can Virtual Museums Motivate Students? Toward a Constructivist Learning Approach}
+      \field{volume}{24}
+      \field{year}{2015}
+      \field{pages}{776\bibrangedash 788}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/s10956-015-9563-7
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10956-015-9563-7
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10956-015-9563-7
+      \endverb
+    \endentry
     \entry{Heidsiek2019}{book}{}
       \name{author}{1}{}{%
         {{hash=adf8286d102f50f434d94d3078780e7e}{%
