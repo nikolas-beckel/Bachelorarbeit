@@ -711,7 +711,7 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
         Aber auch die aktuelle Zielgruppe eines Museums kann etwas mit Virtual Reality
         anfangen, unabhängig des Alters [\cite[75]{Heidsiek2019}]. Dadurch wird keine 
         bestimmte Zielgruppe ausgeschlossen.
-      \subsubsection{Optimierung des Lernprozesses}
+      \subsubsection{Optimierung des Lernprozesses} \label{Optimierung des Lernprozesses}
         Wie bereits im vorherigen Unterkapitel erwähnt, tragen Emotionen nachweislich zum
         Lernerfolg bei. Um diese Emotionen bei Besuchern zu aktivieren und entsprechende
         Gefühle hervorzurufen, bietet es sich an, Lebensräume der darzustellenden Personen
@@ -751,7 +751,7 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
         Auch das Gefühl der Präsenz, welches bereits in Kapitel \ref{Wahrnehmungsaspekte}
         behandelt wurde, trägt dazu bei, wie gut der Lernende Informationen aufnimmt
         [\cite[777]{Katz2015}].
-      \subsubsection{Aktuelle Lösungen und Umsetzung}
+      \subsubsection{Aktuelle Lösungen und Umsetzung} \label{Aktuelle Lösungen und Umsetzung}
         Da es viele Technologien und Hardware für die Umsetzung von VR-Ausstellungen 
         gibt, lassen sich auf viele verschiedene Wege solche VR-Erfahrungen entwickeln.
         Das Deutsche Auswandererhaus beispielsweise entschied sich für das Samsung Odyssey
@@ -770,18 +770,229 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
         Hierbei lassen sich Gemälde betrachten und nah an diese heranzoomen.
         Besondere Funktionen oder ein Storytelling weist diese App nicht auf. Sie immitiert
         letztlich ein Museumsbesuch in einer virtuellen Welt nach.
+        Das Archäologische Museum in Hamburg bietet ebenfalls einen Rundgang durch
+        das Museum in 3D und Virtual Reality an\footnote{Archäologisches Museum Hamburg | \url{https://amh.de/digitales-angebot/google-art-project/} (05.11.2020)}.
+        Dabei handelt es sich auch über eine Webanwendung, welche mit einem Smartphone und
+        Google Cardboard erkundet werden kann. Wer eine vollwertige VR-Brille besitzt,
+        unabhängig vom Hersteller, kann dieses VR-Erlebnis ebenfalls über einen VR-Browser
+        erleben. Somit erreicht das Archäologische Museum aus Hamburg die maximale Zielgruppe.
+        Jedoch ist die Umsetzung relativ simpel, da es sich um eine einfache Museumsrundführung
+        handelt ohne bestimmte Funktionen.
+        Das Deutsche Museum in München bietet ein VRlab an, in dem Besucher in die Vergangenheit
+        reisen und dort mit Objekten interagieren können\footnote{Deutsches Museum | \url{https://www.deutsches-museum.de/ausstellungen/sonderausstellungen/vrlab/} (05.11.2020)}.
+        Auch eine Fahrt über den Mond ist möglich. Das Deutsche Museum zeigt an dieser Stelle,
+        das man die Möglichkeiten von Virtual Reality nutzen sollte, um nicht einfach etwas
+        zu zeigen, was es schon gibt, sondern um physikalisch unmögliches zu erkunden. An 
+        diesem Beispiel lässt sich gut erkennen, dass Virtual Reality nicht als Ersatz, sondern
+        als Ergänzung zu einem Museum genutzt werden kann.
+        Das Städel Museum bietet auch eine Zeitreise an, mit der das Museum im 19. Jahrhundert
+        betrachtet werden kann\footnote{Zeitreise Städel Museum | \url{https://zeitreise.staedelmuseum.de/vr-app/} (05.11.2020)}.
+        Die entwickelte Lösung wurde in Kooperation mit Samsung entwickelt, weshalb die App
+        nur mit einem Samsung Smartphone oder einer VR-Brille von Oculus betrachtet werden
+        kann. Dadurch hat das Städel Museum ihre Zielgruppe sehr eingeschränkt. Durch
+        das veröffentlichen der App in einem Store, bieten sie jedoch Benutzern die 
+        Möglichkeit, die Erfahrung auch von zu Hause aus zu erleben.
+        Eine weitere Möglichkeit, um den Inhalt einer VR-Erfahrung verständlicher zu übermitteln
+        ist der Einsatz von Museumsführern. Sei es durch einfache Vertonung oder das zusätzliche
+        Einbauen eines Avatars. Virtuelle Museumsführer können nachweislich zu einem höheren
+        Engagement und höhere Aufmerksamkeit des Betrachters führen [\cite[299]{Carrozzino2018}].
+        Aufgrund dessen lässt sich der Inhalt besser verstehen [\cite[300]{Carrozzino2018}].
+        Den Ansatz mit Vertonung zu arbeiten hat das Deutsche Auswandererhaus ebenfalls in
+        ihrer Studie durchgeführt.
+        Soll ein ideales VR-System entwickelt werden, muss, wie in Kapitel \ref{Wahrnehmungsaspekte}
+        bereits erwähnt, auch der akustische Sinn miteinbezogen werden. Je mehr Sinne miteinbezogen
+        werden, desto besser die VR-Erfahrung für den Benutzer.
   \section{Prototyping}
-    Das Prototyping ist eine Methode in der Softwareentwicklung, um schnell an
-    Ergebnisse zu gelangen. Anhand eines Prototypen kann schnell erkannt werden,
-    ob eine Idee technisch umsetzbar ist und was noch benötigt wird, um das Produkt
-    zu verbessern. Je nach Fortschritt des Prototypen können auch schon Nutzererfahrungen
-    und Feedback gesammelt werden.
-    Diese Methode wird in diesem Forschungsprojekt angewandt, um mehrere Ergebnisse
-    zu erzielen und zu erörtern, welche technischen Möglichkeiten heutzutage existieren.
-    [\cite{Bertsche2007}]
-    \subsection{Auswahl der Technologie}
-    
-    \subsection{Umsetzung der Softwareentwicklung}
+    Das Prototyping ist eine Methode in der Softwareentwicklung, um schnell und mit 
+    wenig Ressourcen an Ergebnisse zu gelangen. Diese Ergebnisse können ein frühzeitiges
+    Feedback zur Eignung eines Lösungsansatzes und der genutzten Technologien führen.
+    Diese Methode wird in diesem Forschungsprojekt angewandt, da sie qualitative Ergebnisse
+    in kurzer Zeit und mit wenig Ressourcen liefert. Diese Ergebnisse können weiterführend
+    verwendet werden, um eine vollwertige Software in diesem Anwendungsbereich zu 
+    entwickeln.
+    Zu Beginn müssen die Anforderungen des VR-Systems analysiert und gestellt werden. Da
+    die Forschungsfrage keine eindeutige Lösung fordert, sondern herausfinden möchte,
+    wie solch ein System für das Cranach Digital Archive entwickelt werden kann, werden
+    die Anforderungen auf Basis von Erfahrungen der bereits entwickelten Produkte und der 
+    Literaturergebnisse festgelegt.
+    Doch bevor mit dem Prototyping begonnen werden kann, muss eine geeignete Technologie
+    gewählt werden, um eine VR-Anwendungen entwickeln zu können. Es werden die aktuellsten
+    und verbreitetsten Frameworks und Librarys in Betracht gezogen und abgewägt, welche
+    sich für den aktuellen Anwendungsfall am besten eignen.
+    Sobald die genutzten Technologien feststehen, werden die ersten Prototypen entwickelt
+    und mit einer VR-Brille getestet. Sofern diese die festgelegten Ziele erfüllen, können
+    anhand dieser Erkenntnisse die Prototypen weiterenwickelt oder zusätzlich noch neue 
+    entwickelt werden.
+    Sobald die Prototypen fertig entwickelt wurden, werden die Ergebnisse im 
+    nächsten Kapitel vorgestellt und analysiert.
+    \subsection{Anforderungen an das VR-System}
+      Da das aktuelle Cranach Digital Archive bereits eine Webanwendung ist, welches über
+      die meisten Systeme, welche einen Browser besitzen, aufgerufen werden kann, soll
+      der Ansatz der maximalen Zugänglichkeit, welches das Web bietet, fortgeführt werden.
+      Da das Ziel von Museen das Verbreiten von Wissen ist, sollte eine maximale Zielgruppe
+      erreicht werden können und kein Benutzer aufgrund seiner Technologiewahl 
+      ausgeschlossen werden. Deshalb ist die erste Anforderung, dass das VR-System über
+      das Web als Webanwendung erreichbar sein soll.
+      Da eine Anwendung, die auch über das Web erreichbar ist, unter Umständen auch auf
+      einem Handy betrachtet werden kann, muss diese dementsprechend ohne 3D-Eingabegeräte
+      funktionieren. Nicht nur können mit einer blickorientierten Steuerung mehr Benutzer
+      die Anwendung nutzen, sondern fällt, wie bereits in Kapitel \ref{Optimierung des Lernprozesses}
+      und \ref{Aktuelle Lösungen und Umsetzung} erwähnt, ein Großteil der Einarbeitung für
+      den Benutzer weg. Eine blickorientierte Steuerung ist intuitiv und benötigt weniger
+      Hardware. Dies stellt auch die zweite Anforderung an das VR-System dar.
+      Um den Benutzer eine immersive und interessante VR-Erfahrung zu ermöglichen, sollen
+      auch möglichst viele Sinne miteinbezogen werden. In Kapitel \ref{Wahrnehmungsaspekte}
+      wurde festgehalten, dass ein perfektes VR-System alle Sinne des Menschen miteinbezieht.
+      Da dies aktuell technisch jedoch nicht möglich ist, sollen zumindest möglichst viele
+      angesprochen werden, denn je mehr Sinne beansprucht werden, desto immersiver die 
+      Erfahrung. Deshalb soll, neben dem visuellen Sinn der bei einer VR-Erfahrung immer
+      verwendet werden muss, zusätzlich der akustische Sinn angesprochen werden.
+      Da das Cranach Digital Archive aber nicht nur für Kunstinteressierte ist, sondern
+      auch für Forscher oder Mitarbeiter des Teams, sollen nicht nur Prototypen entwickelt
+      werden, welche den Fokus auf eine visuell schöne VR-Erfahrung legen, sondern auch welche,
+      die das Verständnis über die Daten verbessern sollen. Denn wie in Kapitel \ref{Konzept und Nutzung von VR}
+      bereits erwähnt, kann Virtual Reality dabei helfen, komplexe Datenstrukturen besser
+      zu verstehen. Somit gibt es zwei Arten von VR-Systemen: Welche für die Zielgruppe
+      eines Museums entwickelt werden und sich eher auf immersive und visuell ansprechende
+      VR-Erfahrungen fokussieren und auf der anderen Seite die, welche versuchen das
+      Verständnis für die Daten zu verbessern. Jedoch können beide Zielgruppen beide
+      Anwendungen verwenden, da auch die Zielgruppe eines Museums ebenfalls das Bedürfnis
+      für ein besseres Verständnis der Daten empfinden kann.\\
+      Die folgenden Anforderungen werden an die zu entwickelnden VR-Systeme gestellt:\\
+      \begin{tcolorbox}[title={Die Anforderungen}]
+          \begin{itemize}
+          \item Webbasierte Anwendung
+          \item Blickorientierte Steuerung
+          \item Bezug auf den akkustischen Sinn
+          \item VR-System mit Fokus auf die Zielgruppe der Museumsbesucher
+          \item VR-System mit Fokus auf besseres Verständnis von Daten
+        \end{itemize}
+      \end{tcolorbox}
+    \subsection{Auswahl der Technologien}
+      In diesem Kapitel werden die Vor- und Nachteile der einzelnen Frameworks, Librarys
+      oder Softwares gegenübergestellt. Anhand der Anforderungen und der vorhandenen
+      Ressourcen für dieses Forschungsprojekt wird eine Technologielösung ausgesucht.
+      Die Technologien werden durch eine einfache Internetrecherche über WebVR gesucht.
+      Damit eine Technologie in Betracht gezogen werden kann, muss diese eine gewisse
+      Verbreitung und Community mit sich bringen, denn Software die regelmäßig erweitert
+      und von einer Community unterstützt wird, bringt viele Vorteile mit sich. Es gibt
+      viele Möglichkeiten bei Problemen eine Lösung zu finden (mehr Suchergebnisse, 
+      Communitys, etc.) und die Anzahl an bereits entwickelter Software für die jeweilige
+      Technologie, die dann in das eigene Projekt integriert werden kann, ist um
+      einiges höher.\\
+      Unity\footnote{Unity | \url{https://unity.com/de} (09.11.2020)} und die 
+      Unreal Engine\footnote{Unreal Engine | \url{https://www.unrealengine.com/en-US/} (09.11.2020)} 
+      sind zwei Softwarelösungen, hinter denen zwei große
+      Firmen stehen und seit Jahren daran entwickeln. Ihre Dokumentationen sind sehr
+      ausführlich und beide Spiele-Engines bieten eine große Community. Dementsprechend
+      werden beide Softwarelösungen in die Auswahl miteinbezogen.\\
+      Ein weiteres populäres Framework ist React 360\footnote{React 360 | \url{https://facebook.github.io/react-360/} (09.11.2020)}
+      (8.400 Stars auf GitHub\footnote{React 360 auf GitHub | \url{https://github.com/facebook/react-360} (09.11.2020)})
+      und wird von Facebook weiterentwickelt. Es bietet das React-Ökosystem an,
+      zusätzlich aber noch in Kombination mit WebGL und WebXR die Möglichkeit VR-Systeme
+      für das Web zu entwickeln. Da das React-Ökosystem sehr beliebt und verbreitet
+      ist, wird dieses ebenfalls in die Auswahl miteinbezogen.\\
+      Das nächste Framework, welches laut GitHub (12.000 Stars\footnote{A-Frame auf GitHub | \url{https://github.com/aframevr/aframe} (09.11.2020)}) 
+      populärer als React 360 ist, ist A-Frame\footnote{A-Frame | \url{https://aframe.io/} (09.11.2020)}
+      von Mozilla und wird von Supermedium gepflegt. Mit A-Frame lassen sich ebenfalls dank
+      WebGL und WebXR VR-Systeme für das Web entwickeln. A-Frame ist für seine große und
+      hilfsbereite Community bekannt und hat eine sehr ausführliche und umfangreiche
+      Dokumentation. Da dies wichtige Kritierien für die Auswahl darstellen, wird auch
+      dieses Framework in die Auswahl miteinbezogen.\\
+      Als letzte Library wird Three.js\footnote{Three.js | \url{https://threejs.org/} (09.11.2020)}
+      in Betracht gezogen. Three.js bietet eine umfangreiche
+      Library für das Entwickeln von 3D-Anwendungen im Web. Virtual Reality wird ebenfalls
+      unterstützt. Da Three.js sehr mächtig ist, wird diese Library sogar von React 360
+      und A-Frame genutzt, um komplexe Berechnungen und Darstellungen zu berechnen.
+      Three.js ist mit fast 65.000 Stars\footnote{Three.js auf GitHub | \url{https://github.com/mrdoob/three.js/} (09.11.2020)}
+      auf GitHub die populärste der auf GitHub 
+      vorhandenen Librarys / Frameworks, um WebXR-Anwendungen zu entwickeln. Dementsprechend
+      groß ist auch die Community von Three.js. Deshalb fällt auch diese Library in
+      die engere Auswahl.\\
+      In den folgenden Kapiteln wird etwas genauer auf die einzelnen Technologien 
+      eingegangen und deren Vor- und Nachteile erörtert.
+      \subsubsection{Unity}
+        Unity ist eine Laufzeit- und Entwicklungsumgebung für Spiele der Firma Unity
+        Technologies. Das heißt nicht, das damit hauptsächlich Spiele entwickelt werden
+        können. Durch den großen Funktionsumfang von Unity lassen sich damit auch
+        Anwendungen entwickeln, welche sinnvoll für Industrie und eben auch Museen sind.
+        (Crossplattform-Portierung eingehen)
+        Die Entwicklungsumgebung bietet viele grafische Oberflächen, womit sich ganze
+        3D-Szenen per Maus gestalten lassen (siehe Abb. \ref{fig:unity1}). 
+        \begin{figure}[t]
+          \centering
+          \includegraphics[scale=0.3]{img/unity1.png}
+          \caption{Unity Entwicklungsumgebung}
+          \label{fig:unity1}
+        \end{figure}
+        Zudem bietet
+        Unity nicht nur eine grafische Benutzeroberfläche, sondern auch viele Funktionen
+        wie:
+        \begin{itemize}
+          \item Grafik gemäß dem aktuellen Stand der Technik
+          \item Animationen, um Charaktere oder andere Modelle animieren zu können
+          \item Physik für das Verhalten von Objekten in einer Welt
+          \item Musik und Geräusche, welche Stereofonie ermöglichen
+          \item Programmierung, um die einzelnen Modelle und Objekte um eigene Skripte
+          zu erweitern
+          \item Toolkits für User Interfaces
+          \item Unterstützung für Netzwerk- und Multiplayer-Anwendungen
+        \end{itemize}
+        Unity bietet eine sehr umfangreiche Dokumentation für jedes dieser Features.
+        Entwickelt werden die sogenannten Skripts, welche dann auf verschiedene Objekte
+        hinzugefügt werden können, in der Programmiersprache C\#. Dementsprechend ist eine
+        gewisse Erfahrung in dieser Programmiersprache notwendig, um effektiv Prototypen
+        entwickeln zu können. Unity liefert zusätzlich zu ihrem 3D-Editor die 
+        Entwicklungsumgebung MonoDevelop mit, womit die Skripte geschrieben werden und
+        Fehlersuche und -beseitigung betrieben werden kann.
+        Durch die umfangreiche Benutzeroberfläche und den Funktionen benötigt Unity jedoch 
+        eine lange Einarbeitungszeit. Und nicht alle Funktionen, die Unity liefert, werden
+        im Anwendungsfall dieses Forschungsprojekts benötigt. Dementsprechend ist Unity
+        definitiv eine Anwendung, mit der sich sehr umfangreiche und komplexe VR-Systeme
+        entwickeln lassen, jedoch nicht simple Prototypen.\\
+        Somit lassen sich folgende Vor- und Nachteile festhalten (siehe Tabelle \ref{tab:vor-und-nachteile-unity}).
+          \begin{table}[h]
+            \begin{center}
+              \begin{tabular}{| c | c |}
+                \hline
+                \textbf{Vorteile} & \textbf{Nachteile} \\ \hline
+                Stetige Weiterentwicklung & Lange Einarbeitungszeit \\ \hline
+                Umfangreicher Funktionsumfang & Überladung an Funktionen \\ \hline
+                Grafische Benutzeroberfläche inklusive Editor & \\ \hline
+                Mitgelieferte Entwicklungsumgebung & \\
+                \hline
+              \end{tabular}
+              \caption{Vor- und Nachteile der Unity Engine\label{tab:vor-und-nachteile-unity}}
+            \end{center}
+          \end{table}
+      \subsubsection{Unreal Engine}
+        Die Unreal Engine ist, verglichen mit den anderen Technologien, ähnlich zur 
+        Unity Engine. Dennoch hat diese Software einige andere Ansätze. Was sehr ähnlich
+        zur Unity Engine ist, ist der umfangreiche Funktionsumfang und die grafische 
+        Benutzeroberfläche. Auch hier lassen sich über einen Editor Modelle und Objekte
+        bearbeiten und in der Szene positionieren. Zusätzlich verfügt die Unreal Engine,
+        für Personen die nicht programmieren können, über ein sogenanntes Blueprint-System.
+        Damit lassen sich per Drag and Drop grafisch komplexe Algorithmen abbilden. Damit
+        ist Unreal Engine einsteigerfreundlich für Nicht-Entwickler.
+        Wer jedoch zur Programmierung greifen möchte, womit sich letztlich dennoch
+        performantere und mehr Lösungen finden lassen, muss in der Programmiersprache
+        C++ entwickeln. Dementsprechend sollten Kenntnisse im Bereich C++ 
+        mitgebracht werden. Auch hier muss, wie in Unity, einiges an Zeit mitgebracht
+        werden, um sich in die Software einzuarbeiten.\\
+        Das Endergebnis einer Arbeit lässt sich dann auf viele verschiedene Plattformen
+        portieren, und auch in das von uns verlangte Web. Die Entwicklung von Webanwendungen
+        in der Unreal Engine ist jedoch nur über ein Plugin möglich, was von der Community
+        entwickelt wird. Das muss nicht unbedingt ein Nachteil sein, kann unter Umständen
+        aber problematisch sein. Das ist davon abhängig, wie aktiv die Community an diesem
+        Plugin arbeitet. Je aktiver, desto besser.
+      \subsubsection{React 360}
+      \subsubsection{A-Frame}
+      \subsubsection{Three.js}
+      \subsubsection{Ergebnis}
+      \subsubsection{Weitere Hilfsmittel}
+    \subsection{Entwicklung der Prototypen}
+      \subsubsection{Technischer Prototyp}
+      \subsubsection{Lucas Cranachs Werkstatt}
   \section{Ergebnisse}
     \begin{itemize}
       \item Hier verwendet man beschriebene Methoden an

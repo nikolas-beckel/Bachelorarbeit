@@ -55,49 +55,74 @@
       \verb https://www.oreilly.com/library/view/building-progressive-web/9781491961643/
       \endverb
     \endentry
-    \entry{Bertsche2007}{book}{}
-      \name{author}{2}{}{%
-        {{hash=568579fb03bcbfad384a46ba9e452cf9}{%
-           family={Bertsche},
+    \entry{Carrozzino2018}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=1742b3b72bd9a0ddb6927830a9a72a5c}{%
+           family={Carrozzino},
+           familyi={C\bibinitperiod},
+           given={Marcello},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cd76b20b4c0af826c69d56cf9b0e1407}{%
+           family={Colombo},
+           familyi={C\bibinitperiod},
+           given={Marianna},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c7f2df5a08795e961e728461101536ed}{%
+           family={Tecchia},
+           familyi={T\bibinitperiod},
+           given={Franco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d9e85038f22655c0eee5d232d83250c2}{%
+           family={Evangelista},
+           familyi={E\bibinitperiod},
+           given={Chiara},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3166e66fdb415b25a9a4242a8c54bc9f}{%
+           family={Bergamasco},
            familyi={B\bibinitperiod},
-           given={Bernd},
-           giveni={B\bibinitperiod}}}%
-        {{hash=68402aa9fe436bda362aa6e301c2578b}{%
-           family={Bullinger},
+           given={Massimo},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=3deab4ad49f3c8793cebb17b3dc128ce}{%
+           family={De\bibnamedelima Paolis},
+           familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Lucio\bibnamedelima Tommaso},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=2d0fbbf68ebe840cb718af6b302e9d30}{%
+           family={Bourdot},
            familyi={B\bibinitperiod},
-           given={Hans-J{\ifmmode\ddot{o}\elseö\fi}rg},
-           giveni={H\bibinithyphendelim J\bibinitperiod}}}%
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Berlin, Deutschland}%
+        {Cham}%
       }
       \list{publisher}{1}{%
-        {Springer}%
+        {Springer International Publishing}%
       }
-      \strng{namehash}{e81b9dab40158771885ae484092c6f19}
-      \strng{fullhash}{e81b9dab40158771885ae484092c6f19}
-      \strng{bibnamehash}{e81b9dab40158771885ae484092c6f19}
-      \strng{authorbibnamehash}{e81b9dab40158771885ae484092c6f19}
-      \strng{authornamehash}{e81b9dab40158771885ae484092c6f19}
-      \strng{authorfullhash}{e81b9dab40158771885ae484092c6f19}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \strng{namehash}{403f6a1760c1820687a86c92c499cb3c}
+      \strng{fullhash}{6b5cc6f00a808e2b75c77bbf81c7c368}
+      \strng{bibnamehash}{403f6a1760c1820687a86c92c499cb3c}
+      \strng{authorbibnamehash}{403f6a1760c1820687a86c92c499cb3c}
+      \strng{authornamehash}{403f6a1760c1820687a86c92c499cb3c}
+      \strng{authorfullhash}{6b5cc6f00a808e2b75c77bbf81c7c368}
+      \strng{editorbibnamehash}{e073cf8249feecc3ef84a211f8e27f5b}
+      \strng{editornamehash}{e073cf8249feecc3ef84a211f8e27f5b}
+      \strng{editorfullhash}{e073cf8249feecc3ef84a211f8e27f5b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{978-3-540-69879-1}
-      \field{title}{{Entwicklung und Erprobung innovativer Produkte {\ifmmode---\else—\fi} Rapid Prototyping}}
-      \field{year}{2007}
-      \verb{doi}
-      \verb 10.1007/978-3-540-69880-7
-      \endverb
-      \verb{urlraw}
-      \verb https://link.springer.com/book/10.1007%2F978-3-540-69880-7
-      \endverb
-      \verb{url}
-      \verb https://link.springer.com/book/10.1007%2F978-3-540-69880-7
-      \endverb
+      \field{abstract}{Virtual museums are becoming increasingly popular, especially thanks to the recent spread of low-cost immersive technologies enabling even small cultural realities to enrich their technology-based offer. The growing availability of computational power and high-quality visual elements enables the use of virtual characters in order to add depth to the virtual visit experience, up to nowadays often limited to the exploration of lifeless environments. This paper presents a pilot study aimed at investigating the positive effects that the use of avatars can provide to a virtual cultural experience, proposing a virtual museum with three different alternatives of storytelling, including one featuring virtual humans, and comparing the results in terms of engagement and understanding of the proposed content.}
+      \field{booktitle}{Augmented Reality, Virtual Reality, and Computer Graphics}
+      \field{isbn}{978-3-319-95282-6}
+      \field{title}{Comparing Different Storytelling Approaches for Virtual Guides in Digital Immersive Museums}
+      \field{year}{2018}
+      \field{pages}{292\bibrangedash 302}
+      \range{pages}{11}
     \endentry
     \entry{Dorner2013}{book}{}
       \name{author}{4}{}{%

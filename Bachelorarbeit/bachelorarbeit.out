@@ -15,13 +15,23 @@
 \BOOKMARK [3][]{subsubsection.32}{3.2.1 Chancen und Risiken}{subsection.31}% 15
 \BOOKMARK [3][]{subsubsection.33}{3.2.2 Optimierung des Lernprozesses}{subsection.31}% 16
 \BOOKMARK [3][]{subsubsection.34}{3.2.3 Aktuelle L\366sungen und Umsetzung}{subsection.31}% 17
-\BOOKMARK [1][]{section.36}{4 Prototyping}{}% 18
-\BOOKMARK [2][]{subsection.37}{4.1 Auswahl der Technologie}{section.36}% 19
-\BOOKMARK [2][]{subsection.38}{4.2 Umsetzung der Softwareentwicklung}{section.36}% 20
-\BOOKMARK [1][]{section.39}{5 Ergebnisse}{}% 21
-\BOOKMARK [1][]{section.40}{6 Diskussion und Fazit}{}% 22
-\BOOKMARK [1][]{section.41}{7 Anhang}{}% 23
-\BOOKMARK [2][]{subsection.42}{7.1 Abbildungen}{section.41}% 24
-\BOOKMARK [2][]{subsection.43}{7.2 Literaturverzeichnis}{section.41}% 25
-\BOOKMARK [2][]{subsection.45}{7.3 Abbildungsverzeichnis}{section.41}% 26
-\BOOKMARK [2][]{subsection.46}{7.4 Eidesstattliche Erkl\344rung}{section.41}% 27
+\BOOKMARK [1][]{section.39}{4 Prototyping}{}% 18
+\BOOKMARK [2][]{subsection.40}{4.1 Anforderungen an das VR-System}{section.39}% 19
+\BOOKMARK [2][]{subsection.41}{4.2 Auswahl der Technologien}{section.39}% 20
+\BOOKMARK [3][]{subsubsection.50}{4.2.1 Unity}{subsection.41}% 21
+\BOOKMARK [3][]{subsubsection.53}{4.2.2 Unreal Engine}{subsection.41}% 22
+\BOOKMARK [3][]{subsubsection.54}{4.2.3 React 360}{subsection.41}% 23
+\BOOKMARK [3][]{subsubsection.55}{4.2.4 A-Frame}{subsection.41}% 24
+\BOOKMARK [3][]{subsubsection.56}{4.2.5 Three.js}{subsection.41}% 25
+\BOOKMARK [3][]{subsubsection.57}{4.2.6 Ergebnis}{subsection.41}% 26
+\BOOKMARK [3][]{subsubsection.58}{4.2.7 Weitere Hilfsmittel}{subsection.41}% 27
+\BOOKMARK [2][]{subsection.59}{4.3 Entwicklung der Prototypen}{section.39}% 28
+\BOOKMARK [3][]{subsubsection.60}{4.3.1 Technischer Prototyp}{subsection.59}% 29
+\BOOKMARK [3][]{subsubsection.61}{4.3.2 Lucas Cranachs Werkstatt}{subsection.59}% 30
+\BOOKMARK [1][]{section.62}{5 Ergebnisse}{}% 31
+\BOOKMARK [1][]{section.63}{6 Diskussion und Fazit}{}% 32
+\BOOKMARK [1][]{section.64}{7 Anhang}{}% 33
+\BOOKMARK [2][]{subsection.65}{7.1 Abbildungen}{section.64}% 34
+\BOOKMARK [2][]{subsection.66}{7.2 Literaturverzeichnis}{section.64}% 35
+\BOOKMARK [2][]{subsection.68}{7.3 Abbildungsverzeichnis}{section.64}% 36
+\BOOKMARK [2][]{subsection.69}{7.4 Eidesstattliche Erkl\344rung}{section.64}% 37
