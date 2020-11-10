@@ -365,6 +365,7 @@ INPUT d:\GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.run.xm
 OUTPUT d:\GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.run.xml
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-ts1.enc
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
