@@ -12,3 +12,21 @@
 \contentsline {figure}{\numberline {5}{\ignorespaces HTML-Element aus A-Frame.\relax }}{28}{figure.caption.75}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {6}{\ignorespaces Grafische Benutzeroberfläche von A-Frame.\relax }}{28}{figure.caption.77}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7}{\ignorespaces Erste Version einer \texttt {index.html}-Datei.\relax }}{31}{figure.caption.87}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8}{\ignorespaces Erste virtuelle Welt.\relax }}{33}{figure.caption.88}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9}{\ignorespaces Image-Tag von A-Frame für das Einbinden von Bildern.\relax }}{33}{figure.caption.89}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {10}{\ignorespaces Gemälde innerhalb der virtuellen Welt.\relax }}{34}{figure.caption.90}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11}{\ignorespaces Event Registrierung innerhalb von HTML.\relax }}{34}{figure.caption.91}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12}{\ignorespaces Aufbau einer Komponente in A-Frame.\relax }}{35}{figure.caption.92}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {13}{\ignorespaces A-Frame Entität mit hinzugefügter Komponente.\relax }}{35}{figure.caption.93}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {14}{\ignorespaces a-box mit der Komponente \texttt {standing-area}.\relax }}{36}{figure.caption.94}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {15}{\ignorespaces TypeScript-Code der Komponente \texttt {standing-area}.\relax }}{41}{figure.caption.95}%

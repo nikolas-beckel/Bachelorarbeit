@@ -1332,7 +1332,238 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
         in eine Datei zusammenfügt und diese keine Leerzeichen, Tabulatoren
         oder Umbrüche beinhaltet. Dadurch ist die Größe der Datei minimiert.
     \subsection{Entwicklung der Prototypen}
+      Zu Beginn wird sich mit dem Framework auseinandergesetzt und ein Bereich
+      zum Entwickeln geschaffen, in dem verschiedene Ansätze zum Darstellen von
+      Gemälden und Archivalien in einer virtuellen Welt ausprobiert werden
+      können. \\
+      Entwickelt wird in der Entwicklungsumgebung WebStorm von Jetbrains. Die
+      VR-Brille, mit der die Anwendungen getestet werden, ist die Oculus Quest,
+      welche von der Technischen Hochschule Köln gestellt wird. Diese verwendet
+      den Browser Firefox Reality, da dieser viele Funktionen für Entwickler 
+      bietet. \\
+      Das erste Ziel ist einen technischen Prototypen zu entwickeln, welcher das
+      Fortbewegen in der virtuellen Welt durch das Angucken von Objekten ermöglicht.
+      Auch sollen Gemälde und deren Beschreibung angezeigt werden können. Sobald
+      die ersten technischen Anforderungen erfüllt wurden, 
+      sollen weitere Prototypen entwickelt werden.
       \subsubsection{Technischer Prototyp}
+        Der erste technische Prototyp soll zeigen, wie eine blickorientierte
+        Steuerung und die Gemälde von Lucas Cranach mit Hilfe von A-Frame 
+        entwickelt werden können. Dieser soll auch das Fundament für die
+        weiteren Prototypen darstellen. \\
+        Um den ersten Prototypen zu entwickeln, muss vorerst das Prinzip
+        von A-Frame verstanden werden und wie Inhalte mittels HTML
+        und JavaScript dargestellt werden können. \\
+        Bevor mit der Entwicklung eines Prototypen mit JavaScript begonnen
+        werden kann, soll erstmal ein Gemälde von Lucas Cranach innerhalb
+        einer virtuellen Welt dargestellt werden. Dafür wird eine statische
+        \texttt{index.html}-Datei benötigt, welche die aktuelle stabile 
+        Version von A-Frame importiert (siehe Abb. \ref{fig:index1}).
+        \begin{figure}[h]
+          \centering
+          \includegraphics[scale=0.9]{img/coding/index1.png}
+          \caption{Erste Version einer \texttt{index.html}-Datei.}
+          \label{fig:index1}
+        \end{figure}
+        Neben den notwendigen HTML-Tags, die für eine valide HTML-Datei
+        notwendig sind, kommen \texttt{<a-scene>}, \texttt{<a-assets>},
+        \texttt{<a-entity>}, \texttt{<a-camera>}, \texttt{<a-cursor>}
+        und \texttt{<a-sky>} hinzu. A-Frame-HTML-Tags lassen sich durch
+        das Präfix \texttt{a} erkennen. \\
+        Das HTML-Tag \texttt{\textbf{<a-scene>}} ist immer das erste und notwendige
+        einer A-Frame-Anwendung. Durch dieses Tag weiß das Framework, 
+        dass es sich hierbei um eine A-Frame-Szene handelt. Alles weitere,
+        welches im Rahmen von A-Frame entwickelt wird, muss innerhalb
+        dieses Tags platziert werden. \\
+        \texttt{\textbf{<a-assets>}} beinhaltet alle notwendigen Assets für die 
+        VR-Anwendung. Darin können 3D-Modelle oder 
+        Bilder (Texturen, Icons, etc.) eingefügt werden. A-Frame empfiehlt,
+        sofern möglich, alle Assets die benötigt werden in \texttt{<a-assets>}
+        hinzuzufügen, da diese im Cache gespeichert werden und ein Neuladen
+        der Anwendung beschleunigt. \\
+        Bei \texttt{\textbf{<a-entity>}} handelt es sich um eine einfache Entität,
+        welche vorerst keine Darstellung innerhalb der VR-Anwendung haben
+        muss. Oft kann dieses Tag auch als Wrapper für mehrere Tags verwendet
+        werden. Das hat zum Beispiel den Vorteil, dass nur diese Entität
+        angesprochen werden muss, um alle Entitäten innerhalb dieser bewegen
+        zu können. Das HTML-Attribut \texttt{id} innerhalb des 
+        \texttt{a-entity}-Tags ist keine A-Frame-spezifische Definition,
+        sondern hat die selbe Funktion wie in normalem HTML.
+        \texttt{position} hingegen gibt die Position als 3D Vektor, 
+        relativ zum Nullpunkt der Weltkoordinaten. In diesem Fall befindet
+        sich die Entität genau auf dem Nullpunkt der Weltkoordinaten.
+        Das HTML-Tag \texttt{\textbf{<a-camera>}} stellt die Kamera und
+        somit die Augen des Benutzers innerhalb der VR-Anwendung dar. Die
+        Position der Kamera ist die Position des Benutzers. Eine Kamera
+        muss platziert werden, da ansonsten keine virtuelle Welt gesehen
+        werden kann. Somit ist dieser HTML-Tag zwingend notwendig. \\
+        Innerhalb der \texttt{<a-camera>}-Entität befindet sich 
+        \texttt{\textbf{<a-cursor>}}. Mit diesem Cursor kann der Benutzer
+        auf bestimmte Entitäten innerhalb einer virtuellen Welt zeigen. Durch
+        die Attribute \texttt{fuse} und \texttt{fuseTimeout} lassen sich mit
+        diesem auch Entitäten anklicken. A-Frame bietet an der Stelle bereits
+        eine Lösung für die blickorientierte Steuerung. Durch 
+        \texttt{fuse=true} wird die blickorientierte Steuerung aktiviert.
+        \texttt{fuseTimeout="1000"} gibt an, wie viel Millisekunden 
+        auf eine Entität geschaut werden muss, 
+        damit bei dieser Entität der EventListener
+        \texttt{click} ausgelöst wird. Somit muss bei einer Entität ein
+        EventListener für \texttt{click} festgelegt werden, damit diese auf
+        einen blickorientierten Klick reagieren kann. Das Attribut 
+        \texttt{color} legt die Farbe des Cursors fest. \\
+        Das HTML-Tag \texttt{\textbf{<a-sky>}} bietet eine fertige Lösung,
+        um einen Himmel innerhalb der virtuellen Welt anhand einer Bilddatei
+        anzuzeigen. Durch das Attribut \texttt{src="\#sky"} wird eine
+        Bilddatei mit der ID \texttt{\#sky} aus den Assets geladen. Diese
+        Schreibweise ersetzt letztlich die Angabe eines Pfades. \\
+        Beim Aufrufen der \texttt{index.html} erscheint folgendes Bild
+        (siehe Abb. \ref{fig:vr-welt1}).
+        \begin{figure}[h]
+          \centering
+          \includegraphics[scale=0.3]{img/coding/vr-welt1.png}
+          \caption{Erste virtuelle Welt.}
+          \label{fig:vr-welt1}
+        \end{figure}
+        Der Cursor der Anwendung befindet sich in der Mitte und ist als weißer
+        Kreis dargestellt. Unten rechts befindet sich der VR-Button, welcher
+        immer von A-Frame mitgerendert wird. Ein Klick auf diesen Button 
+        aktiviert den VR-Modus der Webanwendung. \\
+        Als nächster Schritt soll ein Gemälde angezeigt werden. In diesem
+        Beispiel wird erneut das Gemälde auf dem Cranach Digital Archive
+        mit der ID \texttt{DE\_MdbKL\_946} verwendet. A-Frame bietet 
+        den HTML-Tag \texttt{\textbf{<a-image>}}, um Bilder anzuzeigen.
+        Das Seitenverhältnis der Bilder wird nicht aufrechterhalten, weshalb
+        diese durch die Attribute \text{width} und \text{height} 
+        festgelegt werden muss. Das Tag wird einfach innerhalb der
+        \texttt{<a-scene>} platziert (siehe Abb. \ref{fig:a-image1}).        
+        \begin{figure}[h]
+          \centering
+          \includegraphics{img/coding/a-image1.png}
+          \caption{Image-Tag von A-Frame für das Einbinden von Bildern.}
+          \label{fig:a-image1}
+        \end{figure}
+        Bei den Einheiten innerhalb des Attributs \texttt{position} handelt
+        es sich um Angaben in Meter. Die Verschiebung einer Entität ist immer 
+        vom Mittelpunkt dieser ausgehend. Betrachtet man das Ganze innerhalb der
+        virtuellen Welt, erscheint das Gemälde vor dem Benutzer
+        (siehe Abb. \ref{fig:vr-welt2}).
+        \begin{figure}[h]
+          \centering
+          \includegraphics[scale=0.3]{img/coding/vr-welt2.png}
+          \caption{Gemälde innerhalb der virtuellen Welt.}
+          \label{fig:vr-welt2}
+        \end{figure}
+        Als nächstes soll eine Steuerung durch das Anschauen von Entitäten
+        ermöglicht werden. Da A-Frame bereits eine Lösung für das 
+        blickorientierte Klicken zur Verfügung stellt, muss zunächst eine
+        Entität erzeugt werden, welches auf Klicken reagiert. Das Framework
+        bietet zwei Möglichkeiten EventListener zu registrieren. Die eine
+        Möglichkeit besteht darin, die EventListener ebenfalls in HTML
+        als Attribut festzulegen. In Abbildung \ref{fig:a-image2} wird
+        ein Click-EventListener registriert, welches die Komponente 
+        sichtbar über \texttt{visible=true} macht. Die zweite Möglichtkeit
+        ist das registrieren eines EventListeners über JavaScript. Diese
+        bietet mehr Möglichkeiten und erlaubt den Zugriff auf Three.js
+        innerhalb einer Entität.
+        \begin{figure}[h]
+          \centering
+          \includegraphics{img/coding/a-image2.png}
+          \caption{Event Registrierung innerhalb von HTML.}
+          \label{fig:a-image2}
+        \end{figure}
+        Um einen EventListener mit JavaScript umzusetzen, muss eine Komponente
+        entwickelt werden. Komponenten in A-Frame sind wiederverwendbare
+        Code-Module, welche zu beliebigen Entitäten hinzugefügt werden
+        können. Diese Entitäten übernehmen dann die Logik der Komponente.
+        Eine Komponente hat folgenden Aufbau (siehe Abb. \ref{fig:komponente1}).
+        \begin{figure}[h]
+          \centering
+          \includegraphics{img/coding/komponente1.png}
+          \caption{Aufbau einer Komponente in A-Frame.}
+          \label{fig:komponente1}
+        \end{figure}
+        Um auf A-Frame Funktionen innerhalb der TypeScript-Datei zugreifen
+        zu können, muss A-Frame zuerst mit einem Packetmanager wie yarn
+        oder npm installiert werden. Aufgrund dessen kann die Importierung
+        von A-Frame innerhalb der HTML-Datei entfernt werden, da nun
+        nurnoch die \texttt{bundle.js}, welche von Webpack generiert wird,
+        importiert werden muss. Diese beinhaltet jeglichen Code, auch den
+        der importierten Module innerhalb einer Komponente. \\
+        Die in Abbildung \ref{fig:komponente1} gezeigte Komponente lässt
+        sich dann über HTML einer Entität hinzufügen 
+        (siehe Abb. \ref{fig:komponente2}).
+        \begin{figure}[h]
+          \centering
+          \includegraphics{img/coding/komponente2.png}
+          \caption{A-Frame Entität mit hinzugefügter Komponente.}
+          \label{fig:komponente2}
+        \end{figure}
+        Mit \texttt{AFRAME.registerComponent(...)} wird eine
+        Komponente für A-Frame erstellt. 
+        Das erste Argument ist vom Typ \texttt{string}
+        und beinhaltet den Namen der Komponente. Das zweite Argument
+        ist ein Objekt, welches die Lifecycle-Methoden einer A-Frame Komponente
+        und ein Schema enthält. \\
+        Das Feld \texttt{\textbf{schema}} gibt an, welche Werte
+        innerhalb des HTML über das Attribut \texttt{standing-area} 
+        in die Komponenten hineingeben werden können. \texttt{feld1}
+        und \texttt{feld2} sind die Namen der Felder. Mit \texttt{type}
+        lässt sich der Typ für den Wert festlegen und \texttt{default}
+        gibt einen Standardwert zurück, sofern keine Information zu diesem
+        Feld mitgegeben wurde. In Abbildung \ref{fig:komponente2} müsste
+        das Attribut um \texttt{standing-area="feld1: Hallo!; feld2: 1338"}
+        erweitert werden, damit der Standardwert überschrieben und ein
+        neuer hineingegeben wird. Die Werte in \texttt{schema} können dann
+        über \texttt{this.data.feld1} oder \texttt{this.data.feld2} 
+        innerhalb der Komponente aufgerufen werden. \\
+        Die \texttt{\textbf{init}}-Methode wird beim ersten Laden einer
+        Entität mit dieser Komponente ausgeführt. Darin lassen sich
+        Werte festlegen, die sich im Laufe der Anwendung nicht mehr 
+        verändern. \\
+        Die \texttt{\textbf{update}}-Methode wird einmalig nach der
+        \texttt{init}-Methode ausgeführt und immer, wenn sich Attribute
+        der Entität verändern. \\
+        Wird die Entität und ihre Komponente gelöscht, wird einmalig
+        die \texttt{update}-Methode ausgeführt. \\
+        Die \texttt{\textbf{tick}}-Methode ist abhängig von der Bildrate der
+        Anwendung. Beträgt die FPS (Bilder pro
+        Sekunde) der Anwendung 60, dann wird diese Methode 60 mal ausgeführt. \\
+        Um das Teleportieren eines Benutzers auf die Position der Entität, 
+        welche angeguckt wird, umzusetzen, wird eine \texttt{<a-box>}
+        verwendet. Diese erhält die Komponente \texttt{standing-area}
+        (siehe Abb. \ref{fig:standing-area1}).
+        \begin{figure}[h]
+          \centering
+          \includegraphics{img/coding/standing-area1.png}
+          \caption{a-box mit der Komponente \texttt{standing-area}.}
+          \label{fig:standing-area1}
+        \end{figure}
+        Der Code innerhalb der Komponente \texttt{standing-area} sieht
+        wie folgt aus (siehe Abb. \ref{fig:standing-area2}).
+        \begin{figure}[h]
+          \centering
+          \includegraphics{img/coding/standing-area2.png}
+          \caption{TypeScript-Code der Komponente \texttt{standing-area}.}
+          \label{fig:standing-area2}
+        \end{figure}
+        \texttt{color} und \texttt{height} 
+        (siehe Abb. \ref{fig:standing-area2}, Zeile 6-7)
+        sind zwei sebst festgelegte
+        Eigenschaften, welche nicht zwingend in einer A-Frame Komponente
+        vorhanden sein müssen. Selbst festgelegte Eigenschaften können
+        auch genutzt werden, um den state (Zustand) einer Komponente
+        zu speichern. \texttt{color} gibt die Farbe der \texttt{<a-box>}
+        an \texttt{height} die Höhe. HTML-Attribute, wie \texttt{width},
+        \texttt{height} oder \texttt{src} können auch über den Code
+        festgelegt werden 
+        (siehe Abb. \ref{fig:standing-area2}, Zeile 28-33). 
+        A-Frame Tags lassen sich über JavaScript wie normale HTML-Tags
+        generieren und auch beispielsweise mit der Methode \texttt{querySelector}
+        selektieren
+        (siehe Abb. \ref{fig:standing-area2}, Zeile 27). Über \texttt{this.el}
+        lässt sich auf die Entität der Komponente zugreifen.
+
+        
       \subsubsection{Lucas Cranachs Werkstatt}
   \section{Ergebnisse}
     \begin{itemize}
@@ -1357,5 +1588,25 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
   \section{Anhang}
     \subsection{Quellenverzeichnis}
       \printbibliography
-    \subsection{Eidesstattliche Erklärung} 
+  
+  \newpage
+  \pagestyle{empty}
+  \section*{Erklärung über die selbständige\\Abfassung der Arbeit}
+    \addcontentsline{toc}{section}{Erklärung über die selbständige Abfassung der Arbeit}
+    Ich versichere, die von mir vorgelegte Arbeit selbständig verfasst zu haben.
+    Alle Stellen, die wörtlich oder sinngemäß aus veröffentlichten oder nicht veröffentlichten Arbeiten anderer entnommen sind,
+    habe ich als entnommen kenntlich gemacht.\\ 
+    Sämtliche Quellen und Hilfsmittel, die ich für die Arbeit benutzt habe, sind
+    angegeben. Die Arbeit hat mit gleichem Inhalt bzw. in wesentlichen Teilen noch keiner anderen Prüfungsbehörde vorgelegen.\\\\
+    \begin{tabular}{cp{7cm}}
+      & \\ 
+      & \\ \hline
+      \small (Ort, Datum, Unterschrift) & \normalsize \\
+    \end{tabular}
+  
+  \newpage
+
+  % Unbeschriftetes Abschlussblatt (Leere Seite)
+  \thispagestyle{empty}
+  \input{leereSeite}
 \end{document}
