@@ -99,6 +99,8 @@ footskip=1cm,headheight=14.599pt]{geometry} % Einrichtung der Seite
 % - \doublespacing  => 2-zeilig 
 \onehalfspacing % Zeilenabstand auf 1,5-zeilig setzen
 
+% Emotes in LaTeX
+
 % Farbboxen (für die Merkkästen in dieser Vorlage):
 \usepackage{tcolorbox}
 \tcbset{colback=white,colframe=orange,
@@ -136,8 +138,67 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
 %% DOKUMENT                                %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
+  % Unbeschriftetes Vorblatt (Leere Seite)
+  \pagestyle{empty} % Seite ohne Kopf- und Fußzeilen
+  \newpage % Neue Seite
+  \input{leereSeite} % Ausgelagerte LaTeX-Datei (hier: leereSeite.tex) einbinden
+
+  \newpage
+
+  % Deckblatt
+  \pagestyle{empty}
+  \begin{titlepage}
+    \includegraphics[scale=1.00]{img/logo_TH-Koeln_CMYK_22pt}\\
+    \begin{center}
+      \Large
+      Technische Hochschule Köln\\
+      Fakultät für Informatik und Ingenieurwissenschaften\\
+      \hrule\par\rule{0pt}{2cm} % Horizontale Trennlinie  mit 2 cm Abtand nach unten erzeugen
+      \LARGE
+      \textsc{B A C H E L O R A R B E I T}\\
+      \vspace{1cm} % Vertikaler Abstand von 1cm erzeugen
+      \huge
+      Entwicklung von Darstellungs- und Interaktionsmöglichkeiten in Virtual Reality für das Cranach Digital Archive\\
+      \vspace{1cm}
+      \large
+      Vorgelegt an der TH Köln\\
+      Campus Gummersbach\\
+      im Studiengang\\
+      Medieninformatik\\ 
+      \vspace{1.0cm}
+      ausgearbeitet von:\\
+      \textsc{Nikolas Beckel}\\
+      (Matrikelnummer: 11103435)\\
+      \vspace{1.5cm}
+      \begin{tabular}{ll} % Einfache Tabelle ohne Rahmen, mit 2 Spalten erzeugen
+          \textbf{Erster Prüfer:} & Prof. Christian Noss \\
+          \textbf{Zweiter Prüfer:} & Matthias Groß \\
+      \end{tabular}
+      \vspace{1.5cm}
+      \\Gummersbach, im November 2020
+    \end{center}    
+  \end{titlepage}
+
+  % Inhaltsverzeichnis
   \tableofcontents
   \newpage
+
+  % Abbildungsverzeichnis
+  \section*{Abbildungsverzeichnis}
+  \addcontentsline{toc}{section}{Abbildungsverzeichnis} % Manuellen Eintrag im Inhaltsverzeichnis erzeugen
+  \renewcommand{\listfigurename}{} % Name des Abbildungsverzeichnisses ändern
+  \listoffigures
+
+  % Tabellenverzeichnis
+  \section*{Tabellenverzeichnis}
+  \addcontentsline{toc}{section}{Tabellenverzeichnis} % Manuellen Eintrag im Inhaltsverzeichnis erzeugen
+  \renewcommand{\listtablename}{} % Name des Abbildungsverzeichnisses ändern
+  \listoftables
+  \newpage
+
+  \pagestyle{plain}
+
+  % Die Bachelorarbeit
   \section{Einleitung}
     % \begin{itemize}
     %   \item Das Thema vorzustellen
@@ -311,7 +372,17 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
     Durch andere VR-Produkte, die ebenfalls im musealen Bereich entwickelt wurden, lassen
     sich Fehler vermeiden und etablierte Ideen für das eigene Produkt umsetzen.
     \subsection{Aktueller Forschungsstand von Virtual Reality}
-      
+      Virtual Reality ist mittlerweile eine Branche, welche Einzug in viele Bereiche der
+      Industrie gefunden hat. Die Automobilindustrie nutzt Virtual Reality um Prototypen
+      zu entwickeln. Durch dieses Vorgehen lassen sich Materialkosten sparen und auftretende
+      Fehler frühzeitig erkennen. Die Medizin kann anhand von Virtual Reality die
+      Ausbildung von angehenden Ärzten vereinfachen, da diese in einer virtuellen Welt
+      den menschlichen Körper besser betrachten und dementsprechend verstehen können. Und
+      die Spiele-Industrie, die einen großen Teil zur Entwicklung von
+      VR-Brillen auf dem Massenmarkt beigetragen haben, erfährt ganz neue Möglichkeiten 
+      den Spielern ein einzigartiges Spielerlebnis zu geben. Virtual Reality wird 
+      in weiteren Branchen Anwendung finden und in naher Zukunft zu
+      einer Technologie gehören, auf die sich nicht mehr verzichten lässt.
       \subsubsection{Entstehung}
         Virtual Reality ist keine neuartige Technologie, sondern existiert
         bereits seit den 60er Jahren. Ivan Sutherland forschte als Erster an immersiven 
@@ -363,8 +434,12 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
         international durchsetzen und ist jährlich mit etwa 500 Teilnehmern einer der
         größten Konferenzen zu diesem Thema.
         Seit 2003 hat zudem die Gesellschaft für Informatik eine Fachgruppe für das Thema
-        Virtual und Augmented Reality. [\cite[19-21]{Dorner2013}]
-        --- --- (Bisschen noch was zum aktuellen Stand schreiben)
+        Virtual und Augmented Reality. [\cite[19-21]{Dorner2013}] \\
+        Heutzutage haben sich die Head-Mounted-Displays, oder einfach VR-Brillen genannt,
+        mit Infrarot als Sensorik auf dem Massenmarkt durchgesetzt. Diese sind sehr kompakt
+        und benötigen, je nach Anbieter, keinen Computer mehr. Sie funktionieren autark und
+        übernehmen jegliche Berechnung in der VR-Brille. Vorreiter dieser Branche sind unter
+        anderem Oculus von Facebook und Vive von HTC in Kooperation mit Valve.
       \subsubsection{Wahrnehmungsaspekte} \label{Wahrnehmungsaspekte}
         Wie Menschen Informationen wahrnehmen, ist ein wichtiger Aspekt für die Gestaltung
         von virtuellen Welten. In einer perfekten virtuellen Realität würde der Konsument
@@ -470,7 +545,6 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
         der richtigen Gefühle des Benutzers eine erfolgreiche 
         Nutzungserfahrung hervorbringen können.
       \subsubsection{VR-Brillen}
-        (Etwas mehr auf die Technik dahinter eingehen?)
         Neben den gesamten Aspekten, die es für die Erstellung von
         Nutzungserfahrungen innerhalb virtueller Welten zu berücksichtigen gibt, 
         muss das technische System ebenfalls jene Aspekte
@@ -627,8 +701,6 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
         benötigen die wenigsten Ressourcen für eine hohe Zugänglichkeit, wodurch sich dieser
         Entwicklungsansatz auch für das Forschungsprojekt anbietet, da die vorhandenen 
         Ressourcen gering sind.
-        \subsubsection{Aktuelle Technologien}
-        
     \subsection{Virtual Reality im musealen Kontext}
       Die Idee Kunst in einer virtuellen Realität darzustellen, ist keine neue Idee.
       Immer wieder wagten sich Museem daran, stellten Konzepte auf, sammelten
@@ -919,30 +991,41 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
       Unreal Engine\footnote{Unreal Engine | \url{https://www.unrealengine.com/en-US/} (09.11.2020)} 
       sind Softwarelösungen, hinter welchen zwei große
       Firmen stehen, die diese seit Jahren entwickeln. Beide Spiele-Engines bieten eine
-      große Community und zudem eine ausführliche Dokumentation.
+      große Community und zudem eine ausführliche Dokumentation
+      \footnote{Unreal Engine Dokumentation | \url{https://docs.unrealengine.com/en-US/index.html}; Unity Dokumentation | \url{https://docs.unity3d.com/Manual/index.html} (11.11.2020)}
+      .
       So werden jene Softwarelösungen in die Auswahl der Technologie des vorliegenden
       Forschungsprojektes miteinbezogen. \\
       Ein weiteres populäres Framework ist React 360\footnote{React 360 | \url{https://facebook.github.io/react-360/} (09.11.2020)}
       (8.400 Stars auf GitHub\footnote{React 360 auf GitHub | \url{https://github.com/facebook/react-360} (09.11.2020)})
-      und wird von Facebook weiterentwickelt. 
+      und wird von Facebook entwickelt. 
       Zusätzlich zu dem React-Ökosystem bietet dieses in Kombination mit WebGL und WebXR
-      die Möglichkeit, VR-Systeme für das Web zu entwickeln.      
+      die Möglichkeit, VR-Systeme für das Web zu entwickeln
+      \footnote{React 360 auf GitHub | \url{https://github.com/facebook/react-360} (11.11.2020)}.      
       Da das React-Ökosystem sehr beliebt und verbreitet
       ist, wird dieses ebenfalls in die Auswahl der vorliegenden 
       Entwicklung miteinbezogen.\\
       Das nächste Framework, welches laut GitHub (12.000 Stars\footnote{A-Frame auf GitHub | \url{https://github.com/aframevr/aframe} (09.11.2020)}) 
       populärer als React 360 ist, ist A-Frame\footnote{A-Frame | \url{https://aframe.io/} (09.11.2020)}
       von Mozilla und Supermedium. Mit A-Frame lassen sich ebenfalls dank
-      WebGL und WebXR VR-Systeme für das Web entwickeln. A-Frame ist für seine große und
+      WebGL und WebXR VR-Systeme für das Web entwickeln
+      \footnote{A-Frame Dokumentation | \url{https://aframe.io/docs/1.0.0/introduction/} (11.11.2020)}
+      . A-Frame ist für seine große und
       hilfsbereite Community bekannt und hat eine sehr ausführliche und umfangreiche
-      Dokumentation. Da dies wichtige Kritierien für eine Entwicklung darstellen, 
+      Dokumentation
+      \footnote{A-Frame Community | \url{https://aframe.io/community/}; A-Frame Dokumentation | \url{https://aframe.io/docs/1.0.0/introduction/} (11.11.2020)}
+      . Da dies wichtige Kritierien für eine Entwicklung darstellen, 
       wird auch dieses Framework in die Auswahl miteinbezogen.\\
       Als letzte Library wird Three.js\footnote{Three.js | \url{https://threejs.org/} (09.11.2020)}
       in Betracht gezogen. Three.js bietet eine umfangreiche
       Library für das Entwickeln von 3D-Anwendungen im Web. Virtual Reality wird ebenfalls
-      unterstützt. Da Three.js sehr mächtig ist, wird diese Library sogar von React 360
+      unterstützt
+      \footnote{Three.js WebVR Dokumentation | \url{https://threejs.org/docs/index.html\#manual/en/introduction/How-to-create-VR-content} (11.11.2020)}
+      . Da Three.js sehr mächtig ist, wird diese Library sogar von React 360
       und A-Frame genutzt, um komplexe Berechnungen und Darstellungen 
-      im Browser möglich zu machen.
+      im Browser möglich zu machen
+      \footnote{Three.js in A-Frame | \url{https://aframe.io/docs/1.0.0/introduction/developing-with-threejs.html}; Three.js in React 360 | \url{https://facebook.github.io/react-360/docs/what-is.html} (11.11.2020)}
+      .
       Three.js ist mit fast 65.000 Stars\footnote{Three.js auf GitHub | \url{https://github.com/mrdoob/three.js/} (09.11.2020)}
       auf GitHub die populärste der auf GitHub 
       vorhandenen Librarys / Frameworks, um WebXR-Anwendungen zu entwickeln. Dementsprechend
@@ -956,7 +1039,6 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
         hauptsächlich Spiele entwickelt werden können. 
         Durch den großen Funktionsumfang von Unity lassen sich auch
         Anwendungen entwickeln, welche sinnvoll für Industrie aber auch Museen sind.
-        (Crossplattform-Portierung eingehen)
         Die Entwicklungsumgebung bietet viele grafische Oberflächen, womit sich ganze
         3D-Szenen per Maus gestalten lassen (siehe Abb. \ref{fig:unity1}). 
         \begin{figure}[t]
@@ -976,6 +1058,8 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
           zu erweitern
           \item Toolkits für User Interfaces
           \item Unterstützung für Netzwerk- und Multiplayer-Anwendungen
+          \item Cross-Plattform-Entwicklung, um die entwickelte Anwendung auf mehrere
+          Plattformen zu veröffentlichen
         \end{itemize}
         Unity bietet eine umfangreiche Dokumentation für jede dieser Funktionen.
         Entwickelt werden die sogenannten Skripts, welche dann in der Programmiersprache
@@ -988,49 +1072,265 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
         Durch die umfangreiche Benutzeroberfläche und den Funktionen benötigt Unity jedoch 
         eine lange Einarbeitungszeit. 
         Im Rahmen dieses Forschungsprojektes werden jedoch nicht alle Funktionen,
-        die Unity überliefert, benötigt. \\
+        die Unity überliefert, benötigt.
+        \footnote{Unity Dokumentation | \url{https://docs.unity3d.com/Manual/} (11.11.2020)}
+        \\
+        Unity ist kostenlos nutzbar und bietet dabei den vollen Funktionsumfang. Betrug der
+        Umsatz in den letzten zwölf Monaten jedoch über 100.000\$, muss eine kommerzielle
+        Lizenz erworben werden \footnote{Unity Pläne | \url{https://store.unity.com/\#plans-individual} (11.11.2020)}.
+        \\
         Die vorliegende Tabelle stellt zusammenfassend die Vor- und Nachteile der Nutzung
         von Unity für das eigene Forschungsprojekt dar (siehe Tabelle \ref{tab:vor-und-nachteile-unity}).
-        \begin{table}[t]
+        \begin{table}[h]
           \begin{center}
             \begin{tabular}{| c | c |}
               \hline
               \textbf{Vorteile} & \textbf{Nachteile} \\ \hline
               Stetige Weiterentwicklung & Lange Einarbeitungszeit \\ \hline
-              Umfangreicher Funktionsumfang & Überladung an Funktionen \\ \hline
+              Umfangreicher Funktionsumfang & \\ \hline
               Grafische Benutzeroberfläche inklusive Editor & \\ \hline
-              Mitgelieferte Entwicklungsumgebung & \\
+              Mitgelieferte Entwicklungsumgebung & \\ \hline
+              Cross-Plattform-Entwicklung & \\ \hline
+              Kostenlos nutzbar & \\
               \hline
             \end{tabular}
             \caption{Vor- und Nachteile der Unity Engine.\label{tab:vor-und-nachteile-unity}}
           \end{center}
         \end{table}
-        \newpage
       \subsubsection{Unreal Engine}
         Die Unreal Engine ist, verglichen mit den anderen Technologien, ähnlich zur 
         Unity Engine. Dennoch hat diese Software einige andere Ansätze. Was sehr ähnlich
         zur Unity Engine ist, ist der weitläufige Funktionsumfang und die grafische 
-        Benutzeroberfläche. Auch mit Hilfe dieser Technologie lassen sich über 
-        einen 3D-Editor Entitäten bearbeiten und in Szenen positionieren. 
+        Benutzeroberfläche (siehe Abb. \ref{fig:unreal1}). 
+        Auch mit Hilfe dieser Technologie lassen sich über 
+        einen 3D-Editor Entitäten bearbeiten und in Szenen positionieren.
+        \begin{figure}[t]
+          \centering
+          \includegraphics[scale=0.35]{img/unreal1.png}
+          \caption{Unreal Engine Entwicklungsumgebung.}
+          \label{fig:unreal1}
+        \end{figure}
         Zusätzlich verfügt die Unreal Engine,
-        für Personen die nicht programmieren können, über ein sogenanntes Blueprint-System.
+        für Personen die nicht programmieren können, über ein sogenanntes Blueprint-System
+        (siehe Abb. \ref{fig:unreal2}).
         Damit lassen sich per Drag and Drop Algorithmen grafisch zusammenstellen. Somit
         ist Unreal Engine einsteigerfreundlich für Nicht-Entwickler.
-        Wenn jedoch komplexere Algorithmen gewünscht sind, muss die Programmiersprache
-        C++ angewandt werden. Dazu sollten Kenntnisse im Bereich C++ 
+        Wenn jedoch komplexere Algorithmen gewünscht sind, wird empfohlen die 
+        Programmiersprache C++ anzuwenden. Dazu sollten Kenntnisse im Bereich C++
         mitgebracht werden. Auch dabei muss, wie bereits bei der Unity Engine aufgezeigt
         wurde, eine gewisse Einarbeitungszeit berücksichtigt werden. \\
+        \begin{figure}[h]
+          \centering
+          \includegraphics[scale=0.35]{img/unreal2.png}
+          \caption{Unreal Engines Blueprint-System.}
+          \label{fig:unreal2}
+        \end{figure}
         Das Endprodukt einer Software kann daraufhin sowohl auf viele verschiedene Plattformen 
         als auch in das Web portiert werden. Die Entwicklung von Webanwendungen
         in der Unreal Engine ist jedoch nur über eine Erweiterung möglich, welche von 
         der Community entwickelt wird. Darin zeichnet sich nicht unbedingt ein Nachteil ab, 
         kann aber unter Umständen problematisch sein. Dies ist von der Aktivität 
-        der Community abhängig, die an dieser Erweiterung arbeitet.
+        der Community abhängig, die an dieser Erweiterung arbeitet. Zum aktuellen
+        Zeitpunkt wird die Erweiterung von der Community weiterentwickelt
+        \footnote{Unreal Engine Dokumentation | \url{https://docs.unrealengine.com/en-US/index.html} (11.11.2020)}.
+        \\
+        Die Unreal Engine ist ebenfalls kostenlos nutzbar, sofern kein kommerzieller
+        Hintergrund bei der Entwicklung einer Anwendung ist\footnote{Unreal Engine Pläne für Nicht-Spiele | \url{https://www.unrealengine.com/en-US/get-now/non-games} (11.11.2020)}.
+        \\
+        Die vorliegende Tabelle zeigt zusammenfassend die Vor- sowie Nachteile der Unreal
+        Engine für dieses Forschungsprojekt auf (siehe Tabelle \ref{tab:vor-und-nachteile-unreal}).
+        \begin{table}[h]
+          \begin{center}
+            \begin{tabular}{| c | c |}
+              \hline
+              \textbf{Vorteile} & \textbf{Nachteile} \\ \hline
+              Stetige Weiterentwicklung & Lange Einarbeitungszeit \\ \hline
+              Umfangreicher Funktionsumfang & \\ \hline
+              Grafische Benutzeroberfläche inklusive Editor & \\ \hline
+              Mitgelieferte Entwicklungsumgebung & \\ \hline
+              Cross-Plattform-Entwicklung & \\ \hline
+              Blueprint-System für Nicht-Entwickler & \\ \hline
+              Kostenlos nutzbar & \\
+              \hline
+            \end{tabular}
+            \caption{Vor- und Nachteile der Unreal Engine.\label{tab:vor-und-nachteile-unreal}}
+          \end{center}
+        \end{table}
       \subsubsection{React 360}
+        React 360 ist ein Framework zur Entwicklung von Cross-Plattform-Anwendungen auf
+        Basis von JavaScript. Wie der Name bereits sagt, stammt React 360 von React ab.
+        Da das React-Ökosystem eine große Community mit sich bringt, gibt es viele
+        Code-Pakete die zur Entwicklung von Webanwendungen mit React genutzt werden können.
+        React 360 baut auf Three.js auf, bietet jedoch ein weiteres Abstraktionslevel und
+        vereinfacht dadurch die Entwicklung. Durch die JavaScript Syntax Extension (JSX)
+        ist es möglich, einfaches HTML mit JavaScript in einer Datei zu kombinieren 
+        \footnote{JSX bei React | \url{https://reactjs.org/docs/introducing-jsx.html} (11.11.2020)}.
+        Dadurch ist der Programmcode für den Entwickler lesbarer und einfacher nachzuvollziehen.
+        Ein Nachteil ist jedoch, dass React 360 keinen 3D-Editor anbietet und dementsprechend
+        auch keine grafische Benutzeroberfläche. 3D-Modelle die
+        an eine bestimmte Position sollen, müssen über den Programmcode positioniert und
+        daraufhin kontrolliert werden. Das bringt einen Mehraufwand mit sich.
+        \footnote{React 360 | \url{https://facebook.github.io/react-360/} (11.11.2020)} \\
+        React 360-Anwendungen werden mit JavaScript entwickelt, was einen leichten Einstieg
+        erlaubt. C\# und C++ sind im Gegensatz zu JavaScript komplexe
+        Programmiersprachen. Unter anderem aufgrund der strengen Typsicherung. Dieser
+        Punkt ist aber auch für einige Entwickler ein Nachteil von JavaScript. Dieses
+        Problem lässt sich aber durch Hilfsmittel für JavaScript und die passende 
+        Entwicklungsumgebung beheben. \\
+        React 360 ist Open Source und steht unter der BSD-Lizenz. Demnach darf man diese
+        Software kostenlos verwenden, verändern und bei Bedarf kommerziell vertreiben. Der
+        Vorteil an Open Source Software ist, dass der Quellcode frei einsehbar ist und 
+        sich bei Bedarf sogar verändern lässt. Das ist auch einer der Gründe, weshalb
+        React und React 360 eine große und aktive Community besitzt. \\
+        Nachfolgend können in der vorliegenden Tabelle (siehe Tabelle \ref{tab:vor-und-nachteile-react}) 
+        die Vor- und Nachteile für das React 360 Framework als Technologie für dieses 
+        Forschungsprojekt festgehalten werden.
+        \begin{table}[h]
+          \begin{center}
+            \begin{tabular}{| c | c |}
+              \hline
+              \textbf{Vorteile} & \textbf{Nachteile} \\ \hline
+              React-Ökosystem & Kein 3D-Editor \\ \hline
+              Einsteigerfreundlich & Keine grafische Benutzeroberfläche \\ \hline
+              Open Source & \\ \hline
+              Kostenlos nutzbar & \\ \hline
+              Cross-Plattform-Entwicklung & \\
+              \hline
+            \end{tabular}
+            \caption{Vor- und Nachteile von React 360.\label{tab:vor-und-nachteile-react}}
+          \end{center}
+        \end{table}
       \subsubsection{A-Frame}
+        A-Frame ist, wie React 360, ein Framework, mit welchem WebXR-Anwendungen
+        entwickelt werden können. Dazu muss ebenfalls in der Programmiersprache 
+        JavaScript entwickelt werden. A-Frame erweitert HTML um eigene 
+        HTML-Elemente, was das Benutzen von geometrischen Entitäten oder 3D-Modelle
+        vereinfacht (siehe Abb. \ref{fig:aframe1}). Damit schafft A-Frame ein 
+        weiteres Abstraktionslevel, was das Programmieren einer VR-Anwendung 
+        deklarativ macht. Prototypen lassen sich bereits ohne das Anwenden von 
+        JavaScript entwickeln, was vor allem den Einstieg immens vereinfacht.
+        \begin{figure}[h]
+          \centering
+          \includegraphics{img/aframe1.png}
+          \caption{HTML-Element aus A-Frame.}
+          \label{fig:aframe1}
+        \end{figure}
+        Ein weiterer Vorteil von A-Frame ist die mitgelieferte grafische 
+        Benutzeroberfläche die im Browser läuft (siehe Abb. \ref{fig:aframe1-gui}).
+        Darüber lassen sich Entitäten positionieren und Komponenten zu diesen 
+        hinzufügen. Wie bereits erwähnt verfügt A-Frame über eine aktive und große
+        Community und bietet deshalb einen Discord-Server an\footnote{Discord ist eine Software zum Schreiben und Telefonieren. Es können öffentliche Server eingerichtet werden mit verschiedenen Chat-Kanälen, in denen sich ausgetauscht werden kann. | \url{https://discord.gg/tGYjkYr} (12.11.2020)}.
+        Auf diesem können jederzeit Fragen zu A-Frame gestellt werden.
+        \begin{figure}[h]
+          \centering
+          \includegraphics[scale=0.3]{img/aframe-editor.png}
+          \caption{Grafische Benutzeroberfläche von A-Frame.}
+          \label{fig:aframe1-gui}
+        \end{figure}
+        A-Frame baut ebenfalls auf Three.js auf, weshalb es auch die Funktionen
+        dieser Library mitbringt. Bei Bedarf lässt sich über JavaScript auf 
+        den vollen Funktionsumfang von Three.js innerhalb von A-Frame Komponenten
+        zugreifen. Das macht das Framework sehr flexibel und mächtig. \\
+        A-Frame ist Open Source und steht unter der MIT-Lizenz. Somit kann dieses
+        Framework kostenlos und ohne Einschränkungen zur Entwicklung der 
+        Prototypen verwendet werden. \\
+        In der vorliegenden Tabelle werden die Vor- sowie Nachteile von A-Frame als
+        Technologie für dieses Forschungsprojekt aufgezeigt (siehe Tabelle \ref{tab:vor-und-nachteile-aframe}).
+        \footnote{A-Frame Dokumentation | \url{https://aframe.io/docs/1.0.0/introduction/}}
+        \begin{table}[h]
+          \begin{center}
+            \begin{tabular}{| c | c |}
+              \hline
+              \textbf{Vorteile} & \textbf{Nachteile} \\ \hline
+              3D-Editor & \\ \hline
+              Grafische Benutzeroberfläche & \\ \hline
+              Einsteigerfreundlich & \\ \hline
+              Keine Programmierkenntnisse notwendig & \\ \hline
+              Communityserver & \\ \hline
+              Open Source & \\ \hline
+              Kostenlos nutzbar & \\ \hline
+              Cross-Plattform-Entwicklung & \\ 
+              \hline
+            \end{tabular}
+            \caption{Vor- und Nachteile von A-Frame.\label{tab:vor-und-nachteile-aframe}}
+          \end{center}
+        \end{table}
       \subsubsection{Three.js}
+        Three.js ist eine Library die auf JavaScript basiert und demnach auch
+        für diese Programmiersprache vorgesehen ist. Ähnlich wie A-Frame bietet
+        Three.js eine Anlaufstelle für ihre Community. Neben einem Discord-Server
+        lässt es sich auch über ein Forum austauschen. Auf der Webseite findet man
+        auch viele Beispielprojekte, die Three.js nutzen. Darunter finden sich auch
+        A-Frame und React 360. \\
+        Three.js bietet wie Unity und Unreal Engine vorprogrammierte Funktionen an
+        wie Physik, Animationen oder einen 3D-Editor. Der Editor ist jedoch, anders
+        als bei A-Frame, nicht im eigenen Projekt integriert, sondern über die
+        Webseite von Three.js erreichbar. In diesem Editor können die
+        Funktionen anhand einer grafischen Benutzeroberfläche ausprobiert und
+        erprobt werden. \\
+        Auf der Webseite wird eine eigene Tutorialreihe angeboten in der auch
+        auf die Entwicklung von WebVR-Anwendungen eingegangen wird. \\
+        Da keine grafische Benutzeroberfläche mitgeliefert wird und alles über den
+        Programmcode erstellt werden muss, steigt die Komplexität bei dieser
+        Technologie. \\
+        Three.js ist Open Source, steht unter der MIT-Lizenz und lässt sich daher
+        kostenfrei ohne Einschränkungen nutzen für die Entwicklung der Prototypen.
+        \footnote{Three.js Webseite | \url{https://threejs.org/}}
       \subsubsection{Ergebnis}
+        Nachfolgend lassen sich in der Tabelle \ref{tab:funktionsumfang-technologien} 
+        die Vor- und Nachteile der einzelnen Technologien festhalten.
+
+        \begin{table}[h]
+          \begin{center}
+            \begin{tabular}{| c | c | c | c | c | c | c |}
+              \hline
+              & \textbf{Unity} & \textbf{Unreal Engine} & \textbf{React 360} & \textbf{A-Frame} & \textbf{Three.js} \\ \hline
+              \textbf{Graf. Benutzeroberfläche} & \checkmark & \checkmark & X & \checkmark & X \\ \hline
+              \textbf{3D-Editor} & \checkmark & \checkmark & X & \checkmark &  \checkmark \\ \hline
+              \textbf{Einsteigerfreundlich} & X & X & \checkmark & \checkmark & \checkmark \\ \hline
+              \textbf{Große Community} & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \\ \hline
+              \textbf{Open Source} & X & X & \checkmark & \checkmark & \checkmark \\ \hline
+              \textbf{Kostenlos nutzbar} & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \\ \hline
+            \end{tabular}
+            \caption{Funktionsumfang aller Technologien.\label{tab:funktionsumfang-technologien}}
+          \end{center}
+        \end{table}
+
+        Diese Tabelle zeigt, dass die meisten Vorteile A-Frame und Three.js 
+        mitbringen. Da in diesem Forschungsprojekt auch Kentnisse im Bereich
+        JavaScript und Webentwicklung mitgebracht werden, spricht dies 
+        zusätzlich für die Entwicklung in einer der 
+        beiden Technologien. \\
+        A-Frame bietet zusätzlich zu Three.js eine grafische Oberfläche, welche
+        in jedem Projekt automatisch integriert und über den Browser zu
+        bedienen ist. Der volle Funktionsumfang von Three.js ist 
+        auch weiterhin in A-Frame
+        enthalten, da das Framework auf dieser Library aufbaut. Dadurch, dass
+        A-Frame auf ein weiteres Abstraktionslevel setzt und viele vorgefertigte
+        Funktionen mitbringt, die in Three.js selbst implementiert werden
+        müssten, ist der Einsatz von A-Frame sinnvoll und benötigt keine große
+        Einarbeitungszeit. \\
       \subsubsection{Weitere Hilfsmittel}
+        Zusätzlich zur Wahl der Technologie lassen sich weitere Hilfsmittel
+        in die Entwicklung der Prototypen hinzuziehen. Diese sollen das
+        Entwickeln und Verwalten des Codes und der Dateien vereinfachen und
+        auch Optimierungen der Peformanz der Anwendung mit sich
+        bringen. \\
+        Zur Versionsverwaltung wird \textbf{Git} in Kombination mit GitHub
+        verwendet. Dadurch können Funktionen implementiert werden ohne den
+        aktuellen und lauffähigen Code zu beeinflussen. Bei erfolgreichen
+        Tests der neuen Funktionen kann dieser Code in die aktuelle Version
+        hinzugefügt werden. Bei Bedarf kann auf alten Code zugegriffen und
+        der Code auch auf diesen Stand zurückgebracht werden. \\
+        Für eine verbesserte Typsicherheit in JavaScript und produktiveres
+        Programmieren wird \textbf{TypeScript} verwendet. So finden Konstrukte
+        wie Interfaces aus der objektorientierten Programmierung auch
+        Anwendung in JavaScript. Das vereinfacht die Entwicklung mit JavaScript
+        und ist skalierbarer. \\
+        Das letzte Hilfsmittel welches verwendet wird ist \textbf{Webpack}. Dies
+        hilft bei der Optimierung des Codes, da es den gesamten JavaScript-Code
+        in eine Datei zusammenfügt und diese keine Leerzeichen, Tabulatoren
+        oder Umbrüche beinhaltet. Dadurch ist die Größe der Datei minimiert.
     \subsection{Entwicklung der Prototypen}
       \subsubsection{Technischer Prototyp}
       \subsubsection{Lucas Cranachs Werkstatt}
@@ -1055,9 +1355,7 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
       \item Ergebnisse deiner Forschung werden im Präsens geschrieben
     \end{itemize}
   \section{Anhang}
-    \subsection{Abbildungen}
-    \subsection{Literaturverzeichnis}
+    \subsection{Quellenverzeichnis}
       \printbibliography
-    \subsection{Abbildungsverzeichnis}
     \subsection{Eidesstattliche Erklärung} 
 \end{document}

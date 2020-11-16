@@ -1,76 +1,74 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Einleitung}{3}{section.2}%
+\contentsline {section}{Abbildungsverzeichnis}{3}{section*.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Grundlage und Datenbasis}{3}{section.6}%
+\contentsline {section}{Tabellenverzeichnis}{3}{section*.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Das Cranach Digital Archive}{3}{subsection.7}%
+\contentsline {section}{\numberline {1}Einleitung}{4}{section.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1}Lucas Cranach der Ältere}{4}{subsubsection.8}%
+\contentsline {section}{\numberline {2}Grundlage und Datenbasis}{4}{section.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2}Martin Luther als Junker Jörg}{5}{subsubsection.9}%
+\contentsline {subsection}{\numberline {2.1}Das Cranach Digital Archive}{4}{subsection.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Konzept und Nutzung von Virtual Reality}{5}{subsection.10}%
+\contentsline {subsubsection}{\numberline {2.1.1}Lucas Cranach der Ältere}{5}{subsubsection.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Theoretische Einordnung}{6}{section.12}%
+\contentsline {subsubsection}{\numberline {2.1.2}Martin Luther als Junker Jörg}{6}{subsubsection.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Aktueller Forschungsstand von Virtual Reality}{7}{subsection.13}%
+\contentsline {subsection}{\numberline {2.2}Konzept und Nutzung von Virtual Reality}{6}{subsection.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.1}Entstehung}{7}{subsubsection.14}%
+\contentsline {section}{\numberline {3}Theoretische Einordnung}{7}{section.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.2}Wahrnehmungsaspekte}{8}{subsubsection.15}%
+\contentsline {subsection}{\numberline {3.1}Aktueller Forschungsstand von Virtual Reality}{8}{subsection.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.3}VR-Brillen}{10}{subsubsection.16}%
+\contentsline {subsubsection}{\numberline {3.1.1}Entstehung}{8}{subsubsection.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.4}Native und webbasierte Anwendungen}{12}{subsubsection.25}%
+\contentsline {subsubsection}{\numberline {3.1.2}Wahrnehmungsaspekte}{9}{subsubsection.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.5}Aktuelle Technologien}{14}{subsubsection.29}%
+\contentsline {subsubsection}{\numberline {3.1.3}VR-Brillen}{11}{subsubsection.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Virtual Reality im musealen Kontext}{14}{subsection.30}%
+\contentsline {subsubsection}{\numberline {3.1.4}Native und webbasierte Anwendungen}{13}{subsubsection.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.1}Chancen und Risiken}{14}{subsubsection.31}%
+\contentsline {subsection}{\numberline {3.2}Virtual Reality im musealen Kontext}{15}{subsection.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.2}Optimierung des Lernprozesses}{16}{subsubsection.32}%
+\contentsline {subsubsection}{\numberline {3.2.1}Chancen und Risiken}{16}{subsubsection.35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3}Aktuelle Lösungen und Umsetzung}{17}{subsubsection.33}%
+\contentsline {subsubsection}{\numberline {3.2.2}Optimierung des Lernprozesses}{18}{subsubsection.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Prototyping}{18}{section.38}%
+\contentsline {subsubsection}{\numberline {3.2.3}Aktuelle Lösungen und Umsetzung}{18}{subsubsection.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Anforderungen an das VR-System}{19}{subsection.39}%
+\contentsline {section}{\numberline {4}Prototyping}{20}{section.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Auswahl der Technologien}{20}{subsection.40}%
+\contentsline {subsection}{\numberline {4.1}Anforderungen an das VR-System}{20}{subsection.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1}Unity}{21}{subsubsection.49}%
+\contentsline {subsection}{\numberline {4.2}Auswahl der Technologien}{22}{subsection.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2}Unreal Engine}{23}{subsubsection.52}%
+\contentsline {subsubsection}{\numberline {4.2.1}Unity}{23}{subsubsection.59}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3}React 360}{24}{subsubsection.53}%
+\contentsline {subsubsection}{\numberline {4.2.2}Unreal Engine}{25}{subsubsection.64}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.4}A-Frame}{24}{subsubsection.54}%
+\contentsline {subsubsection}{\numberline {4.2.3}React 360}{26}{subsubsection.70}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.5}Three.js}{24}{subsubsection.55}%
+\contentsline {subsubsection}{\numberline {4.2.4}A-Frame}{27}{subsubsection.74}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.6}Ergebnis}{24}{subsubsection.56}%
+\contentsline {subsubsection}{\numberline {4.2.5}Three.js}{28}{subsubsection.80}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.7}Weitere Hilfsmittel}{24}{subsubsection.57}%
+\contentsline {subsubsection}{\numberline {4.2.6}Ergebnis}{29}{subsubsection.82}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Entwicklung der Prototypen}{24}{subsection.58}%
+\contentsline {subsubsection}{\numberline {4.2.7}Weitere Hilfsmittel}{30}{subsubsection.84}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.1}Technischer Prototyp}{24}{subsubsection.59}%
+\contentsline {subsection}{\numberline {4.3}Entwicklung der Prototypen}{30}{subsection.85}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.2}Lucas Cranachs Werkstatt}{24}{subsubsection.60}%
+\contentsline {subsubsection}{\numberline {4.3.1}Technischer Prototyp}{31}{subsubsection.86}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Ergebnisse}{24}{section.61}%
+\contentsline {subsubsection}{\numberline {4.3.2}Lucas Cranachs Werkstatt}{31}{subsubsection.87}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Diskussion und Fazit}{24}{section.62}%
+\contentsline {section}{\numberline {5}Ergebnisse}{31}{section.88}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Anhang}{25}{section.63}%
+\contentsline {section}{\numberline {6}Diskussion und Fazit}{31}{section.89}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Abbildungen}{25}{subsection.64}%
+\contentsline {section}{\numberline {7}Anhang}{32}{section.90}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2}Literaturverzeichnis}{25}{subsection.65}%
+\contentsline {subsection}{\numberline {7.1}Quellenverzeichnis}{32}{subsection.91}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3}Abbildungsverzeichnis}{26}{subsection.67}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4}Eidesstattliche Erklärung}{26}{subsection.68}%
+\contentsline {subsection}{\numberline {7.2}Eidesstattliche Erklärung}{33}{subsection.93}%

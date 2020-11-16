@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.1)  10 NOV 2020 19:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.1)  15 NOV 2020 21:12
 entering extended mode
 **"d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/bachelorarbeit.tex"
 ("d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/bachelorarbeit.tex"
@@ -839,23 +839,23 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
  ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.aux")
 \openout1 = `bachelorarbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 138.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 140.
  ("C:\Program Files\MiKTeX\tex/latex/lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -916,7 +916,7 @@ Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box73
-Package hyperref Info: Link coloring ON on input line 138.
+Package hyperref Info: Link coloring ON on input line 140.
  ("C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  ("C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty"
@@ -926,9 +926,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count437
 )
-LaTeX Info: Redefining \ref on input line 138.
-LaTeX Info: Redefining \pageref on input line 138.
-LaTeX Info: Redefining \nameref on input line 138.
+LaTeX Info: Redefining \ref on input line 140.
+LaTeX Info: Redefining \pageref on input line 140.
+LaTeX Info: Redefining \nameref on input line 140.
  ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.out") ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.out")
 \@outlinefile=\write7
 \openout7 = `bachelorarbeit.out'.
@@ -955,114 +955,203 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'bachelorarbeit.bbl' found.
  ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.bbl")
-Package biblatex Info: Reference section=0 on input line 138.
-Package biblatex Info: Reference segment=0 on input line 138.
- ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.toc"
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8.
- ("C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd"
+Package biblatex Info: Reference section=0 on input line 140.
+Package biblatex Info: Reference segment=0 on input line 140.
+ ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\leereSeite.tex") [1
+
+]
+Package epstopdf Info: Source file: <img/logo_TH-Koeln_CMYK_22pt.eps>
+(epstopdf)                    date: 2020-11-11 20:23:28
+(epstopdf)                    size: 531878 bytes
+(epstopdf)             Output file: <img/logo_TH-Koeln_CMYK_22pt-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-11 20:23:28
+(epstopdf)                    size: 25701 bytes
+(epstopdf)             Command: <epstopdf --outfile=img/logo_TH-Koeln_CMYK_22pt-eps-converted-to.pdf img/logo_TH-Koeln_CMYK_22pt.eps>
+(epstopdf)             \includegraphics on input line 151.
+Package epstopdf Info: Output file is already uptodate.
+<img/logo_TH-Koeln_CMYK_22pt-eps-converted-to.pdf, id=156, 115.43124pt x 62.2325pt>
+File: img/logo_TH-Koeln_CMYK_22pt-eps-converted-to.pdf Graphic file (type pdf)
+<use img/logo_TH-Koeln_CMYK_22pt-eps-converted-to.pdf>
+Package pdftex.def Info: img/logo_TH-Koeln_CMYK_22pt-eps-converted-to.pdf  used on input line 151.
+(pdftex.def)             Requested size: 115.43095pt x 62.23235pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 173.
+("C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 173.
  ("C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 8.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 173.
  ("C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 8.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 173.
  ("C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 8.
+(Font)              <14.4> on input line 173.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 8.
+(Font)              <10> on input line 173.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 8.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
+(Font)              <7> on input line 173.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 173.
  ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 173.
  ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-{C:/Users/Nikolas/AppData/Local/MiKTeX/pdftex/config/pdftex.map}])
+) [1{C:/Users/Nikolas/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/logo_TH-Koeln_CMYK_22pt-eps-converted-to.pdf>] ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.toc"
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 12.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 12.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 12.
+ [1])
 \tf@toc=\write8
 \openout8 = `bachelorarbeit.toc'.
 
- [2]
+ [2] ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.lof")
+\tf@lof=\write9
+\openout9 = `bachelorarbeit.lof'.
+
+ ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.lot")
+\tf@lot=\write10
+\openout10 = `bachelorarbeit.lot'.
+
+ [3]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 151.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 151.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 151.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 151.
+(Font)              <5> on input line 212.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 212.
  ("C:\Program Files\MiKTeX\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [3] [4] [5] [6] [7] [8] [9]
-<img/google-cardboard.jpg, id=296, 462.528pt x 406.3983pt>
+) [4] [5] [6] [7] [8] [9] [10]
+<img/google-cardboard.jpg, id=332, 462.528pt x 406.3983pt>
 File: img/google-cardboard.jpg Graphic file (type jpg)
 <use img/google-cardboard.jpg>
-Package pdftex.def Info: img/google-cardboard.jpg  used on input line 497.
+Package pdftex.def Info: img/google-cardboard.jpg  used on input line 571.
 (pdftex.def)             Requested size: 462.52686pt x 406.39731pt.
 
-Overfull \hbox (7.28275pt too wide) in paragraph at lines 497--498
+Overfull \hbox (7.28275pt too wide) in paragraph at lines 571--572
  [][] 
  []
 
-[10] [11 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/google-cardboard.jpg>]
-Underfull \hbox (badness 6542) in paragraph at lines 605--605
+[11] [12 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/google-cardboard.jpg>]
+Underfull \hbox (badness 6542) in paragraph at lines 679--679
 [][][]\T1/lmr/m/n/10 WebAssembly in Uni-ty | [][]$\T1/lmtt/m/n/10 https : / / blogs . unity3d . com / 2018 / 08 / 15 / webassembly-[]is-[]here/$[][]
  []
 
-[12] [13] [14] [15] [16]
-Overfull \hbox (2.5983pt too wide) in paragraph at lines 772--830
+[13] [14] [15] [16] [17]
+Overfull \hbox (2.5983pt too wide) in paragraph at lines 844--902
 \T1/lmr/m/n/12 Ausstellungen gibt, las-sen sich auch vie-le ver-schie-de-ne We-ge fas-sen, sol-che VR-Erfahrungen
  []
 
-[17] [18]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 897.
+[18] [19]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 969.
  ("C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 855--903
+Underfull \hbox (badness 10000) in paragraph at lines 927--975
 
  []
 
-[19] [20]
-<img/unity1.png, id=478, 1445.4pt x 782.925pt>
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 1023--1023
+[][][]\T1/lmr/m/n/10 Three.js Web-VR Do-ku-men-ta-ti-on | [][]$\T1/lmtt/m/n/10 https : / / threejs . org / docs / index . html # manual / en /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+[][][]\T1/lmr/m/n/10 Three.js in A-Frame | [][]$\T1/lmtt/m/n/10 https : / / aframe . io / docs / 1 . 0 . 0 / introduction /
+ []
+
+[21] [22]
+<img/unity1.png, id=543, 1445.4pt x 782.925pt>
 File: img/unity1.png Graphic file (type png)
 <use img/unity1.png>
-Package pdftex.def Info: img/unity1.png  used on input line 964.
+Package pdftex.def Info: img/unity1.png  used on input line 1046.
 (pdftex.def)             Requested size: 433.62335pt x 234.8793pt.
- [21] [22 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/unity1.png>] [23] [24] [25] [26]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1063.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1063.
+ [23 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/unity1.png>]
+<img/unreal1.png, id=561, 1204.5pt x 657.95813pt>
+File: img/unreal1.png Graphic file (type png)
+<use img/unreal1.png>
+Package pdftex.def Info: img/unreal1.png  used on input line 1109.
+(pdftex.def)             Requested size: 421.58131pt x 230.28879pt.
+<img/unreal2.png, id=564, 1204.5pt x 657.95813pt>
+File: img/unreal2.png Graphic file (type png)
+<use img/unreal2.png>
+Package pdftex.def Info: img/unreal2.png  used on input line 1124.
+(pdftex.def)             Requested size: 421.58131pt x 230.28879pt.
+
+Underfull \hbox (badness 5817) in paragraph at lines 1138--1138
+[][][]\T1/lmr/m/n/10 Unreal En-gi-ne Plä-ne für Nicht-Spiele | [][]$\T1/lmtt/m/n/10 https : / / www . unrealengine . com / en-[]US / get-[]now /
+ []
+
+[24]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[25 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/unreal1.png>] [26 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/unreal2.png>]
+<img/aframe1.png, id=596, 365.11406pt x 53.44969pt>
+File: img/aframe1.png Graphic file (type png)
+<use img/aframe1.png>
+Package pdftex.def Info: img/aframe1.png  used on input line 1214.
+(pdftex.def)             Requested size: 365.11316pt x 53.44954pt.
+<img/aframe-editor.png, id=600, 1445.4pt x 705.38531pt>
+File: img/aframe-editor.png Graphic file (type png)
+<use img/aframe-editor.png>
+Package pdftex.def Info: img/aframe-editor.png  used on input line 1226.
+(pdftex.def)             Requested size: 433.62335pt x 211.61722pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[27]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[28 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/aframe1.png> <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/aframe-editor.png>]
+Overfull \hbox (44.3715pt too wide) in paragraph at lines 1285--1295
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1299--1313
+
+ []
+
+[29] [30] [31] [32] [33]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1383.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1383.
  ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1063.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1063.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1383.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1383.
 Package rerunfilecheck Info: File `bachelorarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: F4E2D3115E488711B26EACD938955F47;2748.
+(rerunfilecheck)             Checksum: B9E9590D1A5CD3D56C79AAF716FF1CFC;2646.
 Package logreq Info: Writing requests to 'bachelorarbeit.run.xml'.
 \openout1 = `bachelorarbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27282 strings out of 481199
- 513966 string characters out of 2915343
- 1232564 words of memory out of 3000000
- 42268 multiletter control sequences out of 15000+200000
- 595597 words of font info for 77 fonts, out of 3000000 for 9000
+ 27401 strings out of 481199
+ 516392 string characters out of 2915343
+ 1235114 words of memory out of 3000000
+ 42329 multiletter control sequences out of 15000+200000
+ 611234 words of font info for 86 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 59i,9n,75p,1648b,2229s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on "d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.pdf" (26 pages, 1078095 bytes).
+ 59i,10n,75p,1648b,2229s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on "d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.pdf" (35 pages, 3177376 bytes).
 PDF statistics:
- 593 PDF objects out of 1000 (max. 8388607)
- 105 named destinations out of 1000 (max. 500000)
- 319 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 735 PDF objects out of 1000 (max. 8388607)
+ 139 named destinations out of 1000 (max. 500000)
+ 336 words of extra memory for PDF output out of 10000 (max. 10000000)
 
