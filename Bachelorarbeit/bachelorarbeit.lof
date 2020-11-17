@@ -29,4 +29,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {14}{\ignorespaces a-box mit der Komponente \texttt {standing-area}.\relax }}{36}{figure.caption.94}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {15}{\ignorespaces TypeScript-Code der Komponente \texttt {standing-area}.\relax }}{41}{figure.caption.95}%
+\contentsline {figure}{\numberline {15}{\ignorespaces TypeScript-Code der Komponente \texttt {standing-area}.\relax }}{37}{figure.caption.95}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {16}{\ignorespaces Funktionsfähige Standing Area zum Teleportieren.\relax }}{38}{figure.caption.97}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {17}{\ignorespaces Beschreibung zum Gemälde der ID \texttt {DE\_MdbKL\_946}.\relax }}{39}{figure.caption.98}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {18}{\ignorespaces Beschreibung zum Gemälde der ID \texttt {DE\_MdbKL\_946} innerhalb der virtuellen Welt.\relax }}{39}{figure.caption.99}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {19}{\ignorespaces JSON-Struktur eines Gemäldes.\relax }}{41}{figure.caption.101}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {20}{\ignorespaces Gemälde-Interface in TypeScript.\relax }}{41}{figure.caption.102}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {21}{\ignorespaces Abrufen der Daten innerhalb der \texttt {paintings.json}.\relax }}{42}{figure.caption.103}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {22}{\ignorespaces Codeabschnitt für die Generierung des Gemäldes und dessen Informationen.\relax }}{43}{figure.caption.104}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {23}{\ignorespaces \texttt {createDetailPoints} innerhalb der \texttt {painting}-Komponente.\relax }}{43}{figure.caption.105}%

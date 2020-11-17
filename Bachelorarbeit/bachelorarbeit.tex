@@ -1390,11 +1390,11 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
         \texttt{a-entity}-Tags ist keine A-Frame-spezifische Definition,
         sondern hat die selbe Funktion wie in normalem HTML.
         \texttt{position} hingegen gibt die Position als 3D Vektor, 
-        relativ zum Nullpunkt der Weltkoordinaten. In diesem Fall befindet
+        relativ zum Nullpunkt der Weltkoordinaten an. In diesem Fall befindet
         sich die Entität genau auf dem Nullpunkt der Weltkoordinaten.
         Das HTML-Tag \texttt{\textbf{<a-camera>}} stellt die Kamera und
         somit die Augen des Benutzers innerhalb der VR-Anwendung dar. Die
-        Position der Kamera ist die Position des Benutzers. Eine Kamera
+        Position der Kamera ist auch die des Benutzers. Eine Kamera
         muss platziert werden, da ansonsten keine virtuelle Welt gesehen
         werden kann. Somit ist dieser HTML-Tag zwingend notwendig. \\
         Innerhalb der \texttt{<a-camera>}-Entität befindet sich 
@@ -1406,14 +1406,14 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
         \texttt{fuse=true} wird die blickorientierte Steuerung aktiviert.
         \texttt{fuseTimeout="1000"} gibt an, wie viel Millisekunden 
         auf eine Entität geschaut werden muss, 
-        damit bei dieser Entität der EventListener
+        damit bei dieser der EventListener
         \texttt{click} ausgelöst wird. Somit muss bei einer Entität ein
         EventListener für \texttt{click} festgelegt werden, damit diese auf
         einen blickorientierten Klick reagieren kann. Das Attribut 
         \texttt{color} legt die Farbe des Cursors fest. \\
         Das HTML-Tag \texttt{\textbf{<a-sky>}} bietet eine fertige Lösung,
         um einen Himmel innerhalb der virtuellen Welt anhand einer Bilddatei
-        anzuzeigen. Durch das Attribut \texttt{src="\#sky"} wird eine
+        anzuzeigen. Durch das Attribut \texttt{src="\#sky"} wird die
         Bilddatei mit der ID \texttt{\#sky} aus den Assets geladen. Diese
         Schreibweise ersetzt letztlich die Angabe eines Pfades. \\
         Beim Aufrufen der \texttt{index.html} erscheint folgendes Bild
@@ -1429,13 +1429,18 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
         immer von A-Frame mitgerendert wird. Ein Klick auf diesen Button 
         aktiviert den VR-Modus der Webanwendung. \\
         Als nächster Schritt soll ein Gemälde angezeigt werden. In diesem
-        Beispiel wird erneut das Gemälde auf dem Cranach Digital Archive
+        Beispiel wird das Gemälde aus dem Cranach Digital Archive
         mit der ID \texttt{DE\_MdbKL\_946} verwendet. A-Frame bietet 
         den HTML-Tag \texttt{\textbf{<a-image>}}, um Bilder anzuzeigen.
-        Das Seitenverhältnis der Bilder wird nicht aufrechterhalten, weshalb
-        diese durch die Attribute \text{width} und \text{height} 
+        Das Seitenverhältnis der Bilder wird nicht beibehalten, weshalb
+        diese durch die Attribute \texttt{width} und \texttt{height} 
         festgelegt werden muss. Das Tag wird einfach innerhalb der
-        \texttt{<a-scene>} platziert (siehe Abb. \ref{fig:a-image1}).        
+        \texttt{<a-scene>} platziert (siehe Abb. \ref{fig:a-image1}).
+        An dieser Stelle bietet A-Frame die Möglichkeit, häufig benutzte
+        Eigenschaften von Three.js wie \texttt{height}, \texttt{width}
+        oder \texttt{color} über HTML-Attribute festzulegen. Durch diese
+        Abstraktion muss nicht über JavaScript die Entität manipuliert
+        werden und vereinfacht den Prozess des Prototypings.
         \begin{figure}[h]
           \centering
           \includegraphics{img/coding/a-image1.png}
@@ -1460,9 +1465,9 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
         bietet zwei Möglichkeiten EventListener zu registrieren. Die eine
         Möglichkeit besteht darin, die EventListener ebenfalls in HTML
         als Attribut festzulegen. In Abbildung \ref{fig:a-image2} wird
-        ein Click-EventListener registriert, welches die Komponente 
+        ein \texttt{click}-EventListener registriert, welches die Komponente 
         sichtbar über \texttt{visible=true} macht. Die zweite Möglichtkeit
-        ist das registrieren eines EventListeners über JavaScript. Diese
+        ist das Registrieren eines EventListeners über JavaScript. Diese
         bietet mehr Möglichkeiten und erlaubt den Zugriff auf Three.js
         innerhalb einer Entität.
         \begin{figure}[h]
@@ -1502,15 +1507,15 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
         Komponente für A-Frame erstellt. 
         Das erste Argument ist vom Typ \texttt{string}
         und beinhaltet den Namen der Komponente. Das zweite Argument
-        ist ein Objekt, welches die Lifecycle-Methoden einer A-Frame Komponente
-        und ein Schema enthält. \\
+        ist ein Objekt, welches die Lifecycle-Methoden und ein Schema 
+        einer A-Frame Komponente enthält. \\
         Das Feld \texttt{\textbf{schema}} gibt an, welche Werte
         innerhalb des HTML über das Attribut \texttt{standing-area} 
         in die Komponenten hineingeben werden können. \texttt{feld1}
-        und \texttt{feld2} sind die Namen der Felder. Mit \texttt{type}
+        und \texttt{feld2} sind die Namen der Eigenschaften. Mit \texttt{type}
         lässt sich der Typ für den Wert festlegen und \texttt{default}
-        gibt einen Standardwert zurück, sofern keine Information zu diesem
-        Feld mitgegeben wurde. In Abbildung \ref{fig:komponente2} müsste
+        gibt einen Standardwert zurück, sofern keine Information zu dieser
+        Eigenschaft mitgegeben wurde. In Abbildung \ref{fig:komponente2} müsste
         das Attribut um \texttt{standing-area="feld1: Hallo!; feld2: 1338"}
         erweitert werden, damit der Standardwert überschrieben und ein
         neuer hineingegeben wird. Die Werte in \texttt{schema} können dann
@@ -1540,30 +1545,282 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
         \end{figure}
         Der Code innerhalb der Komponente \texttt{standing-area} sieht
         wie folgt aus (siehe Abb. \ref{fig:standing-area2}).
-        \begin{figure}[h]
+        \begin{figure}
           \centering
           \includegraphics{img/coding/standing-area2.png}
           \caption{TypeScript-Code der Komponente \texttt{standing-area}.}
           \label{fig:standing-area2}
         \end{figure}
-        \texttt{color} und \texttt{height} 
-        (siehe Abb. \ref{fig:standing-area2}, Zeile 6-7)
-        sind zwei sebst festgelegte
-        Eigenschaften, welche nicht zwingend in einer A-Frame Komponente
-        vorhanden sein müssen. Selbst festgelegte Eigenschaften können
-        auch genutzt werden, um den state (Zustand) einer Komponente
-        zu speichern. \texttt{color} gibt die Farbe der \texttt{<a-box>}
-        an \texttt{height} die Höhe. HTML-Attribute, wie \texttt{width},
+        In diesem Beispiel zeigen sich wieder einige Vereinfachungen
+        die A-Frame bietet. Soll die Oberflächentextur einer
+        Entität verändert werden, so lässt sich das über das HTML-Attribut
+        \texttt{src} machen
+        (siehe Abb. \ref{fig:standing-area2}, Zeile 30-33). 
+        Diese Schreibweise erinnert an das klassische
+        HTML-Attribut von einem \texttt{img}-Tag.
+        HTML-Attribute, wie \texttt{width},
         \texttt{height} oder \texttt{src} können auch über den Code
         festgelegt werden 
-        (siehe Abb. \ref{fig:standing-area2}, Zeile 28-33). 
+        (siehe Abb. \ref{fig:standing-area2}, Zeile 28-33). \\
         A-Frame Tags lassen sich über JavaScript wie normale HTML-Tags
         generieren und auch beispielsweise mit der Methode \texttt{querySelector}
         selektieren
         (siehe Abb. \ref{fig:standing-area2}, Zeile 27). Über \texttt{this.el}
-        lässt sich auf die Entität der Komponente zugreifen.
-
-        
+        lässt sich auf die Entität der Komponente zugreifen. \\
+        \texttt{color} legt die Farbe
+        einer Entität fest und
+        \texttt{color} und \texttt{height} 
+        (siehe Abb. \ref{fig:standing-area2}, Zeile 6-7)
+        sind zwei selbst festgelegte
+        Eigenschaften, welche nicht zwingend in einer A-Frame Komponente
+        vorhanden sein müssen. Selbst festgelegte Eigenschaften können
+        auch genutzt werden, um den state (Zustand) einer Komponente
+        zu speichern. \texttt{color} gibt die Farbe der \texttt{<a-box>}
+        an und \texttt{height} die Höhe. \\
+        Die Komponente \texttt{standing-area} führt in ihrer \texttt{init}-
+        Methode zunächst die beiden internen Methoden \texttt{setAttributes}
+        und \texttt{addFootsteps} aus. Erste fügt die notwendigen
+        Attribute hinzu, im das Erscheingungsbild der Entität in der
+        virtuellen Welt festzulegen. \texttt{class} hingehen ist nicht
+        zwingend notwendig, erleichtert jedoch zukünftig das selektieren
+        dieser Entität. Die zweite Methode erzeugt das Element 
+        \texttt{<a-plane>}
+        (siehe Abb. \ref{fig:standing-area2}, Zeile 27). 
+        Dabei handelt es sich um eine zweidimensionale
+        Fläche. Durch das Attribut \texttt{src} erhält es Fußabdrücke
+        als Textur (siehe Abb. \ref{fig:standing-area2}, Zeile 30-33).
+        Anders als die Attribute \texttt{height} oder \texttt{width},
+        sollen laut A-Frame Eigenschaften wie position und rotation,
+        sofern diese über den Code angegeben oder verändert werden,
+        über Three.js manipuliert werden
+        \footnote{A-Frame Best Practices | \url{https://aframe.io/docs/1.0.0/introduction/best-practices.html} (17.11.2020)}.
+        Dies ist schneller als über HTML und spart Leistung ein. \\
+        Das \texttt{<a-plane>}-Tag wird etwas über die \texttt{<a-box>}
+        positioniert. Dadurch, dass das Element der \texttt{<a-box>} angehängt
+        wird, befindet sich dieses Element im DOM innerhalb des \texttt{<a-box>}
+        -Tags. Wenn sich Entitäten innerhalb einer anderen Entität befinden,
+        werden deren Positionsangaben relativ zum Mutterelement angegeben
+        (siehe Abb \ref{fig:standing-area2}, Zeile 35-36). \\
+        Zuletzt wird in der \texttt{init}-Methode der \texttt{click}-EventListener
+        hinzugefügt (siehe Abb. \ref{fig:standing-area2}, Zeile 13-17).
+        Durch den Aufruf von \texttt{.object3D} eines HTML-Elements kann
+        auf die Object3D Repräsentation von Three.js zugegriffen werden.
+        Bei einem Klick auf die Entität wird die aktuelle Weltposition
+        ausgelesen und der Kamera hinzugefügt 
+        (siehe Abb. \ref{fig:standing-area2}, Zeile 15-16). Die \texttt{getCamera}
+        -Methode ist eine globale Methode, welche das Kamera-Element 
+        zurückliefert. \\
+        Somit wird der Benutzer nun zu den Standfläche teleportiert, wenn
+        er diese für 1 Sekunde anschaut 
+        (siehe Abb. \ref{fig:standing-area3}).
+        \begin{figure}[h]
+          \centering
+          \includegraphics[scale=0.3]{img/coding/standing-area3.png}
+          \caption{Funktionsfähige Standing Area zum Teleportieren.}
+          \label{fig:standing-area3}
+        \end{figure}
+        Auf der linken Seite der Abbildung \ref{fig:standing-area3} schaut
+        der Benutzer auf die Standing Area. Rechts daneben zeigt die neue
+        Position des Benutzers auf der Standing Area an. Er befindet sich
+        nun vor dem Gemälde und kann dies genauer betrachten. \\
+        Damit der Benutzer nicht vor einem Gemälde ohne Informationen
+        steht, soll neben dem Gemälde einige Details zu diesem angezeigt
+        werden. A-Frame bietet das Tag \texttt{<a-text>}, womit man 
+        zweidimensionalen Text in der virtuellen Welt anzeigen lassen kann.
+        Damit die Inhalte nicht unübersichtlich werden, wurden die Inhalte
+        auf Autor, Datierung, Zuschreibung und Bildträger beschränkt. 
+        Über das Attribut \texttt{value} kann ein Text festgelegt werden,
+        welches in der virtuellen Welt angezeigt wird
+        (siehe Abb. \ref{fig:description2}). \\
+        \begin{figure}
+          \centering
+          \includegraphics{img/coding/description2.png}
+          \caption{Beschreibung zum Gemälde der ID \texttt{DE\_MdbKL\_946}.}
+          \label{fig:description2}
+        \end{figure}
+        Durch die richtige Positionierung erscheint der Text neben
+        dem Gemälde (siehe Abb. \ref{fig:description1}).
+        \begin{figure}
+          \centering
+          \includegraphics[scale=0.3]{img/coding/description1.png}
+          \caption{Beschreibung zum Gemälde der ID \texttt{DE\_MdbKL\_946} innerhalb der virtuellen Welt.}
+          \label{fig:description1}
+        \end{figure}
+        Neben den Informationen zu einem Gemälde besitzt dieses im Cranach
+        Digital Archive auch mehrere Detailaufnahmen. Diese zeigen besondere
+        Stellen im Gemälde auf und bieten eine hochauflösende Nahaufnahme.
+        Für den Benutzer soll es die Möglichkeit geben diese auch ansehen zu
+        können. Dafür soll ein Button unter den Informationen angezeigt werden,
+        welcher sich anklicken lässt. Wurde dieser angeklickt, erscheinen
+        Punkte auf dem Gemälde, die dort positioniert sind, an denen sich
+        die Nahaufnahmen befinden. Wird einer dieser Punkte angeklickt, 
+        erscheint statt dem Gemälde die Nahaufnahme vor dem Benutzer. Um
+        diese Funktion umzusetzen, müssen zwei weitere Komponenten entwickelt
+        werden. Zum einen der Button, mit welchem die Punkte innerhalb
+        des Gemäldes erscheinen und zum anderen die Punkte selbst, welche
+        das Gemälde durch eine Nahaufnahme ersetzen. Dafür muss das
+        \texttt{src}-Attribut des Gemäldes verändert werden. A-Frame reagiert
+        auf Veränderungen innerhalb des DOM und aktualisiert die Anwendung
+        in Echtzeit. \\
+        Mittlerweile wird der technische Prototyp komplexer und eine
+        Datenstruktur für die Gemälde wird notwendig, da mehrere Nahaufnahmen
+        zu einem Gemälde existieren. Auch die Punkte, die auf dem Gemälde 
+        angezeigt werden, haben eine statische Position innerhalb des 
+        Gemäldes. Da die Datenpflege über HTML langfristig zu komplex und
+        unübersichtlich wird, muss diese ausgelagert werden.
+        Zuerst muss, anhand der Daten die 
+        zur Verfügung stehen, eine Struktur für ein einzelnes
+        Gemälde entwickelt werden.
+        Betrachtet man das aktuelle Cranach Digital Archive und deren Struktur,
+        kommen folgende Informationen zusammen (siehe Tabelle \ref{tab:gemaeldeinfos}).        
+        \begin{table}[h]
+          \begin{center}
+          \begin{tabular}{| c |}
+            \hline
+            \textbf{Gemäldeinformationen} \\ \hline
+            Gemälde ID \\ \hline
+            Titel \\ \hline
+            Zuschreibung \\ \hline
+            Datierung \\ \hline
+            Eigentümer / Besitzer / Standort \\ \hline
+            Maße \\ \hline
+            Bildträger \\ \hline
+            Signatur / Datierung \\ \hline
+            Inschriften / Stempel / Siegel / Beschriftungen \\ \hline
+            Kurzbeschreibung \\ \hline
+            Provenienz \\ \hline
+            Ausstellungen \\ \hline
+            Quellen / Publikationen \\ \hline
+            Forschungsgeschichte / Diskussion \\ \hline
+            Verwandte Arbeiten \\ \hline
+            Material / Technik \\ \hline
+            Erhaltungszustand \\ \hline
+            Restaurierungsgeschichte \\ \hline
+          \end{tabular}
+          \caption{Informationen eines Gemäldes auf \url{http://lucascranach.org}.\label{tab:gemaeldeinfos}}
+          \end{center}
+        \end{table}
+        Nun müssen die folgenden Informationen auf die beschränkt werden, welche in
+        einer virtuellen Realität angezeigt werden sollen. Dabei sollen nur die 
+        Informationen genutzt werden, die sich von ihrer Inhaltsmenge abbilden lassen
+        und für den Benutzer interessant sind. Möchte der Benutzer weitere
+        Informationen erhalten, soll dieser auf einen Button klicken können, um
+        zum Archiv weitergeleitet zu werden. Da es sich um eine Webanwendung und
+        handelt und der Benutzer bereits im Browser ist, stellt dies kein Problem 
+        dar. Nur muss gekennzeichnet werden, dass ein neues Fenster geöffnet wird,
+        denn dies führt zur Brechung der Ortsillusion 
+        aus Kapitel \ref{Wahrnehmungsaspekte}. \\        
+        Um die Informationen in der Anwendung auslesen zu können, werden diese im
+        JavaScript Object Notation (JSON) Format gespeichert. Dieses Format erlaubt das
+        Auslesen von Informationen in JavaScript und anschließend das Speichern dieser
+        in JavaScript-Objekte. \\
+        Folgende Informationen werden für
+        ein Gemälde innerhalb einer virtuellen Welt zur Darstellung benötigt
+        (siehe Abb. \ref{fig:json-aufbau1}).
+        \begin{figure}[h]
+          \centering
+          \includegraphics[scale=0.8]{img/coding/json-aufbau1.png}
+          \caption{JSON-Struktur eines Gemäldes.}
+          \label{fig:json-aufbau1}
+        \end{figure}
+        Da JavaScript beim Auslesen einer JSON-Datei nicht wissen kann,
+        um was für ein Objekttyp es sich handelt, wird zusätzlich ein
+        Objekt in TypeScript angelegt, um innerhalb des Codes Typssicherheit
+        und eine verbesserte Unterstützung der Code Completion innerhalb
+        einer Entwicklungsumgebung gewährleisten 
+        zu können (siehe Abb. \ref{fig:painting-type1}). \\
+        \begin{figure}[h]
+          \centering
+          \includegraphics{img/coding/painting-type1.png}
+          \caption{Gemälde-Interface in TypeScript.}
+          \label{fig:painting-type1}
+        \end{figure}
+        Um ein Gemälde anhand einer JSON-Datei zu generieren,
+        muss das Generieren vollständig auf JavaScript
+        basieren, da das dynamische Auslesen aller Informationen
+        nicht im HTML umgesetzt werden kann. Dafür wird eine 
+        Komponente benötigt,
+        welche die JSON-Datei ausließt und anhand der Daten ein Gemälde,
+        dessen Informationen und Nahaufnahmen-Buttons generiert.
+        Die Komponente \texttt{paintings-builder} wird der 
+        \texttt{<a-scene>} hinzugefügt, da
+        dies beim Erstellen der Szene ausgeführt werden soll. Die
+        Komponente ist im Plural geschrieben, da die Option freigehalten
+        werden soll, mehrere Gemälde generieren zu können.
+        In ihrer \texttt{init}-Methode wird zuerst die JSON-Datei
+        ausgelesen und bei Erfolg \texttt{createPainting(...)}
+        ausgeführt (siehe Abb. \ref{fig:paintings-builder1}).
+        Diese Methode bekommt ein Objekt des Typs \texttt{Painting}
+        (Typdefinition siehe Abb. \ref{fig:painting-type1}). Zum aktuellen
+        Zeitpunkt befindet sich in der JSON-Datei die Informationen
+        zu nur einem Gemälde. Der Code ist jedoch so entwickelt wurden,
+        dass er ohne viel Mehraufwand mehrere Gemälde entgegennehmen kann.
+        \begin{figure}
+          \centering
+          \includegraphics{img/coding/paintings-builder1.png}
+          \caption{Abrufen der Daten innerhalb der \texttt{paintings.json}.}
+          \label{fig:paintings-builder1}
+        \end{figure}
+        Innerhalb der \texttt{createPainting}-Methode wird das Gemälde
+        , die Informationen und die Standing Area erzeugt. Bei der Standing
+        Area handelt es sich um das selbe HTML, nur wurde dies in das
+        JavaScript übersetzt. Da jedes Gemälde eine Standing Area benötigt,
+        wird diese immer mit einem Gemälde mitgeneriert. Für das Verständnis
+        der Umsetzung und um nicht den Rahmen zu sprengen, wird nicht 
+        vollständig auf die \texttt{paintings-builder}-Komponente 
+        eingegangen. \\
+        Die relevantesten Codestellen innerhalb der 
+        \texttt{paintings-builder} sind die, welche das Gemälde und
+        die Informationen dazu generiert (siehe Abb. \ref{fig:paintings-builder2}).
+        \begin{figure}
+          \centering
+          \includegraphics{img/coding/paintings-builder2.png}
+          \caption{Codeabschnitt für die Generierung des Gemäldes und dessen Informationen.}
+          \label{fig:paintings-builder2}
+        \end{figure}
+        Im Gegensatz zum vorherigen HTML, bekommen die Entitäten ihre Daten
+        in ihre zugehörigen Komponenten hineingegeben. Das \text{<a-image>}
+        -Tag bekommt nun eine Komponente namens \texttt{painting} und die 
+        Informationen zum Gemälde werden weiterhin in einem \texttt{<a-entity>}
+        -Tag gebündelt, jedoch bekommt dieses ebenfalls eine Komponente mit dem
+        Namen \texttt{painting-description}. Beide Komponenten bekommen
+        über ihr Schema die notwendigen Informationen, die sie benötigen
+        (siehe Abb. \ref{fig:paintings-builder2}, Zeile 48-53 und Zeile 56-64).
+        So wird kein HTML benötigt und die Daten können dynamisch ausgelesen
+        und in die einzelnen Komponenten hineingegeben werden. \\
+        Die \texttt{painting}-Komponente bekommt neben ihrer eigenen Gemälde-ID
+        und deren Pfad zur Bilddatei noch die Informationen der einzelnen
+        Nahaufnahmen, da diese innerhalb des Gemäldes generiert werden müssen.
+        In der \texttt{init}-Methode dieser Komponente wird die 
+        \texttt{createDetailPoints}-Methode aufgerufen 
+        (siehe Abb. \ref{fig:painting1}).
+        \begin{figure}
+          \centering
+          \includegraphics{img/coding/painting1.png}
+          \caption{\texttt{createDetailPoints} innerhalb der \texttt{painting}-Komponente.}
+          \label{fig:painting1}
+        \end{figure}
+        Diese nimmt folgende Argumente entgegen: \texttt{id: string} und
+        \texttt{closeUps: CloseUp[]}. Die \texttt{id} des Gemäldes wird
+        innerhalb der \texttt{image-switcher} Komponente benötigt. Die
+        Informationen der Nahaufnahmen sind in dem Parameter 
+        \texttt{closeUps} gespeichert. Dieses Objekt beinhaltet neben
+        der \texttt{id} und \texttt{src} auch die Positionen der Punkte
+        relativ zum Gemälde. In der \texttt{image-switcher}-Komponente
+        wird der \texttt{click}-EventListener registriert, welcher bei
+        einem Klick das Gemälde mit einer Nahaufnahme ersetzt und die 
+        aktivierten Punkte ausblendet. Durch
+        \texttt{visible = false} werden die Punkte initital unsichtbar gestellt
+        (siehe Abb. \ref{fig:painting1}, Zeile 77). \\
+        Die \texttt{painting-description}-Komponente aus Abbildung 
+        \ref{fig:paintings-builder2} hat sich nicht stark
+        zu seiner HTML-Version verändert. Er generiert zusätzlich noch
+        eine \texttt{<a-box>}, welche den Button darstellen soll. Dieser
+        Button erhält eine Komponente namens \texttt{detail-button}, welche
+        bei Klicken das Anzeigen der möglichen Nahaufnahme-Punkten
+        ermöglicht. Dabei erhält der Button den Schriftzug "Zurück", um 
+        von einer Nahaufnahme wieder zurück zum Gemälde umzuschalten. \\
+            
       \subsubsection{Lucas Cranachs Werkstatt}
   \section{Ergebnisse}
     \begin{itemize}
