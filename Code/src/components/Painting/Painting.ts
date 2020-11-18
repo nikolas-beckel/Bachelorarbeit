@@ -11,6 +11,10 @@ AFRAME.registerComponent<PaintingComponent>('painting', {
             type: 'string',
             default: ''
         },
+        ratio: {
+            type: 'number',
+            default: NaN
+        },
         closeUps: {
             default: [],
             parse: (value: string) => JSON.parse(value),
@@ -19,10 +23,10 @@ AFRAME.registerComponent<PaintingComponent>('painting', {
     },
 
     init() {
-        const { id, src, closeUps }: Painting = this.data;
+        const { id, src, ratio, closeUps }: Painting = this.data;
 
-        this.setPaintingAttributes(id, src);
-        this.createFrame();
+        this.setPaintingAttributes(id, src, ratio);
+        this.createFrame(ratio);
         this.createDetailPoints(id, closeUps);
     },
 
@@ -31,24 +35,30 @@ AFRAME.registerComponent<PaintingComponent>('painting', {
      * virtuellen Welt in korrekter Größe betrachtet werden kann.
      * @param id Gemälde-ID.
      * @param paintingSrc URL-Pfad zum Gemälde.
+     * @param paintingRatio Verhältnis Bildbreite zu -höhe.
      */
-    setPaintingAttributes(id: string, paintingSrc: string) {
+    setPaintingAttributes(id: string, paintingSrc: string, paintingRatio: number) {
+        const paintingWidth = 2;
         this.el.setAttribute('id', id);
         this.el.setAttribute('class', 'painting');
         this.el.setAttribute('src', paintingSrc);
-        this.el.setAttribute('height', '2.98');
-        this.el.setAttribute('width', '2');
+        this.el.setAttribute('height', (paintingWidth * paintingRatio).toString());
+        this.el.setAttribute('width', paintingWidth.toString());
+        console.log("width:", paintingWidth.toString())
+        console.log("height:", (paintingWidth * paintingRatio))
     },
 
     /**
      * Erstellt den Rahmen eines Gemäldes und
      * fügt es hinter das Gemälde hinzu.
+     * @param paintingRatio Verhältnis Bildbreite zu -höhe.
      */
-    createFrame() {
+    createFrame(paintingRatio: number) {
+        const frameWidth = 2.15;
         const frame = document.createElement('a-box');
         frame.setAttribute('class', 'frame');
-        frame.setAttribute('height', '3.13');
-        frame.setAttribute('width', '2.15');
+        frame.setAttribute('height', (frameWidth * paintingRatio).toString());
+        frame.setAttribute('width', frameWidth.toString());
         frame.setAttribute('depth', '0.05');
         frame.setAttribute('color', '#694c25');
         frame.object3D.position.set(0, 0, -0.03);

@@ -7,6 +7,7 @@
     "dating": "1521",
     "support": "Malerei auf Buchenholz",
     "description": "Brustildnis Martin Luthers als Junker Jörg vor grünem Hintergrund, nach rechts gewandt. Luther trägt ein schwarzes Gewand dessen Kragen vom buschigen braunen Bart verdeckt wird. Die linke Hand ruht auf dem Knauf eines Schwertes. [Görres, cda 2015]",
+    "ratio": 1.243346007604563,
     "closeUps": [
       {
         "id": "020",
@@ -21,8 +22,8 @@
         "id": "016",
         "src": "https://localhost:8080/public/assets/paintings/DE_MdbKL_946/Detail-016.jpg",
         "position": {
-          "x": -0.483,
-          "y": -1.051,
+          "x": -0.438,
+          "y": -0.874,
           "z": 0
         }
       },
@@ -31,7 +32,7 @@
         "src": "https://localhost:8080/public/assets/paintings/DE_MdbKL_946/Detail-014.jpg",
         "position": {
           "x": 0.153,
-          "y": 0.354,
+          "y": 0.3,
           "z": 0
         }
       },
@@ -49,7 +50,7 @@
         "src": "https://localhost:8080/public/assets/paintings/DE_MdbKL_946/Detail-019.jpg",
         "position": {
           "x": 0.709,
-          "y": 0.988,
+          "y": 0.64,
           "z": 0
         }
       },
@@ -72,6 +73,7 @@
     "dating": "1521 - 1522",
     "support": "Malerei auf Buchenholz",
     "description": "Halbfiguriges Bildnis Martin Luthers als Junker Jörg vor grünem Hintergrund, nach rechts gewandt. Luther trägt ein schwarzes Gewand dessen Kragen vom buschigen braunen Bart verdeckt wird. Die rechte Wand ist wie zu einem Redegestus geöffnet, der rechte Arm ist angewinkelt, auf ihm ruht der Knauf des Schwertes, das Luther mit der Linken hält. [Görres, cda 2015]",
+    "ratio": 1.484395604395604,
     "closeUps": [
       {
         "id": "006",
@@ -119,6 +121,7 @@
     "dating": "1537",
     "support": "Malerei auf Buchenholz",
     "description": "Halbfiguriges Bildnis Martin Luthers und Katharina von Boras im Dreiviertelprofil. Luther blickt nach rechts, Katharina nach links. Der bärtige Luther ist als Junker Jörg in schwarz gekleidet und legt seine Hand auf den Knauf seines Schwertes. Im unteren Bereich ist die angeschnittene linke Hand unterhalb der Parierstange angesetzt. Die Tafel besitzt einen grünen Hintergrund und ist signiert und datiert \"1537\". [http://www.baumanconservation.com/SolvingTheCranachMystery.html]",
+    "ratio": 1.479717813051146,
     "closeUps": [
       {
         "id": "005",

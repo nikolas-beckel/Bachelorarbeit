@@ -10,7 +10,7 @@ AFRAME.registerComponent<PaintingsBuilderComponent>('paintings-builder', {
         const positions: Positions[] = [
             {
                 painting: new THREE.Vector3(0, 2, -3),
-                description: new THREE.Vector3(1.4, 3.4, -3),
+                description: new THREE.Vector3(1.4, 3.2, -3),
                 standingArea: new THREE.Vector3(0, 0.4, -1),
                 rotation: 0,
             },
@@ -51,6 +51,7 @@ AFRAME.registerComponent<PaintingsBuilderComponent>('paintings-builder', {
             'painting',
             'id:' + paintingData.id + ';' +
             'src:' + paintingData.src + ';' +
+            'ratio:' + paintingData.ratio + ';' +
             'closeUps:' + JSON.stringify(paintingData.closeUps)
         );
         painting.object3D.position.set(positions.painting.x, positions.painting.y, positions.painting.z);

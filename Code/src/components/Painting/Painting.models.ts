@@ -6,13 +6,15 @@ export interface PaintingComponent extends ComponentDefinition {
      * virtuellen Welt in korrekter Größe betrachtet werden kann.
      * @param id Gemälde-ID.
      * @param paintingSrc URL-Pfad zum Gemälde.
+     * @param paintingSrc Verhältnis Bildbreite zu -höhe.
      */
-    setPaintingAttributes: (id: string, paintingSrc: string) => void;
+    setPaintingAttributes: (id: string, paintingSrc: string, paintingRatio: number) => void;
     /**
      * Erstellt den Rahmen eines Gemäldes und
      * fügt es hinter das Gemälde hinzu.
+     * @param paintingSrc Verhältnis Bildbreite zu -höhe.
      */
-    createFrame: () => void;
+    createFrame: (paintingRatio: number) => void;
     /**
      * Positioniert die Detail-Buttons innerhalb eines
      * Gemäldes.
@@ -42,6 +44,8 @@ export interface Painting {
     support: string;
     /** Beschreibung des Gemäldes aus dem Cranach Digital Archive */
     description: string;
+    /** Verhältnis der Bildbreite und -höhe  */
+    ratio: number;
     /** Nahaufnahmen des Gemäldes aus dem Cranach Digital Archive */
     closeUps: CloseUp[];
 }
