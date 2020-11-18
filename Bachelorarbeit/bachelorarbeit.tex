@@ -1818,10 +1818,94 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
         eine \texttt{<a-box>}, welche den Button darstellen soll. Dieser
         Button erhält eine Komponente namens \texttt{detail-button}, welche
         bei Klicken das Anzeigen der möglichen Nahaufnahme-Punkten
-        ermöglicht. Dabei erhält der Button den Schriftzug "Zurück", um 
-        von einer Nahaufnahme wieder zurück zum Gemälde umzuschalten. \\
-            
+        ermöglicht. Dabei erhält der Button den Schriftzug \glqq Zurück\grqq{}, 
+        um von einer Nahaufnahme wieder zurück zum Gemälde umzuschalten. \\
+        Der erste Prototyp ist somit fertig und zeigt ein Gemälde mit 
+        Informationen an und einen Button, um die Details einzublenden
+        (siehe Abb. \ref{fig:paintings-builder3}).
+        \begin{figure}
+          \centering
+          \includegraphics[scale=0.3]{img/coding/paintings-builder3.png}
+          \caption{Ansicht des ersten fertigen Prototypen.}
+          \label{fig:paintings-builder3}
+        \end{figure}
+        Klickt der Benutzer auf den Button \glqq Detailansicht\grqq{},
+        erscheinen blaue Punkte auf dem Gemälde.
+        (siehe Abb. \ref{fig:paintings-builder4}).
+        \begin{figure}
+          \centering
+          \includegraphics[scale=0.3]{img/coding/paintings-builder4.png}
+          \caption{Detailpunkte auf dem Gemälde nach einem Klick auf den \glqq Detailansicht\grqq{}-Button.}
+          \label{fig:paintings-builder4}
+        \end{figure}
+        Zu diesen markierten Stellen existieren Nahaufnahmen von dem Gemälde.
+        Durch einen weiteren Klick auf einer der Punkte, wird das
+        aktuelle Gemälde durch eine Nahaufnahme ersetzt
+        (siehe Abb. \ref{fig:paintings-builder5}).
+        \begin{figure}
+          \centering
+          \includegraphics[scale=0.3]{img/coding/paintings-builder5.png}
+          \caption{Eine Nahaufnahme des Gemäldes mit der ID \texttt{DE\_MdbKL\_946}.}
+          \label{fig:paintings-builder5}
+        \end{figure}
+        Der erste technische Prototyp soll das Fundament der weiteren 
+        Prototypen darstellen. Durch das komponentenbasierte System von
+        A-Frame, lässt sich diese Art der Darstellung in andere Szenen
+        und in einem anderen Kontext wiederverwenden.
       \subsubsection{Lucas Cranachs Werkstatt}
+      Lucas Cranach d. Ä. entwarf vieler seiner Gemälde in seiner
+      eigenen Werkstatt. Ähnlich wie das Deutsche Auswandererhaus soll
+      bei diesem Prototyp der Benutzer in ein Szenario aus der Vergangenheit
+      versetzt werden, um das Erlebnis immersiver zu gestalten. 
+      Da Archivalien von Lucas Cranach d. Ä. zur 
+      Verfügung stehen, wird ein Gemälde und 
+      Dokumente aus dem selben Jahr genommen, um den Benutzer in einen
+      Tag von Lucas Cranac d. Ä. zu versetzen. Die Schrift der Archivalien
+      sind für den Benutzer unleserlich. Durch einen Klick
+      auf einen Button soll die Beschreibung aus dem Cranach
+      Digital Archive zu diesen Dokumenten vorgetragen werden. Das soll
+      dem Benutzer das Gefühl geben, zu wissen, was bei Lucas Cranach d. Ä.
+      an diesem Tag vorgegangen ist. \\
+      Dieser Prototyp wird qualitativ nicht an eine hochwertige Produktion
+      gelangen, wird aber zeigen, wie durch A-Frame solche Konzepte
+      umgesetzt werden können. \\
+      Um eine Werkstatt als Szene in A-Frame umzusetzen, werden 3D-Modelle
+      benötigt. Nach einer kurzen Recherche bei Google haben sich
+      Poly von Google\footnote{Poly von Google | \url{https://poly.google.com/} (18.11.2020)}
+      und Sketchfab\footnote{Sketchfab | \url{https://sketchfab.com/} (18.11.2020)}
+      als Plattformen für kostenfreie 3D-Modelle hervorgehoben. \\
+      A-Frame bietet die Möglichkeit, ganze 3D-Modelle ebenfalls über ein
+      HTML-Tag einzubinden. Dabei erlaubt das Framework das Einbinden von
+      mehreren Datentypen, wie zum Beispiel glTF oder OBJ. In diesem Projekt
+      wurde sich für glTF entschieden, da dies eine royalty-free Sepzifikation
+      für 3D-Modelle, leichtgewichtig und interoperabel ist\footnote{glTF Overview | \url{https://www.khronos.org/gltf/} (18.11.2020)}.
+      Sketchfab wie auch Poly bieten glTF als Dateiformat an. \\
+      Das Einbinden eines glTF-Modells erfolgt über das A-Frame-Tag 
+      \texttt{\textbf{<a-gltf-model>}}. Das Modell lässt sich über das Attribut
+      \texttt{src} einbinden. Wie auch bei Bildern, kann der Pfad oder die ID
+      aus dem \texttt{a-assets}-Tag genommen werden. Wird das 3D-Modell über
+      \texttt{a-assets} eingebunden, muss dieses als \texttt{<a-asset-item>}
+      hinzugefügt werden. Die Abbildung \ref{fig:gltf1} zeigt wie ein glTF-Modell 
+      eingefügt werden kann.
+      \begin{figure}
+        \centering
+        \includegraphics{img/coding/gltf1.png}
+        \caption{Einbinden eines glTF-Modells in A-Frame über \texttt{<a-assets>}.}
+        \label{fig:gltf1}
+      \end{figure}
+      Komponenten wie \texttt{painting}, \texttt{painting-description} und 
+      \texttt{standing-area} können in diesem Prototypen wiederverwendet
+      werden. Der einzige Mehraufwand entsteht durch die Modellierung
+      der Werkstatt. Da fertige und kostenfrei Modelle aus dem Internet
+      benutzt werden, entfällt dieser Aufwand ebenfalls. Die Werkstatt
+      kann mittels A-Frame-Editor, welcher mit \texttt{STRG + ALT + I}
+      innerhalb der Webanwendung aufgerufen werden kann. \\
+      Die Werkstatt besteht aus zwei Teilen. Zum einen der Bereich des
+      Gemäldes 
+      (siehe Abb.)
+      und zum anderen der Bereich der Dokumente
+      (siehe Abb.).
+      
   \section{Ergebnisse}
     \begin{itemize}
       \item Hier verwendet man beschriebene Methoden an

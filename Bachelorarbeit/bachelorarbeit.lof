@@ -1,48 +1,56 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Google Cardboard für Smartphones.\relax }}{12}{figure.caption.23}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Google Cardboard für Smartphones.\relax }}{13}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces Unity Entwicklungsumgebung.\relax }}{23}{figure.caption.60}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Unity Entwicklungsumgebung.\relax }}{24}{figure.caption.60}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3}{\ignorespaces Unreal Engine Entwicklungsumgebung.\relax }}{25}{figure.caption.65}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Unreal Engine Entwicklungsumgebung.\relax }}{26}{figure.caption.65}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4}{\ignorespaces Unreal Engines Blueprint-System.\relax }}{26}{figure.caption.66}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Unreal Engines Blueprint-System.\relax }}{27}{figure.caption.66}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5}{\ignorespaces HTML-Element aus A-Frame.\relax }}{28}{figure.caption.75}%
+\contentsline {figure}{\numberline {5}{\ignorespaces HTML-Element aus A-Frame.\relax }}{29}{figure.caption.75}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6}{\ignorespaces Grafische Benutzeroberfläche von A-Frame.\relax }}{28}{figure.caption.77}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Grafische Benutzeroberfläche von A-Frame.\relax }}{29}{figure.caption.77}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7}{\ignorespaces Erste Version einer \texttt {index.html}-Datei.\relax }}{31}{figure.caption.87}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Erste Version einer \texttt {index.html}-Datei.\relax }}{32}{figure.caption.87}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8}{\ignorespaces Erste virtuelle Welt.\relax }}{33}{figure.caption.88}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Erste virtuelle Welt.\relax }}{34}{figure.caption.88}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9}{\ignorespaces Image-Tag von A-Frame für das Einbinden von Bildern.\relax }}{33}{figure.caption.89}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Image-Tag von A-Frame für das Einbinden von Bildern.\relax }}{34}{figure.caption.89}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10}{\ignorespaces Gemälde innerhalb der virtuellen Welt.\relax }}{34}{figure.caption.90}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Gemälde innerhalb der virtuellen Welt.\relax }}{35}{figure.caption.90}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11}{\ignorespaces Event Registrierung innerhalb von HTML.\relax }}{34}{figure.caption.91}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Event Registrierung innerhalb von HTML.\relax }}{35}{figure.caption.91}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {12}{\ignorespaces Aufbau einer Komponente in A-Frame.\relax }}{35}{figure.caption.92}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Aufbau einer Komponente in A-Frame.\relax }}{36}{figure.caption.92}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {13}{\ignorespaces A-Frame Entität mit hinzugefügter Komponente.\relax }}{35}{figure.caption.93}%
+\contentsline {figure}{\numberline {13}{\ignorespaces A-Frame Entität mit hinzugefügter Komponente.\relax }}{36}{figure.caption.93}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {14}{\ignorespaces a-box mit der Komponente \texttt {standing-area}.\relax }}{36}{figure.caption.94}%
+\contentsline {figure}{\numberline {14}{\ignorespaces a-box mit der Komponente \texttt {standing-area}.\relax }}{37}{figure.caption.94}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {15}{\ignorespaces TypeScript-Code der Komponente \texttt {standing-area}.\relax }}{37}{figure.caption.95}%
+\contentsline {figure}{\numberline {15}{\ignorespaces TypeScript-Code der Komponente \texttt {standing-area}.\relax }}{38}{figure.caption.95}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {16}{\ignorespaces Funktionsfähige Standing Area zum Teleportieren.\relax }}{38}{figure.caption.97}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Funktionsfähige Standing Area zum Teleportieren.\relax }}{39}{figure.caption.97}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {17}{\ignorespaces Beschreibung zum Gemälde der ID \texttt {DE\_MdbKL\_946}.\relax }}{39}{figure.caption.98}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Beschreibung zum Gemälde der ID \texttt {DE\_MdbKL\_946}.\relax }}{40}{figure.caption.98}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {18}{\ignorespaces Beschreibung zum Gemälde der ID \texttt {DE\_MdbKL\_946} innerhalb der virtuellen Welt.\relax }}{39}{figure.caption.99}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Beschreibung zum Gemälde der ID \texttt {DE\_MdbKL\_946} innerhalb der virtuellen Welt.\relax }}{40}{figure.caption.99}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {19}{\ignorespaces JSON-Struktur eines Gemäldes.\relax }}{41}{figure.caption.101}%
+\contentsline {figure}{\numberline {19}{\ignorespaces JSON-Struktur eines Gemäldes.\relax }}{42}{figure.caption.101}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {20}{\ignorespaces Gemälde-Interface in TypeScript.\relax }}{41}{figure.caption.102}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Gemälde-Interface in TypeScript.\relax }}{42}{figure.caption.102}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {21}{\ignorespaces Abrufen der Daten innerhalb der \texttt {paintings.json}.\relax }}{42}{figure.caption.103}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Abrufen der Daten innerhalb der \texttt {paintings.json}.\relax }}{43}{figure.caption.103}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {22}{\ignorespaces Codeabschnitt für die Generierung des Gemäldes und dessen Informationen.\relax }}{43}{figure.caption.104}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Codeabschnitt für die Generierung des Gemäldes und dessen Informationen.\relax }}{44}{figure.caption.104}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {23}{\ignorespaces \texttt {createDetailPoints} innerhalb der \texttt {painting}-Komponente.\relax }}{43}{figure.caption.105}%
+\contentsline {figure}{\numberline {23}{\ignorespaces \texttt {createDetailPoints} innerhalb der \texttt {painting}-Komponente.\relax }}{44}{figure.caption.105}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {24}{\ignorespaces Ansicht des ersten fertigen Prototypen.\relax }}{45}{figure.caption.106}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {25}{\ignorespaces Detailpunkte auf dem Gemälde nach einem Klick auf den \glqq Detailansicht\grqq {}-Button.\relax }}{46}{figure.caption.107}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {26}{\ignorespaces Eine Nahaufnahme des Gemäldes mit der ID \texttt {DE\_MdbKL\_946}.\relax }}{46}{figure.caption.108}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {27}{\ignorespaces Einbinden eines glTF-Modells in A-Frame über \texttt {<a-assets>}.\relax }}{47}{figure.caption.113}%
