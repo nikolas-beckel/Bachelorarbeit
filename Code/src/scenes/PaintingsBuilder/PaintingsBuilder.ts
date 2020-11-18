@@ -66,7 +66,8 @@ AFRAME.registerComponent<PaintingsBuilderComponent>('paintings-builder', {
             'attribution:' + paintingData.attribution + ';' +
             'support:' + paintingData.support + ';' +
             'id:' + paintingData.id + ';' +
-            'src:' + paintingData.src
+            'src:' + paintingData.src + ';' +
+            'ratio:' + paintingData.ratio
         );
         description.object3D.position.set(positions.description.x, positions.description.y, positions.description.z);
         description.object3D.rotation.set(0, degToRad(positions.rotation), 0);

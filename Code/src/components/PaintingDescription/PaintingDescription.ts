@@ -8,7 +8,8 @@ AFRAME.registerComponent<PaintingDescriptionComponent>('painting-description', {
         attribution: { type: 'string', default: '' },
         support: { type: 'string', default: '' },
         id: { type: 'string', default: '' },
-        src: { type: 'string', default: '' }
+        src: { type: 'string', default: '' },
+        ratio: { type: 'number', default: 1 },
     },
 
     init() {
@@ -17,7 +18,7 @@ AFRAME.registerComponent<PaintingDescriptionComponent>('painting-description', {
         this.setDate(this.data.dating);
         this.setAttribution(this.data.attribution);
         this.setSupport(this.data.support);
-        this.setButton(this.data.id, this.data.src);
+        this.setButton(this.data.id, this.data.src, this.data.ratio);
     },
 
     /**
@@ -70,8 +71,9 @@ AFRAME.registerComponent<PaintingDescriptionComponent>('painting-description', {
      * Gemäldes zu de- oder aktivieren.
      * @param id ID des Gemäldes.
      * @param src URL-Pfad des Gemäldes.
+     * @param ratio Verhältnis der Bildbreite und -höhe.
      */
-    setButton(id: string, src: string) {
+    setButton(id: string, src: string, ratio: number) {
         // Wrapper des Buttons erzeugen. Auf diesen wird auch die Komponente
         // DetailButton vergeben, damit ein "Klick" auf den Wrapper
         // ausreicht. So kann kein Fehler auftreten, wenn der Benutzer
@@ -80,7 +82,7 @@ AFRAME.registerComponent<PaintingDescriptionComponent>('painting-description', {
         const wrapper = document.createElement('a-entity');
         wrapper.object3D.position.set(0.8, -1.4, 0);
         wrapper.setAttribute('width', '1.5');
-        wrapper.setAttribute('detail-button', 'id:' + id + ';src:' + src);
+        wrapper.setAttribute('detail-button', 'id:' + id + ';src:' + src + ';ratio:' + ratio);
         // Box-Element des Buttons generieren.
         const button = document.createElement('a-box');
         button.setAttribute('width', '1.5');

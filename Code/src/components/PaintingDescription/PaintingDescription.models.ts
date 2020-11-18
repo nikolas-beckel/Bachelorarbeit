@@ -26,8 +26,9 @@ interface PaintingDescriptionComponent extends ComponentDefinition {
      * Gemäldes zu de- oder aktivieren.
      * @param id ID des Gemäldes.
      * @param src URL-Pfad des Gemäldes.
+     * @param ratio Verhältnis der Bildbreite und -höhe.
      */
-    setButton: (id: string, src: string) => void;
+    setButton: (id: string, src: string, ratio: number) => void;
 }
 
 export { PaintingDescriptionComponent };

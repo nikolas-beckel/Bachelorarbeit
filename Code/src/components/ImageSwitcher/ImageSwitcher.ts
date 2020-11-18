@@ -1,4 +1,5 @@
 import { Entity } from 'aframe';
+import { frameAddition, paintingWidth } from '../../utils/utils';
 import ImageSwitcherComponent from './ImageSwitcher.models';
 
 AFRAME.registerComponent<ImageSwitcherComponent>('image-switcher', {
@@ -9,7 +10,8 @@ AFRAME.registerComponent<ImageSwitcherComponent>('image-switcher', {
 
     schema: {
         id: { type: 'string', default: '' },
-        src: { type: 'string', default: '' }
+        src: { type: 'string', default: '' },
+        ratio: {type: 'number', default: 1 }
     },
 
     init() {
@@ -28,8 +30,12 @@ AFRAME.registerComponent<ImageSwitcherComponent>('image-switcher', {
 
     /** Ersetzt das Gemälde durch die Nahaufnahme. */
     setDetailImage() {
-        document.getElementById(this.data.id)!
-            .setAttribute('src', this.data.src);
+        const painting = document.getElementById(this.data.id)!;
+        painting.setAttribute('src', this.data.src);
+        painting.setAttribute('width', paintingWidth.toString());
+        painting.setAttribute('height', (paintingWidth * this.data.ratio).toString());
+        const frame = painting.querySelector('.frame')!;
+        frame.setAttribute('height', (paintingWidth * this.data.ratio + frameAddition).toString());
     },
 
     /** Versteckt die DetailPoint-Buttons. */
