@@ -6,23 +6,25 @@ export interface PaintingComponent extends ComponentDefinition {
      * virtuellen Welt in korrekter Größe betrachtet werden kann.
      * @param id Gemälde-ID.
      * @param paintingSrc URL-Pfad zum Gemälde.
-     * @param paintingSrc Verhältnis Bildbreite zu -höhe.
+     * @param paintingHeight Höhe des Gemäldes.
      */
-    setPaintingAttributes: (id: string, paintingSrc: string, paintingRatio: number) => void;
+    setPaintingAttributes: (id: string, paintingSrc: string, paintingHeight: number) => void;
     /**
      * Erstellt den Rahmen eines Gemäldes und
      * fügt es hinter das Gemälde hinzu.
      * @param paintingSrc Verhältnis Bildbreite zu -höhe.
+     * @param paintingHeight Höhe des Gemäldes.
      */
-    createFrame: (paintingRatio: number) => void;
+    createFrame: (paintingHeight: number) => void;
     /**
      * Positioniert die Detail-Buttons innerhalb eines
      * Gemäldes.
      * @param id ID des Gemäldes.
      * @param closeUps URL-Pfad der Nahaufnahmen inklusive
      *        ihrer Positionen und IDs.
+     * @param paintingHeight Höhe des Gemäldes.
      */
-    createDetailPoints: (id: string, closeUps: CloseUp[]) => void;
+    createDetailPoints: (id: string, closeUps: CloseUp[], paintingHeight: number) => void;
 }
 
 /**
@@ -61,6 +63,8 @@ export interface CloseUp {
     src: string;
     /** Position der Nahaufnahme relativ zum Gemälde. */
     position: THREE.Vector3;
+    /** Verhältnis der Bildbreite und -höhe  */
+    ratio: number;
 }
 
 export default PaintingComponent;

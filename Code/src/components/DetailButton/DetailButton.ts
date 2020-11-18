@@ -1,4 +1,5 @@
 import AFRAME, { Entity } from 'aframe';
+import { frameAddition, paintingWidth } from '../../utils/utils';
 import DetailButtonComponent from './DetailButton.models';
 
 AFRAME.registerComponent<DetailButtonComponent>('detail-button', {
@@ -11,7 +12,8 @@ AFRAME.registerComponent<DetailButtonComponent>('detail-button', {
 
     schema: {
         id: { type: 'string', default: '' },
-        src: { type: 'string', default: '' }
+        src: { type: 'string', default: '' },
+        ratio: { type: 'number', default: 1 }
     },
 
     init() {
@@ -38,7 +40,7 @@ AFRAME.registerComponent<DetailButtonComponent>('detail-button', {
                 this.active = true;
             } else {
                 this.setDetailButton(text, box);
-                this.setDefaultPainting();
+                this.setDefaultPainting(this.data.ratio);
                 this.active = false;
             }
 
@@ -78,11 +80,15 @@ AFRAME.registerComponent<DetailButtonComponent>('detail-button', {
 
     /**
      * Setzt das Gemälde wieder auf das Default-Gemälde.
+     * @param ratio Verhältnis der Bildbreite und -höhe
      */
-    setDefaultPainting() {
-        document
-            .querySelector('#' + this.data.id)
-            .setAttribute('src', this.data.src);
+    setDefaultPainting(ratio: number) {
+        const painting = document.querySelector('#' + this.data.id);
+        painting.setAttribute('src', this.data.src);
+        painting.setAttribute('width', paintingWidth.toString());
+        painting.setAttribute('height', (paintingWidth * ratio).toString());
+        const frame = painting.querySelector('.frame')!;
+        frame.setAttribute('height', (paintingWidth * ratio + frameAddition).toString());
     },
 
     /**

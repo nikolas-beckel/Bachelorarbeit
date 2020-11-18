@@ -25,8 +25,9 @@ interface DetailButtonComponent extends ComponentDefinition {
     setDetailButton: (text: Entity, box: Entity) => void;
     /**
      * Setzt das Gemälde wieder auf das Default-Gemälde.
+     * @param ratio Verhältnis der Bildbreite und -höhe
      */
-    setDefaultPainting: () => void;
+    setDefaultPainting: (ratio: number) => void;
     /**
      * De- oder aktiviert die DetailPoints innerhalb des
      * Gemäldes.

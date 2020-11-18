@@ -5,7 +5,10 @@ interface ImageSwitcherComponent extends ComponentDefinition {
     defaultColor: string;
     /** Farbe, welche beim Hovern über die Buttons erscheint. */
     hoverColor: string;
-    /** Ersetzt das Gemälde durch die Nahaufnahme. */
+    /**
+     * Ersetzt das Gemälde durch die Nahaufnahme.
+     * @param paintingSrc Verhältnis Bildbreite zu -höhe.
+     */
     setDetailImage: () => void;
     /** Versteckt die DetailPoint-Buttons. */
     hideDetailSpheres: () => void;
