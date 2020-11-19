@@ -3,7 +3,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Abbildungsverzeichnis}{3}{section*.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Tabellenverzeichnis}{3}{section*.5}%
+\contentsline {section}{Tabellenverzeichnis}{4}{section*.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Einleitung}{5}{section.7}%
 \defcounter {refsection}{0}\relax 
@@ -63,12 +63,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.3.2}Lucas Cranachs Werkstatt}{45}{subsubsection.109}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Ergebnisse}{48}{section.114}%
+\contentsline {section}{\numberline {5}Ergebnisse}{50}{section.118}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Diskussion und Fazit}{48}{section.115}%
+\contentsline {section}{\numberline {6}Diskussion und Fazit}{50}{section.119}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Anhang}{48}{section.116}%
+\contentsline {section}{\numberline {7}Anhang}{51}{section.120}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Quellenverzeichnis}{48}{subsection.117}%
+\contentsline {subsection}{\numberline {7.1}Quellenverzeichnis}{51}{subsection.121}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Erklärung über die selbständige Abfassung der Arbeit}{50}{section*.119}%
+\contentsline {section}{Erklärung über die selbständige Abfassung der Arbeit}{53}{section*.123}%

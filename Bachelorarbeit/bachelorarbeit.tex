@@ -1899,12 +1899,63 @@ plainpages=false,hypertexnames=false,citecolor=black]{hyperref} % Für Verlinkun
       der Werkstatt. Da fertige und kostenfrei Modelle aus dem Internet
       benutzt werden, entfällt dieser Aufwand ebenfalls. Die Werkstatt
       kann mittels A-Frame-Editor, welcher mit \texttt{STRG + ALT + I}
-      innerhalb der Webanwendung aufgerufen werden kann. \\
+      innerhalb der Webanwendung aufgerufen werden kann, gestaltet werden. \\
       Die Werkstatt besteht aus zwei Teilen. Zum einen der Bereich des
       Gemäldes 
-      (siehe Abb.)
+      (siehe Abb. \ref{fig:werkstatt2})
       und zum anderen der Bereich der Dokumente
-      (siehe Abb.).
+      (siehe Abb. \ref{fig:werkstatt1}). \\
+      \begin{figure}
+        \centering
+        \includegraphics[scale=0.3]{img/coding/werkstatt2.png}
+        \caption{Aktuelles Gemälde von Lucas Cranach d. Ä. in seiner fiktiven Werkstatt.}
+        \label{fig:werkstatt2}
+      \end{figure}
+      \begin{figure}
+        \centering
+        \includegraphics[scale=0.3]{img/coding/werkstatt1.png}
+        \caption{Dokumente von Lucas Cranach d. Ä. in seiner fiktiven Werkstatt.}
+        \label{fig:werkstatt1}
+      \end{figure}
+      Der Benutzer kann über die Standing Area zu den jeweiligen Bereichen
+      teleportiert werden. In Abbildung \ref{fig:werkstatt2} erkennt man
+      die Komponente \texttt{painting} und \texttt{painting-description},
+      die im letzten Kapitel entwickelt wurden. Die Beschreibung des
+      Gemäldes befindet sich an der Wand und kann von dort aus gut von
+      dem Benutzer erkannt werden. Die Detailaufnahmen lassen
+      sich ebenfalls betrachten. \\
+      Teleportiert sich der Benutzer zu dem Bereich der Archivalien,
+      kann er diese von dort aus betrachten. Über einen Button, welcher
+      sich auf einem Dokument befindet, kann er die Beschreibung zu diesem
+      Dokument anhören 
+      (siehe Abb. \ref{fig:werkstatt3}). \\
+      \begin{figure}
+        \centering
+        \includegraphics[scale=0.3]{img/coding/werkstatt3.png}
+        \caption{Sound-Button der Archivalien von Lucas Cranach d. Ä. in seiner fiktiven Werkstatt.}
+        \label{fig:werkstatt3}
+      \end{figure}
+      Die Darstellung der Dokumente von Lucas Cranach wird über eine
+      neue Komponente \texttt{document} ermöglicht. Diese nimmt über das
+      \texttt{schema} die Eigenschaften \texttt{id} und \texttt{page} 
+      entgegen. 
+      Im Cranach Digital Archive haben Archivalien von Lucas Cranach d. Ä.
+      mehrere Seiten. Durch die Eigenschaft \texttt{page} können verschiedene
+      Darstellungen eines Dokuments der selben ID ermöglicht werden. Über
+      \texttt{<audio>} lassen sich in \texttt{<a-assets>} Sounddateien der
+      Anwendung hinzufügen. A-Frame bietet die Möglichkeit, 
+      mehrere Dateiformate anzunehmen. Jedes Dokument hat die Möglichkeit
+      einen Soundbutton darzustellen. Abhängig ist dies davon, ob das
+      Dokument eine Sound-Entität als \texttt{children}-Element besitzt
+      (siehe Abb. \ref{fig:document1}, Zeile 92).
+      \begin{figure}
+        \centering
+        \includegraphics{img/coding/document1.png}
+        \caption{\texttt{document}-Komponente als HTML-Implementation.}
+        \label{fig:document1}
+      \end{figure}
+      Innerhalb der Komponente wird abgefragt, ob diese eine Sound-Entität
+      besitzt. Ist dies der Fall, wird der Sound-Button angezeigt. \\
       
   \section{Ergebnisse}
     \begin{itemize}
