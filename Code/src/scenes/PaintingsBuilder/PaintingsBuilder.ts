@@ -2,6 +2,8 @@ import AFRAME, { THREE } from 'aframe';
 import PaintingsBuilderComponent, { Positions } from './PaintingsBuilder.models';
 import { Painting } from '../../components/Painting/Painting.models';
 import { degToRad } from '../../utils/utils';
+import Paintings from '../../../public/data/paintings.json';
+
 
 AFRAME.registerComponent<PaintingsBuilderComponent>('paintings-builder', {
     init() {
@@ -28,21 +30,14 @@ AFRAME.registerComponent<PaintingsBuilderComponent>('paintings-builder', {
             }
         ];
 
-        // Daten via fetch abfragen und Gemälde erzeugen.
-        fetch('https://localhost:8080/public/data/paintings.json')
-            .then(result => result.json())
-            .then((paintingsData: Painting[]) => {
-                if (paintingsData) {
-                    paintingsData.forEach((it, index) => this.createPaintings(it, positions[index]));
-                }
-            });
+        (Paintings as Painting[]).forEach((it, index) => this.createPaintings(it, positions[index]));
     },
 
     /**
      * Kreiert ein Gemälde, eine Gemäldebeschreibung und die Standfläche
      * zum Teleportieren.
      * @param paintingData Informationen eines Gemäldes.
-     * @param position Die Position der Elemente.
+     * @param positions Die Position der Elemente.
      */
     createPaintings(paintingData: Painting, positions: Positions) {
         // Gemälde erzeugen und positionieren.

@@ -1,5 +1,6 @@
 import AFRAME, { Entity } from 'aframe';
 import DocumentComponent, { Document } from './Document.models';
+import Archivals from '../../../public/data/archivals.json';
 
 AFRAME.registerComponent<DocumentComponent>('document', {
     schema: {
@@ -8,10 +9,10 @@ AFRAME.registerComponent<DocumentComponent>('document', {
     },
 
     init() {
-        fetch('https://localhost:8080/public/data/archivals.json')
-            .then(result => result.json())
-            .then((docs: Document[]) => docs.find(it => it.id === this.data.id))
-            .then(doc => { if (doc) {this.setAttributes(doc)} });
+        const doc = (Archivals as Document[]).find(it => it.id === this.data.id);
+        if (doc) {
+            this.setAttributes(doc);
+        }
 
         this.renderSoundButtonWhenElementHasSoundChild();
     },

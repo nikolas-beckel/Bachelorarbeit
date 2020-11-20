@@ -68,6 +68,16 @@
           "z": 0
         },
         "ratio": 1.48355754857997
+      },
+      {
+        "id": "010",
+        "src": "https://localhost:8080/public/assets/paintings/DE_MdbKL_946/Detail-010.jpg",
+        "position": {
+          "x": 0.064,
+          "y": 0.579,
+          "z": 0
+        },
+        "ratio": 0.6694214876033058
       }
     ]
   },
@@ -120,6 +130,26 @@
           "z": 0
         },
         "ratio": 1.502824858757062
+      },
+      {
+        "id": "005",
+        "src": "https://localhost:8080/public/assets/paintings/DE_KSW_G9/Detail-005.jpg",
+        "position": {
+          "x": 0.213,
+          "y": 0.969,
+          "z": 0
+        },
+        "ratio": 0.6654135338345865
+      },
+      {
+        "id": "003",
+        "src": "https://localhost:8080/public/assets/paintings/DE_KSW_G9/Detail-003.jpg",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "ratio": 1.502824858757062
       }
     ]
   },
@@ -159,6 +189,26 @@
         "position": {
           "x": 0.047,
           "y": 0.927,
+          "z": 0
+        },
+        "ratio": 0.75
+      },
+      {
+        "id": "004",
+        "src": "https://localhost:8080/public/assets/paintings/US_MMA_39-5/Detail-004.jpg",
+        "position": {
+          "x": 0.618,
+          "y": 1.156,
+          "z": 0
+        },
+        "ratio": 0.649047619047619
+      },
+      {
+        "id": "003",
+        "src": "https://localhost:8080/public/assets/paintings/US_MMA_39-5/Detail-003.jpg",
+        "position": {
+          "x": 0.219,
+          "y": 0.806,
           "z": 0
         },
         "ratio": 0.75
