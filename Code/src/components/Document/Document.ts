@@ -56,7 +56,7 @@ AFRAME.registerComponent<DocumentComponent>('document', {
 
         // Icon-Element für den Button erstellen.
         const icon = document.createElement('a-plane');
-        icon.setAttribute('src', 'https://localhost:8080/public/assets/icons/volume.png');
+        icon.setAttribute('src', '/public/assets/icons/volume.png');
         icon.setAttribute('width', '0.15');
         icon.setAttribute('height', '0.15');
         icon.object3D.position.set(0, 0, 0.026);

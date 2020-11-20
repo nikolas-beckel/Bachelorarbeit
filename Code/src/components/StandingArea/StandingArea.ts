@@ -33,7 +33,7 @@ AFRAME.registerComponent<StandingAreaComponent>('standing-area', {
         const footsteps = document.createElement('a-plane');
         footsteps.setAttribute('width', '0.5');
         footsteps.setAttribute('height', '0.5');
-        footsteps.setAttribute('src', 'https://localhost:8080/public/assets/icons/footsteps.png');
+        footsteps.setAttribute('src', '/public/assets/icons/footsteps.png');
         footsteps.object3D.position.set(0, 0.038, 0);
         footsteps.object3D.rotation.set(degToRad(-90), 0, 0);
         this.el.appendChild(footsteps);

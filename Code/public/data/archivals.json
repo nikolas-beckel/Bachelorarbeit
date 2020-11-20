@@ -4,9 +4,9 @@
     "place": "Walpurgis, Michaelis u.a.",
     "dating": "1520",
     "src": [
-      "https://localhost:8080/public/assets/archivals/DE_StSWR_KR-1520/DE_StSWR_KR-1520_8r.png",
-      "https://localhost:8080/public/assets/archivals/DE_StSWR_KR-1520/DE_StSWR_KR-1520_18r.png",
-      "https://localhost:8080/public/assets/archivals/DE_StSWR_KR-1520/DE_StSWR_KR-1520_19v-20r.png"
+      "/public/assets/archivals/DE_StSWR_KR-1520/DE_StSWR_KR-1520_8r.png",
+      "/public/assets/archivals/DE_StSWR_KR-1520/DE_StSWR_KR-1520_18r.png",
+      "/public/assets/archivals/DE_StSWR_KR-1520/DE_StSWR_KR-1520_19v-20r.png"
     ],
     "summary": "Lucas Cranach bezahlt die kommunalen Steuern für sein Haus in der Schloßstr.1, zwei Gärten und zwei Rademarksche Hufen. Außerdem wird die Weinsteuer, das Ohmgeld, entrichtet. Unter den Steuerbefreiten taucht Peter Apotheker auf, wahrscheinlich der erste Apotheker in Cranachs Diensten."
   }
