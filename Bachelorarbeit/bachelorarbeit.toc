@@ -45,30 +45,34 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.1}Unity}{24}{subsubsection.59}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2}Unreal Engine}{26}{subsubsection.64}%
+\contentsline {subsubsection}{\numberline {4.2.2}Unreal Engine}{25}{subsubsection.63}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3}React 360}{27}{subsubsection.70}%
+\contentsline {subsubsection}{\numberline {4.2.3}React 360}{27}{subsubsection.68}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.4}A-Frame}{28}{subsubsection.74}%
+\contentsline {subsubsection}{\numberline {4.2.4}A-Frame}{27}{subsubsection.71}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.5}Three.js}{29}{subsubsection.80}%
+\contentsline {subsubsection}{\numberline {4.2.5}Three.js}{29}{subsubsection.75}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.6}Ergebnis}{30}{subsubsection.82}%
+\contentsline {subsubsection}{\numberline {4.2.6}Ergebnis}{29}{subsubsection.77}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.7}Weitere Hilfsmittel}{31}{subsubsection.84}%
+\contentsline {subsubsection}{\numberline {4.2.7}Weitere Hilfsmittel}{30}{subsubsection.79}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Entwicklung der Prototypen}{31}{subsection.85}%
+\contentsline {subsection}{\numberline {4.3}Entwicklung der Prototypen}{30}{subsection.80}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.1}Technischer Prototyp}{32}{subsubsection.86}%
+\contentsline {subsubsection}{\numberline {4.3.1}Technischer Prototyp}{31}{subsubsection.81}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.2}Lucas Cranachs Werkstatt}{45}{subsubsection.109}%
+\contentsline {subsubsection}{\numberline {4.3.2}Lucas Cranachs Werkstatt}{44}{subsubsection.104}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Ergebnisse}{50}{section.118}%
+\contentsline {subsubsection}{\numberline {4.3.3}Neuronales Netz}{48}{subsubsection.113}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Diskussion und Fazit}{50}{section.119}%
+\contentsline {section}{\numberline {5}Ergebnisse}{50}{section.115}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Anhang}{51}{section.120}%
+\contentsline {section}{\numberline {6}Diskussion}{51}{section.116}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Quellenverzeichnis}{51}{subsection.121}%
+\contentsline {section}{\numberline {7}Fazit}{52}{section.117}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Erklärung über die selbständige Abfassung der Arbeit}{53}{section*.123}%
+\contentsline {section}{\numberline {8}Nachwort}{53}{section.118}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9}Quellenverzeichnis}{53}{section.119}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Erklärung über die selbständige Abfassung der Arbeit}{55}{section*.121}%
