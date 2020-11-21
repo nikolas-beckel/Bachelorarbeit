@@ -8,11 +8,18 @@ AFRAME.registerComponent<StandingAreaComponent>('standing-area', {
     /** Die Höhe der Stanging Area. */
     height: 0.075,
 
+    schema: {
+        icon: { type: 'boolean', default: true }
+    },
+
     init() {
         this.setAttributes();
-        this.addFootsteps();
+        if (this.data.icon) {
+            this.addFootsteps();
+        }
 
         this.el.addEventListener('click', () => {
+            console.log('click');
             // Wenn der Benutzer die Standing Area "anklickt", soll er dorthin
             // teleportiert werden.
             const worldPosition = new THREE.Vector3();
