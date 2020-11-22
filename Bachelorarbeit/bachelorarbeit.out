@@ -1,38 +1,38 @@
 \BOOKMARK [1][]{section*.3}{Abbildungsverzeichnis}{}% 1
 \BOOKMARK [1][]{section*.5}{Tabellenverzeichnis}{}% 2
 \BOOKMARK [1][]{section.7}{1 Einleitung}{}% 3
-\BOOKMARK [1][]{section.11}{2 Grundlage und Datenbasis}{}% 4
-\BOOKMARK [2][]{subsection.12}{2.1 Das Cranach Digital Archive}{section.11}% 5
-\BOOKMARK [3][]{subsubsection.13}{2.1.1 Lucas Cranach der \304ltere}{subsection.12}% 6
-\BOOKMARK [3][]{subsubsection.16}{2.1.2 Martin Luther als Junker J\366rg}{subsection.12}% 7
-\BOOKMARK [2][]{subsection.17}{2.2 Konzept und Nutzung von Virtual Reality}{section.11}% 8
-\BOOKMARK [1][]{section.19}{3 Theoretische Einordnung}{}% 9
-\BOOKMARK [2][]{subsection.20}{3.1 Aktueller Forschungsstand von Virtual Reality}{section.19}% 10
-\BOOKMARK [3][]{subsubsection.23}{3.1.1 Entstehung}{subsection.20}% 11
-\BOOKMARK [3][]{subsubsection.25}{3.1.2 Wahrnehmungsaspekte}{subsection.20}% 12
-\BOOKMARK [3][]{subsubsection.26}{3.1.3 VR-Brillen}{subsection.20}% 13
-\BOOKMARK [3][]{subsubsection.35}{3.1.4 Native und webbasierte Anwendungen}{subsection.20}% 14
-\BOOKMARK [2][]{subsection.39}{3.2 Virtual Reality im musealen Kontext}{section.19}% 15
-\BOOKMARK [3][]{subsubsection.40}{3.2.1 Chancen und Risiken}{subsection.39}% 16
-\BOOKMARK [3][]{subsubsection.41}{3.2.2 Optimierung des Lernprozesses}{subsection.39}% 17
-\BOOKMARK [3][]{subsubsection.42}{3.2.3 Aktuelle L\366sungen und Umsetzung}{subsection.39}% 18
-\BOOKMARK [1][]{section.48}{4 Prototyping}{}% 19
-\BOOKMARK [2][]{subsection.49}{4.1 Anforderungen an das VR-System}{section.48}% 20
-\BOOKMARK [2][]{subsection.51}{4.2 Auswahl der Technologien}{section.48}% 21
-\BOOKMARK [3][]{subsubsection.66}{4.2.1 Unity}{subsection.51}% 22
-\BOOKMARK [3][]{subsubsection.70}{4.2.2 Unreal Engine}{subsection.51}% 23
-\BOOKMARK [3][]{subsubsection.75}{4.2.3 React 360}{subsection.51}% 24
-\BOOKMARK [3][]{subsubsection.78}{4.2.4 A-Frame}{subsection.51}% 25
-\BOOKMARK [3][]{subsubsection.82}{4.2.5 Three.js}{subsection.51}% 26
-\BOOKMARK [3][]{subsubsection.84}{4.2.6 Ergebnis}{subsection.51}% 27
-\BOOKMARK [3][]{subsubsection.86}{4.2.7 Weitere Hilfsmittel}{subsection.51}% 28
-\BOOKMARK [2][]{subsection.87}{4.3 Entwicklung der Prototypen}{section.48}% 29
-\BOOKMARK [3][]{subsubsection.88}{4.3.1 Technischer Prototyp}{subsection.87}% 30
-\BOOKMARK [3][]{subsubsection.111}{4.3.2 Lucas Cranachs Werkstatt}{subsection.87}% 31
-\BOOKMARK [3][]{subsubsection.120}{4.3.3 Neuronales Netz}{subsection.87}% 32
-\BOOKMARK [1][]{section.122}{5 Ergebnisse}{}% 33
-\BOOKMARK [1][]{section.123}{6 Diskussion}{}% 34
-\BOOKMARK [1][]{section.125}{7 Fazit}{}% 35
-\BOOKMARK [1][]{section.126}{8 Nachwort}{}% 36
-\BOOKMARK [1][]{section.127}{9 Quellenverzeichnis}{}% 37
-\BOOKMARK [1][]{section*.129}{Erkl\344rung \374ber die selbst\344ndige Abfassung der Arbeit}{}% 38
+\BOOKMARK [1][]{section.12}{2 Grundlage und Datenbasis}{}% 4
+\BOOKMARK [2][]{subsection.13}{2.1 Das Cranach Digital Archive}{section.12}% 5
+\BOOKMARK [3][]{subsubsection.14}{2.1.1 Lucas Cranach der \304ltere}{subsection.13}% 6
+\BOOKMARK [3][]{subsubsection.17}{2.1.2 Martin Luther als Junker J\366rg}{subsection.13}% 7
+\BOOKMARK [2][]{subsection.18}{2.2 Konzept und Nutzung von Virtual Reality}{section.12}% 8
+\BOOKMARK [1][]{section.20}{3 Theoretische Einordnung}{}% 9
+\BOOKMARK [2][]{subsection.21}{3.1 Aktueller Forschungsstand von Virtual Reality}{section.20}% 10
+\BOOKMARK [3][]{subsubsection.24}{3.1.1 Entstehung}{subsection.21}% 11
+\BOOKMARK [3][]{subsubsection.26}{3.1.2 Wahrnehmungsaspekte}{subsection.21}% 12
+\BOOKMARK [3][]{subsubsection.27}{3.1.3 VR-Brillen}{subsection.21}% 13
+\BOOKMARK [3][]{subsubsection.36}{3.1.4 Native und webbasierte Anwendungen}{subsection.21}% 14
+\BOOKMARK [2][]{subsection.40}{3.2 Virtual Reality im musealen Kontext}{section.20}% 15
+\BOOKMARK [3][]{subsubsection.41}{3.2.1 Chancen und Risiken}{subsection.40}% 16
+\BOOKMARK [3][]{subsubsection.42}{3.2.2 Optimierung des Lernprozesses}{subsection.40}% 17
+\BOOKMARK [3][]{subsubsection.43}{3.2.3 Aktuelle L\366sungen und Umsetzung}{subsection.40}% 18
+\BOOKMARK [1][]{section.49}{4 Prototyping}{}% 19
+\BOOKMARK [2][]{subsection.50}{4.1 Anforderungen an das VR-System}{section.49}% 20
+\BOOKMARK [2][]{subsection.52}{4.2 Analyse der Technologien}{section.49}% 21
+\BOOKMARK [3][]{subsubsection.67}{4.2.1 Unity}{subsection.52}% 22
+\BOOKMARK [3][]{subsubsection.71}{4.2.2 Unreal Engine}{subsection.52}% 23
+\BOOKMARK [3][]{subsubsection.76}{4.2.3 React 360}{subsection.52}% 24
+\BOOKMARK [3][]{subsubsection.80}{4.2.4 A-Frame}{subsection.52}% 25
+\BOOKMARK [3][]{subsubsection.84}{4.2.5 Three.js}{subsection.52}% 26
+\BOOKMARK [3][]{subsubsection.86}{4.2.6 Auswahl der Technologie}{subsection.52}% 27
+\BOOKMARK [3][]{subsubsection.88}{4.2.7 Weitere Hilfsmittel}{subsection.52}% 28
+\BOOKMARK [2][]{subsection.92}{4.3 Entwicklung der Prototypen}{section.49}% 29
+\BOOKMARK [3][]{subsubsection.95}{4.3.1 Technischer Prototyp}{subsection.92}% 30
+\BOOKMARK [3][]{subsubsection.120}{4.3.2 Lucas Cranachs Werkstatt}{subsection.92}% 31
+\BOOKMARK [3][]{subsubsection.129}{4.3.3 Neuronales Netz}{subsection.92}% 32
+\BOOKMARK [1][]{section.132}{5 Ergebnisse}{}% 33
+\BOOKMARK [1][]{section.133}{6 Diskussion}{}% 34
+\BOOKMARK [1][]{section.135}{7 Fazit}{}% 35
+\BOOKMARK [1][]{section.136}{8 Nachwort}{}% 36
+\BOOKMARK [1][]{section.137}{9 Quellenverzeichnis}{}% 37
+\BOOKMARK [1][]{section*.139}{Erkl\344rung \374ber die selbst\344ndige Abfassung der Arbeit}{}% 38
