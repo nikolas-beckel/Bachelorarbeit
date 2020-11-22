@@ -178,6 +178,44 @@
       \verb https://www.springer.com/gp/book/9783662588604
       \endverb
     \endentry
+    \entry{fischer2001}{book}{}
+      \name{author}{2}{}{%
+        {{hash=34c075ceeec8b2c80c46c267f1668595}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c67a743bfd62a4a051395cd4da087b0c}{%
+           family={Altjohann},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiss. Buchges.}%
+      }
+      \strng{namehash}{2f99bfe87e8701c7e7120b3e748cbc93}
+      \strng{fullhash}{2f99bfe87e8701c7e7120b3e748cbc93}
+      \strng{bibnamehash}{2f99bfe87e8701c7e7120b3e748cbc93}
+      \strng{authorbibnamehash}{2f99bfe87e8701c7e7120b3e748cbc93}
+      \strng{authornamehash}{2f99bfe87e8701c7e7120b3e748cbc93}
+      \strng{authorfullhash}{2f99bfe87e8701c7e7120b3e748cbc93}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9783806215915}
+      \field{title}{Die römischen Provinzen: eine Einführung in ihre Archäologie}
+      \field{year}{2001}
+      \verb{urlraw}
+      \verb https://books.google.de/books?id=TmBoAAAAMAAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.de/books?id=TmBoAAAAMAAJ
+      \endverb
+    \endentry
     \entry{Haas2017Jun}{article}{}
       \name{author}{8}{}{%
         {{hash=5acff6ae035393a19de8578ed19d94c8}{%

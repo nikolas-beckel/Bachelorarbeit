@@ -1,28 +1,29 @@
 [0] Config.pm:312> INFO - This is Biber 2.15 (beta)
 [0] Config.pm:315> INFO - Logfile is 'bachelorarbeit.blg'
-[115] biber-MSWIN64:330> INFO - === 
-[143] Biber.pm:415> INFO - Reading 'bachelorarbeit.bcf'
-[288] Biber.pm:952> INFO - Found 10 citekeys in bib section 0
-[308] Biber.pm:4334> INFO - Processing section 0
-[325] Biber.pm:4523> INFO - Looking for bibtex format file 'bib/literatur.bib' for section 0
-[335] bibtex.pm:1682> INFO - LaTeX decoding ...
-[361] bibtex.pm:1494> INFO - Found BibTeX data source 'bib/literatur.bib'
-[433] Utils.pm:395> WARN - month field 'Jun' in entry 'Haas2017Jun' is not an integer - this will probably not sort properly.
-[457] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_nVQS\a3880c76f34ea5bee4730f185bf8bebe_33696.utf8, line 10, warning: 1 characters of junk seen at toplevel
-[457] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_nVQS\a3880c76f34ea5bee4730f185bf8bebe_33696.utf8, line 21, warning: 1 characters of junk seen at toplevel
-[457] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_nVQS\a3880c76f34ea5bee4730f185bf8bebe_33696.utf8, line 32, warning: 1 characters of junk seen at toplevel
-[457] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_nVQS\a3880c76f34ea5bee4730f185bf8bebe_33696.utf8, line 41, warning: 1 characters of junk seen at toplevel
-[457] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_nVQS\a3880c76f34ea5bee4730f185bf8bebe_33696.utf8, line 48, warning: 1 characters of junk seen at toplevel
-[457] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_nVQS\a3880c76f34ea5bee4730f185bf8bebe_33696.utf8, line 57, warning: 1 characters of junk seen at toplevel
-[457] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_nVQS\a3880c76f34ea5bee4730f185bf8bebe_33696.utf8, line 71, warning: 1 characters of junk seen at toplevel
-[458] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_nVQS\a3880c76f34ea5bee4730f185bf8bebe_33696.utf8, line 95, warning: 1 characters of junk seen at toplevel
-[458] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_nVQS\a3880c76f34ea5bee4730f185bf8bebe_33696.utf8, line 105, warning: 1 characters of junk seen at toplevel
-[458] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_nVQS\a3880c76f34ea5bee4730f185bf8bebe_33696.utf8, line 117, warning: 1 characters of junk seen at toplevel
-[458] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_nVQS\a3880c76f34ea5bee4730f185bf8bebe_33696.utf8, line 135, warning: 1 characters of junk seen at toplevel
-[486] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[486] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[486] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
-[486] Biber.pm:4168> INFO - No sort tailoring available for locale 'de-DE'
-[506] bbl.pm:651> INFO - Writing 'bachelorarbeit.bbl' with encoding 'UTF-8'
-[515] bbl.pm:754> INFO - Output to bachelorarbeit.bbl
-[516] Biber.pm:128> INFO - WARNINGS: 12
+[118] biber-MSWIN64:330> INFO - === 
+[152] Biber.pm:415> INFO - Reading 'bachelorarbeit.bcf'
+[285] Biber.pm:952> INFO - Found 11 citekeys in bib section 0
+[304] Biber.pm:4334> INFO - Processing section 0
+[322] Biber.pm:4523> INFO - Looking for bibtex format file 'bib/literatur.bib' for section 0
+[356] bibtex.pm:1682> INFO - LaTeX decoding ...
+[383] bibtex.pm:1494> INFO - Found BibTeX data source 'bib/literatur.bib'
+[459] Utils.pm:395> WARN - month field 'Jun' in entry 'Haas2017Jun' is not an integer - this will probably not sort properly.
+[493] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_ktT3\a3880c76f34ea5bee4730f185bf8bebe_18504.utf8, line 10, warning: 1 characters of junk seen at toplevel
+[494] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_ktT3\a3880c76f34ea5bee4730f185bf8bebe_18504.utf8, line 21, warning: 1 characters of junk seen at toplevel
+[494] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_ktT3\a3880c76f34ea5bee4730f185bf8bebe_18504.utf8, line 32, warning: 1 characters of junk seen at toplevel
+[494] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_ktT3\a3880c76f34ea5bee4730f185bf8bebe_18504.utf8, line 41, warning: 1 characters of junk seen at toplevel
+[494] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_ktT3\a3880c76f34ea5bee4730f185bf8bebe_18504.utf8, line 48, warning: 1 characters of junk seen at toplevel
+[494] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_ktT3\a3880c76f34ea5bee4730f185bf8bebe_18504.utf8, line 57, warning: 1 characters of junk seen at toplevel
+[495] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_ktT3\a3880c76f34ea5bee4730f185bf8bebe_18504.utf8, line 71, warning: 1 characters of junk seen at toplevel
+[495] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_ktT3\a3880c76f34ea5bee4730f185bf8bebe_18504.utf8, line 95, warning: 1 characters of junk seen at toplevel
+[495] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_ktT3\a3880c76f34ea5bee4730f185bf8bebe_18504.utf8, line 105, warning: 1 characters of junk seen at toplevel
+[495] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_ktT3\a3880c76f34ea5bee4730f185bf8bebe_18504.utf8, line 117, warning: 1 characters of junk seen at toplevel
+[495] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_ktT3\a3880c76f34ea5bee4730f185bf8bebe_18504.utf8, line 135, warning: 1 characters of junk seen at toplevel
+[495] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Nikolas\AppData\Local\Temp\biber_tmp_ktT3\a3880c76f34ea5bee4730f185bf8bebe_18504.utf8, line 145, warning: 1 characters of junk seen at toplevel
+[519] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[519] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[520] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
+[520] Biber.pm:4168> INFO - No sort tailoring available for locale 'de-DE'
+[538] bbl.pm:651> INFO - Writing 'bachelorarbeit.bbl' with encoding 'UTF-8'
+[547] bbl.pm:754> INFO - Output to bachelorarbeit.bbl
+[548] Biber.pm:128> INFO - WARNINGS: 13
