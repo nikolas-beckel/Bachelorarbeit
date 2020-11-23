@@ -6,7 +6,7 @@ interface PaintingsBuilderComponent extends ComponentDefinition {
      * Kreiert ein Gemälde, eine Gemäldebeschreibung und die Standfläche
      * zum Teleportieren.
      * @param paintingData Informationen eines Gemäldes.
-     * @param position Die Position der Elemente.
+     * @param positions Die Position der Elemente.
      */
     createPaintings: (paintingData: Painting, positions: Positions) => void;
 }

@@ -1,5 +1,6 @@
 import AFRAME, { Entity } from 'aframe';
 import DocumentComponent, { Document } from './Document.models';
+import Archivals from '../../../public/data/archivals.json';
 
 AFRAME.registerComponent<DocumentComponent>('document', {
     schema: {
@@ -8,10 +9,10 @@ AFRAME.registerComponent<DocumentComponent>('document', {
     },
 
     init() {
-        fetch('https://localhost:8080/public/data/archivals.json')
-            .then(result => result.json())
-            .then((docs: Document[]) => docs.find(it => it.id === this.data.id))
-            .then(doc => { if (doc) {this.setAttributes(doc)} });
+        const doc = (Archivals as Document[]).find(it => it.id === this.data.id);
+        if (doc) {
+            this.setAttributes(doc);
+        }
 
         this.renderSoundButtonWhenElementHasSoundChild();
     },
@@ -55,7 +56,7 @@ AFRAME.registerComponent<DocumentComponent>('document', {
 
         // Icon-Element für den Button erstellen.
         const icon = document.createElement('a-plane');
-        icon.setAttribute('src', 'https://localhost:8080/public/assets/icons/volume.png');
+        icon.setAttribute('src', '/public/assets/icons/volume.png');
         icon.setAttribute('width', '0.15');
         icon.setAttribute('height', '0.15');
         icon.object3D.position.set(0, 0, 0.026);

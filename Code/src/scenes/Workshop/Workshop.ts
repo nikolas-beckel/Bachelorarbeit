@@ -2,33 +2,28 @@ import AFRAME from 'aframe';
 import { CloseUp, Painting } from '../../components/Painting/Painting.models';
 import { degToRad } from '../../utils/utils';
 import WorkshopScene from './Workshop.models';
+import Paintings from '../../../public/data/paintings.json';
 
 AFRAME.registerComponent<WorkshopScene>('workshop-scene', {
     init() {
-        fetch('https://localhost:8080/public/data/paintings.json')
-            .then(result => result.json())
-            .then((paintingsData: Painting[]) => {
-                if (paintingsData) {
-                    const scene = document.getElementById('scene')!;
-                    const firstPainting = paintingsData[0];
+        const scene = document.getElementById('scene')!;
+        const firstPainting = (Paintings as Painting[])[0];
 
-                    this.renderPainting(
-                        firstPainting.id,
-                        firstPainting.src,
-                        firstPainting.closeUps,
-                        scene
-                    );
-                    this.renderDescription(
-                        firstPainting.title,
-                        firstPainting.dating,
-                        firstPainting.attribution,
-                        firstPainting.support,
-                        firstPainting.id,
-                        firstPainting.src,
-                        scene
-                    )
-                }
-            });
+        this.renderPainting(
+            firstPainting.id,
+            firstPainting.src,
+            firstPainting.closeUps,
+            scene
+        );
+        this.renderDescription(
+            firstPainting.title,
+            firstPainting.dating,
+            firstPainting.attribution,
+            firstPainting.support,
+            firstPainting.id,
+            firstPainting.src,
+            scene
+        )
     },
 
     /**
