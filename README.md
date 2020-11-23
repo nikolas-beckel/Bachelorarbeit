@@ -23,7 +23,7 @@ Es wird nach einem vereinfachten Git-flow-Workflow gearbeitet. Da es sich hierbe
 Zum Ausführen der Anwendung wird Node.js benötigt.
 1. Mit der Kommandozeile in den Ordner Code/ innerhalb des USB-Sticks navigieren
 2. Wenn der Code über GitHub geladen wurde, `npm i` ausführen.
-3. `npm start` ausführen
+3. `npm run serve` ausführen
 4. Prototypen aufrufen
   - Technischer Prototyp: https://localhost:8080/public/prototypes/technical-prototype-v1/
   - Lucas Cranachs Werkstatt: https://localhost:8080/public/prototypes/workshop-v1/
