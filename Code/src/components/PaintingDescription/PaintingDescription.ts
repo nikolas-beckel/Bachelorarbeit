@@ -19,6 +19,7 @@ AFRAME.registerComponent<PaintingDescriptionComponent>('painting-description', {
         this.setAttribution(this.data.attribution);
         this.setSupport(this.data.support);
         this.setButton(this.data.id, this.data.src, this.data.ratio);
+        this.setLinkToWebsite(this.data.id);
     },
 
     /**
@@ -95,6 +96,37 @@ AFRAME.registerComponent<PaintingDescriptionComponent>('painting-description', {
         text.setAttribute('color', 'black');
         text.setAttribute('value', 'Detailansicht');
         wrapper.appendChild(text);
+
+        this.el.appendChild(wrapper);
+    },
+
+    /**
+     * Leitet den Benutzer aus der VR-Erfahrung raus auf die Webseite
+     * lucascranach.org zum jeweiligen Gemälde.
+     * @param id ID des Gemäldes.
+     */
+    setLinkToWebsite(id: string) {
+        const wrapper = document.createElement('a-entity');
+        wrapper.object3D.position.set(2, -1.4, 0);
+        wrapper.setAttribute('width', '1.5');
+        // Box-Element des Buttons generieren.
+        const button = document.createElement('a-box');
+        button.setAttribute('width', '0.5');
+        button.setAttribute('height', '0.35');
+        button.setAttribute('depth', '0.1');
+        wrapper.appendChild(button);
+        // Icon des Button generieren.
+        const icon = document.createElement('a-plane');
+        icon.setAttribute('src', '/public/assets/icons/browser.png');
+        icon.setAttribute('width', 0.4);
+        icon.setAttribute('height', 0.3);
+        icon.object3D.position.set(0, 0, 0.06);
+        wrapper.appendChild(icon);
+
+        // EventListener für einen Klick registrieren
+        wrapper.addEventListener('click', () => {
+           window.location.href = 'https://lucascranach.org/' + id;
+        });
 
         this.el.appendChild(wrapper);
     }

@@ -29,6 +29,12 @@ interface PaintingDescriptionComponent extends ComponentDefinition {
      * @param ratio Verhältnis der Bildbreite und -höhe.
      */
     setButton: (id: string, src: string, ratio: number) => void;
+    /**
+     * Leitet den Benutzer aus der VR-Erfahrung raus auf die Webseite
+     * lucascranach.org zum jeweiligen Gemälde.
+     * @param id ID des Gemäldes.
+     */
+    setLinkToWebsite: (id: string) => void;
 }
 
 export { PaintingDescriptionComponent };
