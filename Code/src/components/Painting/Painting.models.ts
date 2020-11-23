@@ -22,9 +22,8 @@ export interface PaintingComponent extends ComponentDefinition {
      * @param id ID des Gemäldes.
      * @param closeUps URL-Pfad der Nahaufnahmen inklusive
      *        ihrer Positionen und IDs.
-     * @param paintingHeight Höhe des Gemäldes.
      */
-    createDetailPoints: (id: string, closeUps: CloseUp[], paintingHeight: number) => void;
+    createDetailPoints: (id: string, closeUps: CloseUp[]) => void;
 }
 
 /**
