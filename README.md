@@ -21,8 +21,8 @@ Es wird nach einem vereinfachten Git-flow-Workflow gearbeitet. Da es sich hierbe
 
 # Installationsanleitung für die VR-Anwendung
 Zum Ausführen der Anwendung wird Node.js benötigt.
-1. Mit der Kommandozeile in den Ordner Code/ innerhalb des USB-Sticks navigieren
-2. Wenn der Code über GitHub geladen wurde, `npm i` ausführen.
+1. Code/ Ordner aus dem USB-Stick auf den Computer ziehen und mit der Kommandoleiste dorthin navigieren
+2. Wurde der Code über GitHub geladen, `npm i` ausführen.
 3. `npm run serve` ausführen
 4. Prototypen aufrufen
   - Technischer Prototyp: https://localhost:8080/public/prototypes/technical-prototype-v1/
