@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.17)  15 SEP 2020 22:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.1)  23 NOV 2020 10:56
 entering extended mode
 **"d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/bachelorarbeit.tex"
 ("d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/bachelorarbeit.tex"
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-08-07> ("C:\Program Files\MiKTeX\tex/latex/base\article.cls"
+L3 programming layer <2020-09-03> ("C:\Program Files\MiKTeX\tex/latex/base\article.cls"
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
 ("C:\Program Files\MiKTeX\tex/latex/base\size12.clo"
 File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
@@ -20,9 +20,9 @@ File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
 ) ("C:\Program Files\MiKTeX\tex/generic/babel\babel.sty"
-Package: babel 2020/07/13 3.47 The Babel package
+Package: babel 2020/09/01 3.48 The Babel package
  ("C:\Program Files\MiKTeX\tex/generic/babel\babel.def"
-File: babel.def 2020/07/13 3.47 Babel common definitions
+File: babel.def 2020/09/01 3.48 Babel common definitions
 \babel@savecnt=\count176
 \U@D=\dimen135
 \l@babelnohyphens=\language79
@@ -42,10 +42,9 @@ Language: ngerman 2020/07/21 v2.12 German support for babel (post-1996 orthograp
 Language: ngermanb 2020/07/21 v2.12 German support for babel (post-1996 orthography)
 Package babel Info: Making " an active character on input line 121.
 ))) ("C:\Program Files\MiKTeX\tex/latex/caption\caption.sty"
-Package: caption 2020/05/30 v3.4k Customizing captions (AR)
+Package: caption 2020/09/02 v3.5a Customizing captions (AR)
  ("C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty"
-Package: caption3 2020/07/20 v1.12b caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 61.
+Package: caption3 2020/08/30 v2.0 caption3 kernel (AR)
  ("C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
@@ -89,7 +88,7 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
  ("C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def"
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+File: pdftex.def 2020/08/26 v1.2 Graphics/color driver for pdftex
 ))) ("C:\Program Files\MiKTeX\tex/latex/lm\lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -476,7 +475,7 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
  ("C:\Program Files\MiKTeX\tex/latex/trimspaces\trimspaces.sty"
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )) ("C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty"
-Package: etoolbox 2020/07/15 v2.5i e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2020/08/24 v2.5j e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count281
 )
 \tcb@titlebox=\box63
@@ -576,30 +575,287 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
 \Hy@SectionHShift=\skip73
-) ("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def"
-File: l3backend-pdfmode.def 2020-08-07 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count295
+) ("C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.sty"
+Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
+\csq@reset=\count295
+\csq@gtype=\count296
+\csq@glevel=\count297
+\csq@qlevel=\count298
+\csq@maxlvl=\count299
+\csq@tshold=\count300
+\csq@ltx@everypar=\toks46
+ ("C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.def"
+File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ ("C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.cfg"
+File: csquotes.cfg 
+)) ("C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.sty"
+Package: biblatex 2020/08/23 v3.15a programmable bibliographies (PK/MW)
+ ("C:\Program Files\MiKTeX\tex/latex/logreq\logreq.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count301
+ ("C:\Program Files\MiKTeX\tex/latex/logreq\logreq.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) ("C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count302
+\c@listtotal=\count303
+\c@listcount=\count304
+\c@liststart=\count305
+\c@liststop=\count306
+\c@citecount=\count307
+\c@citetotal=\count308
+\c@multicitecount=\count309
+\c@multicitetotal=\count310
+\c@instcount=\count311
+\c@maxnames=\count312
+\c@minnames=\count313
+\c@maxitems=\count314
+\c@minitems=\count315
+\c@citecounter=\count316
+\c@maxcitecounter=\count317
+\c@savedcitecounter=\count318
+\c@uniquelist=\count319
+\c@uniquename=\count320
+\c@refsection=\count321
+\c@refsegment=\count322
+\c@maxextratitle=\count323
+\c@maxextratitleyear=\count324
+\c@maxextraname=\count325
+\c@maxextradate=\count326
+\c@maxextraalpha=\count327
+\c@abbrvpenalty=\count328
+\c@highnamepenalty=\count329
+\c@lownamepenalty=\count330
+\c@maxparens=\count331
+\c@parenlevel=\count332
+\blx@tempcnta=\count333
+\blx@tempcntb=\count334
+\blx@tempcntc=\count335
+\blx@maxsection=\count336
+\blx@maxsegment@0=\count337
+\blx@notetype=\count338
+\blx@parenlevel@text=\count339
+\blx@parenlevel@foot=\count340
+\blx@sectionciteorder@0=\count341
+\blx@entrysetcounter=\count342
+\blx@biblioinstance=\count343
+\labelnumberwidth=\skip74
+\labelalphawidth=\skip75
+\biblabelsep=\skip76
+\bibitemsep=\skip77
+\bibnamesep=\skip78
+\bibinitsep=\skip79
+\bibparsep=\skip80
+\bibhang=\skip81
+\blx@bcfin=\read5
+\blx@bcfout=\write6
+\blx@langwohyphens=\language80
+\c@mincomprange=\count344
+\c@maxcomprange=\count345
+\c@mincompwidth=\count346
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex\blx-dm.def"
+File: blx-dm.def 2020/08/23 v3.15a biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count347
+\c@savedafterword=\count348
+\c@annotator=\count349
+\c@savedannotator=\count350
+\c@author=\count351
+\c@savedauthor=\count352
+\c@bookauthor=\count353
+\c@savedbookauthor=\count354
+\c@commentator=\count355
+\c@savedcommentator=\count356
+\c@editor=\count357
+\c@savededitor=\count358
+\c@editora=\count359
+\c@savededitora=\count360
+\c@editorb=\count361
+\c@savededitorb=\count362
+\c@editorc=\count363
+\c@savededitorc=\count364
+\c@foreword=\count365
+\c@savedforeword=\count366
+\c@holder=\count367
+\c@savedholder=\count368
+\c@introduction=\count369
+\c@savedintroduction=\count370
+\c@namea=\count371
+\c@savednamea=\count372
+\c@nameb=\count373
+\c@savednameb=\count374
+\c@namec=\count375
+\c@savednamec=\count376
+\c@translator=\count377
+\c@savedtranslator=\count378
+\c@shortauthor=\count379
+\c@savedshortauthor=\count380
+\c@shorteditor=\count381
+\c@savedshorteditor=\count382
+\c@labelname=\count383
+\c@savedlabelname=\count384
+\c@institution=\count385
+\c@savedinstitution=\count386
+\c@lista=\count387
+\c@savedlista=\count388
+\c@listb=\count389
+\c@savedlistb=\count390
+\c@listc=\count391
+\c@savedlistc=\count392
+\c@listd=\count393
+\c@savedlistd=\count394
+\c@liste=\count395
+\c@savedliste=\count396
+\c@listf=\count397
+\c@savedlistf=\count398
+\c@location=\count399
+\c@savedlocation=\count400
+\c@organization=\count401
+\c@savedorganization=\count402
+\c@origlocation=\count403
+\c@savedoriglocation=\count404
+\c@origpublisher=\count405
+\c@savedorigpublisher=\count406
+\c@publisher=\count407
+\c@savedpublisher=\count408
+\c@language=\count409
+\c@savedlanguage=\count410
+\c@origlanguage=\count411
+\c@savedoriglanguage=\count412
+\c@pageref=\count413
+\c@savedpageref=\count414
+\shorthandwidth=\skip82
+\shortjournalwidth=\skip83
+\shortserieswidth=\skip84
+\shorttitlewidth=\skip85
+\shortauthorwidth=\skip86
+\shorteditorwidth=\skip87
+\locallabelnumberwidth=\skip88
+\locallabelalphawidth=\skip89
+\localshorthandwidth=\skip90
+\localshortjournalwidth=\skip91
+\localshortserieswidth=\skip92
+\localshorttitlewidth=\skip93
+\localshortauthorwidth=\skip94
+\localshorteditorwidth=\skip95
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex\blx-compat.def"
+File: blx-compat.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
+) ("C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty"
+Package: expl3 2020-09-03 L3 programming layer (loader) 
+ ("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def"
+File: l3backend-pdftex.def 2020-09-01 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count415
 \l__pdf_internal_box=\box71
-) ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.aux")
+))
+Package biblatex Info: expl3
+(biblatex)             2020-09-03 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+Package biblatex Info: Trying to load expl3 case changing code...
+Package biblatex Info: ... file 'blx-case-expl3.def' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex\blx-case-expl3.def" ("C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty"
+Package: xparse 2020-05-15 L3 Experimental document command parser
+ ("C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse-generic.tex"
+\l__xparse_current_arg_int=\count416
+\g__xparse_grabber_int=\count417
+\l__xparse_m_args_int=\count418
+\l__xparse_v_nesting_int=\count419
+))
+File: blx-case-expl3 2020/08/23 v3.15a expl3 case changing code for biblatex
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.def"
+File: biblatex.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
+\c@textcitecount=\count420
+\c@textcitetotal=\count421
+\c@textcitemaxnames=\count422
+\c@biburlbigbreakpenalty=\count423
+\c@biburlbreakpenalty=\count424
+\c@biburlnumpenalty=\count425
+\c@biburlucpenalty=\count426
+\c@biburllcpenalty=\count427
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count428
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\authoryear.bbx"
+File: authoryear.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\standard.bbx"
+File: standard.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count429
+\c@bbx:relatedtotal=\count430
+))
+Package biblatex Info: Trying to load citation style 'apa'...
+Package biblatex Info: ... file 'apa.cbx' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex-apa\apa.cbx"
+File: apa.cbx 2020/08/28 v9.14 APA biblatex citation style
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'textcite' already defined, overwriting.
+Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined, overwriting.
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\citeauthor'.
+Package biblatex Info: Redefining '\citeyear'.
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.cfg"
+File: biblatex.cfg 
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
+ ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.aux")
 \openout1 = `bachelorarbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 139.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 140.
  ("C:\Program Files\MiKTeX\tex/latex/lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -612,17 +868,17 @@ Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 Package caption Info: End \AtBeginDocument code.
  ("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count296
+\scratchcounter=\count431
 \scratchdimen=\dimen273
 \scratchbox=\box72
-\nofMPsegments=\count297
-\nofMParguments=\count298
-\everyMPshowfont=\toks46
-\MPscratchCnt=\count299
+\nofMPsegments=\count432
+\nofMParguments=\count433
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count434
 \MPscratchDim=\dimen274
-\MPnumerator=\count300
-\makeMPintoPDFobject=\count301
-\everyMPtoPDFconversion=\toks47
+\MPnumerator=\count435
+\makeMPintoPDFobject=\count436
+\everyMPtoPDFconversion=\toks48
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -660,7 +916,7 @@ Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box73
-Package hyperref Info: Link coloring ON on input line 139.
+Package hyperref Info: Link coloring ON on input line 140.
  ("C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  ("C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty"
@@ -668,76 +924,559 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) ("C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count302
+\c@section@level=\count437
 )
-LaTeX Info: Redefining \ref on input line 139.
-LaTeX Info: Redefining \pageref on input line 139.
-LaTeX Info: Redefining \nameref on input line 139.
+LaTeX Info: Redefining \ref on input line 140.
+LaTeX Info: Redefining \pageref on input line 140.
+LaTeX Info: Redefining \nameref on input line 140.
  ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.out") ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.out")
-\@outlinefile=\write6
-\openout6 = `bachelorarbeit.out'.
+\@outlinefile=\write7
+\openout7 = `bachelorarbeit.out'.
 
- ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.toc"
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4.
- ("C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd"
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\ngerman.lbx"
+File: ngerman.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\german.lbx"
+File: german.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\german.lbx"
+File: german.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout6 = `bachelorarbeit.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'bachelorarbeit.bbl' found.
+ ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.bbl")
+Package biblatex Info: Reference section=0 on input line 140.
+Package biblatex Info: Reference segment=0 on input line 140.
+ ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\leereSeite.tex") [1
+
+]
+Package epstopdf Info: Source file: <img/logo_TH-Koeln_CMYK_22pt.eps>
+(epstopdf)                    date: 2020-11-23 05:42:19
+(epstopdf)                    size: 531878 bytes
+(epstopdf)             Output file: <img/logo_TH-Koeln_CMYK_22pt-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-23 05:42:19
+(epstopdf)                    size: 25701 bytes
+(epstopdf)             Command: <epstopdf --outfile=img/logo_TH-Koeln_CMYK_22pt-eps-converted-to.pdf img/logo_TH-Koeln_CMYK_22pt.eps>
+(epstopdf)             \includegraphics on input line 151.
+Package epstopdf Info: Output file is already uptodate.
+<img/logo_TH-Koeln_CMYK_22pt-eps-converted-to.pdf, id=164, 115.43124pt x 62.2325pt>
+File: img/logo_TH-Koeln_CMYK_22pt-eps-converted-to.pdf Graphic file (type pdf)
+<use img/logo_TH-Koeln_CMYK_22pt-eps-converted-to.pdf>
+Package pdftex.def Info: img/logo_TH-Koeln_CMYK_22pt-eps-converted-to.pdf  used on input line 151.
+(pdftex.def)             Requested size: 115.43095pt x 62.23235pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 173.
+("C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 173.
  ("C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 4.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 173.
  ("C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 4.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 173.
  ("C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 4.
+(Font)              <14.4> on input line 173.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 4.
+(Font)              <10> on input line 173.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 4.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+(Font)              <7> on input line 173.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 173.
  ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 173.
  ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-\tf@toc=\write7
-\openout7 = `bachelorarbeit.toc'.
+) [1{C:/Users/Nikolas/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/logo_TH-Koeln_CMYK_22pt-eps-converted-to.pdf>] ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.toc"
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 12.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 12.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 12.
+ [1])
+\tf@toc=\write8
+\openout8 = `bachelorarbeit.toc'.
 
- [1
+ [2] ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.lof"
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 18.
+ ("C:\Program Files\MiKTeX\tex/latex/lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Overfull \hbox (30.81483pt too wide) in paragraph at lines 46--46
+ [][] [][][]\T1/lmr/m/n/12 Abrufen der Da-ten aus der \T1/lmtt/m/n/12 paintings.json \T1/lmr/m/n/12 und Aus-füh-ren der \T1/lmtt/m/n/12 createPainting\T1/lmr/m/n/12 - 
+ []
 
-{C:/Users/Nikolas/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 146.
- ("C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd"
+[3])
+\tf@lof=\write9
+\openout9 = `bachelorarbeit.lof'.
+
+ ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.lot")
+\tf@lot=\write10
+\openout10 = `bachelorarbeit.lot'.
+
+ [4]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 203.
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--248
+
+ []
+
+[5] [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 349--383
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
+[][][]\T1/lmr/m/n/10 BMW Group | [][]$\T1/lmtt/m/n/10 https : / / www . bmwgroup . com / de / verantwortung / sustainable-[]stories /
+ []
+
+
+Overfull \hbox (6.83884pt too wide) in paragraph at lines 401--401
+[][][]\T1/lmr/m/n/10 Medical Fu-tu-rist | [][]$\T1/lmtt/m/n/10 https : / / medicalfuturist . com / 5-[]ways-[]medical-[]vr-[]is-[]changing-[]healthcare/$[][]
+ []
+
+[9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 466--574
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--574
+
+ []
+
+[11] [12]
+<img/vr-brille.jpg, id=431, 1284.8pt x 796.9775pt>
+File: img/vr-brille.jpg Graphic file (type jpg)
+<use img/vr-brille.jpg>
+Package pdftex.def Info: img/vr-brille.jpg  used on input line 584.
+(pdftex.def)             Requested size: 385.44298pt x 239.0951pt.
+<img/google-cardboard.jpg, id=436, 398.9304pt x 336.2964pt>
+File: img/google-cardboard.jpg Graphic file (type jpg)
+<use img/google-cardboard.jpg>
+Package pdftex.def Info: img/google-cardboard.jpg  used on input line 606.
+(pdftex.def)             Requested size: 279.24937pt x 235.40587pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 575--634
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 575--634
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 575--634
+
+ []
+
+[13] [14 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/vr-brille.jpg>]
+Underfull \hbox (badness 6542) in paragraph at lines 710--710
+[][][]\T1/lmr/m/n/10 WebAssembly in Uni-ty | [][]$\T1/lmtt/m/n/10 https : / / blogs . unity3d . com / 2018 / 08 / 15 / webassembly-[]is-[]here/$[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 635--736
+
+ []
+
+[15 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/google-cardboard.jpg>] [16] [17] [18] [19] [20]
+Underfull \hbox (badness 10000) in paragraph at lines 881--939
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 881--939
+
+ []
+
+[21] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 958--1012
+
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 1031--1031
+[][][]\T1/lmr/m/n/10 Unreal En-gi-ne Do-ku-men-ta-ti-on | [][]$\T1/lmtt/m/n/10 https : / / docs . unrealengine . com / en-[]US / index . html$[][]
+ []
+
+
+Underfull \hbox (badness 6332) in paragraph at lines 1050--1050
+[][][]\T1/lmr/m/n/10 Three.js Web-VR Do-ku-men-ta-ti-on | [][]$\T1/lmtt/m/n/10 https : / / threejs . org / docs / #manual / en / introduction /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1053--1053
+[][][]\T1/lmr/m/n/10 Three.js in A-Frame | [][]$\T1/lmtt/m/n/10 https : / / aframe . io / docs / 1 . 0 . 0 / introduction /
+ []
+
+[24]
+<img/unity1.png, id=643, 1445.4pt x 782.925pt>
+File: img/unity1.png Graphic file (type png)
+<use img/unity1.png>
+Package pdftex.def Info: img/unity1.png  used on input line 1069.
+(pdftex.def)             Requested size: 433.62335pt x 234.8793pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1061--1075
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1076.
+("C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [2] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
+) [25]
+Underfull \hbox (badness 10000) in paragraph at lines 1086--1099
+
+ []
+
+[26 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/unity1.png>]
+<img/unreal1.png, id=671, 1204.5pt x 657.95813pt>
+File: img/unreal1.png Graphic file (type png)
+<use img/unreal1.png>
+Package pdftex.def Info: img/unreal1.png  used on input line 1106.
+(pdftex.def)             Requested size: 421.58131pt x 230.28879pt.
+<img/unreal2.png, id=674, 1204.5pt x 657.95813pt>
+File: img/unreal2.png Graphic file (type png)
+<use img/unreal2.png>
+Package pdftex.def Info: img/unreal2.png  used on input line 1123.
+(pdftex.def)             Requested size: 421.58131pt x 230.28879pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1133--1133
+[][][]\T1/lmr/m/n/10 Unreal En-gi-ne Do-ku-men-ta-ti-on | [][]$\T1/lmtt/m/n/10 https : / / docs . unrealengine . com / en-[]US / index . html$[][]
+ []
+
+
+Underfull \hbox (badness 5817) in paragraph at lines 1135--1135
+[][][]\T1/lmr/m/n/10 Unreal En-gi-ne Plä-ne für Nicht-Spiele | [][]$\T1/lmtt/m/n/10 https : / / www . unrealengine . com / en-[]US / get-[]now /
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[27 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/unreal1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1162
+
+ []
+
+[28 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/unreal2.png>]
+<img/aframe1.png, id=703, 297.36093pt x 19.57312pt>
+File: img/aframe1.png Graphic file (type png)
+<use img/aframe1.png>
+Package pdftex.def Info: img/aframe1.png  used on input line 1173.
+(pdftex.def)             Requested size: 297.3602pt x 19.57306pt.
+<img/aframe-editor.png, id=705, 1445.4pt x 705.38531pt>
+File: img/aframe-editor.png Graphic file (type png)
+<use img/aframe-editor.png>
+Package pdftex.def Info: img/aframe-editor.png  used on input line 1182.
+(pdftex.def)             Requested size: 433.62335pt x 211.61722pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1163--1197
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1163--1197
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/aframe1.png>]
+Overfull \hbox (14.33382pt too wide) in paragraph at lines 1221--1231
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1217--1250
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[30 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/aframe-editor.png>] [31]
+<img/coding/index1.png, id=744, 436.63126pt x 430.60875pt>
+File: img/coding/index1.png Graphic file (type png)
+<use img/coding/index1.png>
+Package pdftex.def Info: img/coding/index1.png  used on input line 1302.
+(pdftex.def)             Requested size: 392.9645pt x 387.54428pt.
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 1311.
+<img/coding/vr-welt1.png, id=747, 1445.4pt x 813.0375pt>
+File: img/coding/vr-welt1.png Graphic file (type png)
+<use img/coding/vr-welt1.png>
+Package pdftex.def Info: img/coding/vr-welt1.png  used on input line 1366.
+(pdftex.def)             Requested size: 433.62335pt x 243.91313pt.
+<img/coding/a-image1.png, id=749, 164.11313pt x 86.57344pt>
+File: img/coding/a-image1.png Graphic file (type png)
+<use img/coding/a-image1.png>
+Package pdftex.def Info: img/coding/a-image1.png  used on input line 1390.
+(pdftex.def)             Requested size: 164.11272pt x 86.57321pt.
+<img/coding/vr-welt2.png, id=751, 1445.4pt x 813.0375pt>
+File: img/coding/vr-welt2.png Graphic file (type png)
+<use img/coding/vr-welt2.png>
+Package pdftex.def Info: img/coding/vr-welt2.png  used on input line 1400.
+(pdftex.def)             Requested size: 433.62335pt x 243.91313pt.
+<img/coding/a-image2.png, id=753, 283.81032pt x 101.62968pt>
+File: img/coding/a-image2.png Graphic file (type png)
+<use img/coding/a-image2.png>
+Package pdftex.def Info: img/coding/a-image2.png  used on input line 1417.
+(pdftex.def)             Requested size: 283.80962pt x 101.62943pt.
+<img/coding/komponente1.png, id=755, 306.39468pt x 188.95593pt>
+File: img/coding/komponente1.png Graphic file (type png)
+<use img/coding/komponente1.png>
+Package pdftex.def Info: img/coding/komponente1.png  used on input line 1429.
+(pdftex.def)             Requested size: 306.39394pt x 188.95546pt.
+<img/coding/komponente2.png, id=763, 209.28188pt x 15.80907pt>
+File: img/coding/komponente2.png Graphic file (type png)
+<use img/coding/komponente2.png>
+Package pdftex.def Info: img/coding/komponente2.png  used on input line 1474.
+(pdftex.def)             Requested size: 209.28134pt x 15.809pt.
+<img/coding/standing-area1.png, id=765, 127.97812pt x 59.47218pt>
+File: img/coding/standing-area1.png Graphic file (type png)
+<use img/coding/standing-area1.png>
+Package pdftex.def Info: img/coding/standing-area1.png  used on input line 1484.
+(pdftex.def)             Requested size: 127.9778pt x 59.47203pt.
+<img/coding/standing-area2.png, id=767, 504.38437pt x 489.32813pt>
+File: img/coding/standing-area2.png Graphic file (type png)
+<use img/coding/standing-area2.png>
+Package pdftex.def Info: img/coding/standing-area2.png  used on input line 1492.
+(pdftex.def)             Requested size: 453.94173pt x 440.39124pt.
+<img/coding/standing-area3.png, id=783, 1445.4pt x 811.53188pt>
+File: img/coding/standing-area3.png Graphic file (type png)
+<use img/coding/standing-area3.png>
+Package pdftex.def Info: img/coding/standing-area3.png  used on input line 1561.
+(pdftex.def)             Requested size: 433.62335pt x 243.46144pt.
+<img/coding/description2.png, id=787, 326.72063pt x 242.40562pt>
+File: img/coding/description2.png Graphic file (type png)
+<use img/coding/description2.png>
+Package pdftex.def Info: img/coding/description2.png  used on input line 1581.
+(pdftex.def)             Requested size: 326.71982pt x 242.40501pt.
+<img/coding/description1.png, id=788, 1445.4pt x 813.0375pt>
+File: img/coding/description1.png Graphic file (type png)
+<use img/coding/description1.png>
+Package pdftex.def Info: img/coding/description1.png  used on input line 1587.
+(pdftex.def)             Requested size: 433.62335pt x 243.91313pt.
+<img/coding/json-aufbau1.png, id=794, 578.91281pt x 289.08pt>
+File: img/coding/json-aufbau1.png Graphic file (type png)
+<use img/coding/json-aufbau1.png>
+Package pdftex.def Info: img/coding/json-aufbau1.png  used on input line 1667.
+(pdftex.def)             Requested size: 463.13087pt x 231.2643pt.
+
+Overfull \hbox (7.88676pt too wide) in paragraph at lines 1667--1668
+ [][] 
+ []
+
+<img/coding/painting-type1.png, id=796, 348.55219pt x 139.27031pt>
+File: img/coding/painting-type1.png Graphic file (type png)
+<use img/coding/painting-type1.png>
+Package pdftex.def Info: img/coding/painting-type1.png  used on input line 1679.
+(pdftex.def)             Requested size: 348.55132pt x 139.26996pt.
+<img/coding/paintings-builder1.png, id=800, 237.13594pt x 48.18pt>
+File: img/coding/paintings-builder1.png Graphic file (type png)
+<use img/coding/paintings-builder1.png>
+Package pdftex.def Info: img/coding/paintings-builder1.png  used on input line 1707.
+(pdftex.def)             Requested size: 237.13535pt x 48.17986pt.
+
+Underfull \hbox (badness 1622) in paragraph at lines 1708--1708
+[]\T1/lmr/m/n/12 Abbildung 22: |Ab-ru-fen der Da-ten aus der \T1/lmtt/m/n/12 paintings.json \T1/lmr/m/n/12 und Aus-füh-ren der
+ []
+
+<img/coding/paintings-builder2.png, id=803, 402.00188pt x 272.51813pt>
+File: img/coding/paintings-builder2.png Graphic file (type png)
+<use img/coding/paintings-builder2.png>
+Package pdftex.def Info: img/coding/paintings-builder2.png  used on input line 1727.
+(pdftex.def)             Requested size: 402.00089pt x 272.51746pt.
+<img/coding/painting1.png, id=806, 430.60875pt x 315.42844pt>
+File: img/coding/painting1.png Graphic file (type png)
+<use img/coding/painting1.png>
+Package pdftex.def Info: img/coding/painting1.png  used on input line 1749.
+(pdftex.def)             Requested size: 430.60768pt x 315.42766pt.
+<img/coding/paintings-builder3.png, id=812, 1445.4pt x 813.0375pt>
+File: img/coding/paintings-builder3.png Graphic file (type png)
+<use img/coding/paintings-builder3.png>
+Package pdftex.def Info: img/coding/paintings-builder3.png  used on input line 1781.
+(pdftex.def)             Requested size: 433.62335pt x 243.91313pt.
+<img/coding/paintings-builder4.png, id=814, 1445.4pt x 813.0375pt>
+File: img/coding/paintings-builder4.png Graphic file (type png)
+<use img/coding/paintings-builder4.png>
+Package pdftex.def Info: img/coding/paintings-builder4.png  used on input line 1790.
+(pdftex.def)             Requested size: 433.62335pt x 243.91313pt.
+<img/coding/paintings-builder5.png, id=816, 1445.4pt x 813.0375pt>
+File: img/coding/paintings-builder5.png Graphic file (type png)
+<use img/coding/paintings-builder5.png>
+Package pdftex.def Info: img/coding/paintings-builder5.png  used on input line 1799.
+(pdftex.def)             Requested size: 433.62335pt x 243.91313pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1288--1806
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1288--1806
+
+ []
+
+
+Overfull \hbox (1.79509pt too wide) in paragraph at lines 1288--1806
+\T1/lmr/m/n/12 um-zu-set-zen, wur-de ei-ne \T1/lmtt/m/n/12 <a-box> \T1/lmr/m/n/12 ver-wen-det. Die-se er-hält die Kom-po-nen-te \T1/lmtt/m/n/12 standing-area\T1/lmr/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1288--1806
+
+ []
+
+[32] [33 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/index1.png>] [34]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[35 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/vr-welt1.png> <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/a-image1.png>] [36 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/vr-welt2.png> <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/a-image2.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[37 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/komponente1.png> <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/komponente2.png>] [38 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/standing-area1.png>] [39 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/standing-area2.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[40 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/standing-area3.png>] [41 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/description2.png> <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/description1.png>] [42] [43 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/json-aufbau1.png> <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/painting-type1.png>] [44 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/paintings-builder1.png>] [45 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/paintings-builder2.png> <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/painting1.png>] [46 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/paintings-builder3.png>] [47 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/paintings-builder4.png> <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/paintings-builder5.png>]
+<img/coding/gltf1.png, id=909, 339.51843pt x 328.97906pt>
+File: img/coding/gltf1.png Graphic file (type png)
+<use img/coding/gltf1.png>
+Package pdftex.def Info: img/coding/gltf1.png  used on input line 1844.
+(pdftex.def)             Requested size: 339.5176pt x 328.97826pt.
+<img/coding/werkstatt2.png, id=912, 1445.4pt x 813.0375pt>
+File: img/coding/werkstatt2.png Graphic file (type png)
+<use img/coding/werkstatt2.png>
+Package pdftex.def Info: img/coding/werkstatt2.png  used on input line 1865.
+(pdftex.def)             Requested size: 433.62335pt x 243.91313pt.
+<img/coding/werkstatt1.png, id=913, 1445.4pt x 813.0375pt>
+File: img/coding/werkstatt1.png Graphic file (type png)
+<use img/coding/werkstatt1.png>
+Package pdftex.def Info: img/coding/werkstatt1.png  used on input line 1871.
+(pdftex.def)             Requested size: 433.62335pt x 243.91313pt.
+<img/coding/werkstatt3.png, id=916, 1445.4pt x 813.0375pt>
+File: img/coding/werkstatt3.png Graphic file (type png)
+<use img/coding/werkstatt3.png>
+Package pdftex.def Info: img/coding/werkstatt3.png  used on input line 1896.
+(pdftex.def)             Requested size: 433.62335pt x 243.91313pt.
+<img/coding/document1.png, id=919, 419.31656pt x 288.3272pt>
+File: img/coding/document1.png Graphic file (type png)
+<use img/coding/document1.png>
+Package pdftex.def Info: img/coding/document1.png  used on input line 1916.
+(pdftex.def)             Requested size: 419.31552pt x 288.32648pt.
+ [48] [49 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/gltf1.png> <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/werkstatt2.png>] [50 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/werkstatt1.png>] [51 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/werkstatt3.png> <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/document1.png>]
+<img/coding/neural-network1.png, id=942, 1445.4pt x 813.0375pt>
+File: img/coding/neural-network1.png Graphic file (type png)
+<use img/coding/neural-network1.png>
+Package pdftex.def Info: img/coding/neural-network1.png  used on input line 1953.
+(pdftex.def)             Requested size: 433.62335pt x 243.91313pt.
+<img/coding/neural-network2.png, id=945, 462.22687pt x 15.80907pt>
+File: img/coding/neural-network2.png Graphic file (type png)
+<use img/coding/neural-network2.png>
+Package pdftex.def Info: img/coding/neural-network2.png  used on input line 1972.
+(pdftex.def)             Requested size: 462.22574pt x 15.809pt.
+
+Overfull \hbox (6.98163pt too wide) in paragraph at lines 1972--1973
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1924--1976
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1924--1976
+
+ []
+
+[52 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/neural-network1.png>] [53 <d:/GitHub Repositories/Bachelorarbeit/Bachelorarbeit/img/coding/neural-network2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2015--2108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2015--2108
+
+ []
+
+[54]
+Overfull \hbox (1.82262pt too wide) in paragraph at lines 2109--2191
+\T1/lmr/m/n/12 Heutige mo-der-ne Brow-ser kön-nen um-fang-rei-che VR-Erfahrungen aus-füh-ren. Dank Schnitt-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2109--2191
+
+ []
+
+[55] [56] [57] [58] [59]
+Underfull \hbox (badness 10000) in paragraph at lines 2214--2224
+
+ []
+
+[60] ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\leereSeite.tex") [61]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2228.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2228.
  ("d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 192.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2228.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2228.
 Package rerunfilecheck Info: File `bachelorarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: DF192CC56C9CAE10CA081883C1A16C07;1127.
+(rerunfilecheck)             Checksum: 80A1DA5A1AEB4C2C5F2800AA66FEA28A;2782.
+Package logreq Info: Writing requests to 'bachelorarbeit.run.xml'.
+\openout1 = `bachelorarbeit.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 18997 strings out of 481212
- 347446 string characters out of 2915721
- 615032 words of memory out of 3000000
- 34153 multiletter control sequences out of 15000+200000
- 566898 words of font info for 55 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 59i,5n,75p,910b,399s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
-Output written on "d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.pdf" (3 pages, 75654 bytes).
+ 27669 strings out of 481199
+ 522245 string characters out of 2915343
+ 1264509 words of memory out of 3000000
+ 42489 multiletter control sequences out of 15000+200000
+ 614542 words of font info for 88 fonts, out of 3000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 59i,11n,75p,1648b,2229s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on "d:/GitHub Repositories\Bachelorarbeit\Bachelorarbeit\bachelorarbeit.pdf" (63 pages, 21782043 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1105 PDF objects out of 1200 (max. 8388607)
+ 215 named destinations out of 1000 (max. 500000)
+ 492 words of extra memory for PDF output out of 10000 (max. 10000000)
 

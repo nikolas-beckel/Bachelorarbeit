@@ -1,0 +1,528 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Ater2017}{book}{}
+      \name{author}{1}{}{%
+        {{hash=def4880678fc1daf4f34750bcc4befb9}{%
+           family={Ater},
+           familyi={A\bibinitperiod},
+           given={Tal},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {United States of America, 1005 Gravenstein Highway North, Sebastopol, CA 95472}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Media, Inc.}%
+      }
+      \strng{namehash}{def4880678fc1daf4f34750bcc4befb9}
+      \strng{fullhash}{def4880678fc1daf4f34750bcc4befb9}
+      \strng{bibnamehash}{def4880678fc1daf4f34750bcc4befb9}
+      \strng{authorbibnamehash}{def4880678fc1daf4f34750bcc4befb9}
+      \strng{authornamehash}{def4880678fc1daf4f34750bcc4befb9}
+      \strng{authorfullhash}{def4880678fc1daf4f34750bcc4befb9}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-491-96165-0}
+      \field{title}{Building Progressive Web Apps - Bringing the Power of Native to the Browser}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.oreilly.com/library/view/building-progressive-web/9781491961643/
+      \endverb
+      \verb{url}
+      \verb https://www.oreilly.com/library/view/building-progressive-web/9781491961643/
+      \endverb
+    \endentry
+    \entry{Carrozzino2018}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=1742b3b72bd9a0ddb6927830a9a72a5c}{%
+           family={Carrozzino},
+           familyi={C\bibinitperiod},
+           given={Marcello},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cd76b20b4c0af826c69d56cf9b0e1407}{%
+           family={Colombo},
+           familyi={C\bibinitperiod},
+           given={Marianna},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c7f2df5a08795e961e728461101536ed}{%
+           family={Tecchia},
+           familyi={T\bibinitperiod},
+           given={Franco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d9e85038f22655c0eee5d232d83250c2}{%
+           family={Evangelista},
+           familyi={E\bibinitperiod},
+           given={Chiara},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3166e66fdb415b25a9a4242a8c54bc9f}{%
+           family={Bergamasco},
+           familyi={B\bibinitperiod},
+           given={Massimo},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=3deab4ad49f3c8793cebb17b3dc128ce}{%
+           family={De\bibnamedelima Paolis},
+           familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Lucio\bibnamedelima Tommaso},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=2d0fbbf68ebe840cb718af6b302e9d30}{%
+           family={Bourdot},
+           familyi={B\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{403f6a1760c1820687a86c92c499cb3c}
+      \strng{fullhash}{6b5cc6f00a808e2b75c77bbf81c7c368}
+      \strng{bibnamehash}{403f6a1760c1820687a86c92c499cb3c}
+      \strng{authorbibnamehash}{403f6a1760c1820687a86c92c499cb3c}
+      \strng{authornamehash}{403f6a1760c1820687a86c92c499cb3c}
+      \strng{authorfullhash}{6b5cc6f00a808e2b75c77bbf81c7c368}
+      \strng{editorbibnamehash}{e073cf8249feecc3ef84a211f8e27f5b}
+      \strng{editornamehash}{e073cf8249feecc3ef84a211f8e27f5b}
+      \strng{editorfullhash}{e073cf8249feecc3ef84a211f8e27f5b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Virtual museums are becoming increasingly popular, especially thanks to the recent spread of low-cost immersive technologies enabling even small cultural realities to enrich their technology-based offer. The growing availability of computational power and high-quality visual elements enables the use of virtual characters in order to add depth to the virtual visit experience, up to nowadays often limited to the exploration of lifeless environments. This paper presents a pilot study aimed at investigating the positive effects that the use of avatars can provide to a virtual cultural experience, proposing a virtual museum with three different alternatives of storytelling, including one featuring virtual humans, and comparing the results in terms of engagement and understanding of the proposed content.}
+      \field{booktitle}{Augmented Reality, Virtual Reality, and Computer Graphics}
+      \field{isbn}{978-3-319-95282-6}
+      \field{title}{Comparing Different Storytelling Approaches for Virtual Guides in Digital Immersive Museums}
+      \field{year}{2018}
+      \field{pages}{292\bibrangedash 302}
+      \range{pages}{11}
+    \endentry
+    \entry{Dorner2013}{book}{}
+      \name{author}{4}{}{%
+        {{hash=d2d2025e4c6db6214c030fe18f9ce745}{%
+           family={D{\ifmmode\ddot{o}\elseö\fi}rner},
+           familyi={D\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d1213355904537623e55c22e5033c88e}{%
+           family={Broll},
+           familyi={B\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=d280bc6d7237ee08ab9caa5ee7f41cc5}{%
+           family={Grimm},
+           familyi={G\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=caebbd0ebc799288994b9859465f0eec}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Deutschland}%
+      }
+      \list{publisher}{1}{%
+        {Springer Vieweg}%
+      }
+      \strng{namehash}{f92c491dfbccf4657fbdb0adafc5aaf2}
+      \strng{fullhash}{9b921fdf65061b76b536482e11dc372c}
+      \strng{bibnamehash}{f92c491dfbccf4657fbdb0adafc5aaf2}
+      \strng{authorbibnamehash}{f92c491dfbccf4657fbdb0adafc5aaf2}
+      \strng{authornamehash}{f92c491dfbccf4657fbdb0adafc5aaf2}
+      \strng{authorfullhash}{9b921fdf65061b76b536482e11dc372c}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-662-58860-4}
+      \field{title}{{Virtual und Augmented Reality (VR/AR)}}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1007/978-3-662-58861-1
+      \endverb
+      \verb{urlraw}
+      \verb https://www.springer.com/gp/book/9783662588604
+      \endverb
+      \verb{url}
+      \verb https://www.springer.com/gp/book/9783662588604
+      \endverb
+    \endentry
+    \entry{fischer2001}{book}{}
+      \name{author}{2}{}{%
+        {{hash=34c075ceeec8b2c80c46c267f1668595}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c67a743bfd62a4a051395cd4da087b0c}{%
+           family={Altjohann},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiss. Buchges.}%
+      }
+      \strng{namehash}{2f99bfe87e8701c7e7120b3e748cbc93}
+      \strng{fullhash}{2f99bfe87e8701c7e7120b3e748cbc93}
+      \strng{bibnamehash}{2f99bfe87e8701c7e7120b3e748cbc93}
+      \strng{authorbibnamehash}{2f99bfe87e8701c7e7120b3e748cbc93}
+      \strng{authornamehash}{2f99bfe87e8701c7e7120b3e748cbc93}
+      \strng{authorfullhash}{2f99bfe87e8701c7e7120b3e748cbc93}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9783806215915}
+      \field{title}{Die römischen Provinzen: eine Einführung in ihre Archäologie}
+      \field{year}{2001}
+      \verb{urlraw}
+      \verb https://books.google.de/books?id=TmBoAAAAMAAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.de/books?id=TmBoAAAAMAAJ
+      \endverb
+    \endentry
+    \entry{Haas2017Jun}{article}{}
+      \name{author}{8}{}{%
+        {{hash=5acff6ae035393a19de8578ed19d94c8}{%
+           family={Haas},
+           familyi={H\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           suffix={Andreas\bibnamedelimb und\bibnamedelima Rossberg},
+           suffixi={A\bibinitperiod\bibinitdelim u\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a1a9ac6abb10a490a1c600fd3fb50bfd}{%
+           family={Schuff},
+           familyi={S\bibinitperiod},
+           given={Derek\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=c4ede8193f4de30bb8c003babb575025}{%
+           family={Titzer},
+           familyi={T\bibinitperiod},
+           given={Ben\bibnamedelima L.},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=f3c36a0376f6a1b154d101380a9ee9ee}{%
+           family={Holman},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0033c00a4ac7e8d28588850ff2892879}{%
+           family={Gohman},
+           familyi={G\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3b04ed2ed09df1fb347c7c6a307b856f}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Luke},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c4cfe1bc600036ecf862fcbdf7b6d1cf}{%
+           family={Zakai},
+           familyi={Z\bibinitperiod},
+           given={Alon},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6ed048f7e52d9b7495c2c1155343cba0}{%
+           family={Bastien},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{152b0966535db271f2877d4230df6fef}
+      \strng{fullhash}{556feaeebcb6ce79be05593c73bb06a2}
+      \strng{bibnamehash}{152b0966535db271f2877d4230df6fef}
+      \strng{authorbibnamehash}{152b0966535db271f2877d4230df6fef}
+      \strng{authornamehash}{152b0966535db271f2877d4230df6fef}
+      \strng{authorfullhash}{556feaeebcb6ce79be05593c73bb06a2}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0362-1340}
+      \field{journaltitle}{Proceedings. of the 38th ACM SIGPLAN Conference. on Programming. Language. Design. and Implementation.}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{{Bringing the web up to speed with WebAssembly}}
+      \field{volume}{52}
+      \field{year}{2017}
+      \field{pages}{185\bibrangedash 200}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1145/3062341.3062363
+      \endverb
+    \endentry
+    \entry{Katz2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=88daef5acb62a085e052d904d9e06613}{%
+           family={Halpern},
+           familyi={H\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cb0e8334908b3d6afd3d189084386b3e}{%
+           family={Katz},
+           familyi={K\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7c1195e43a21bf2effadf76369218dca}
+      \strng{fullhash}{7c1195e43a21bf2effadf76369218dca}
+      \strng{bibnamehash}{7c1195e43a21bf2effadf76369218dca}
+      \strng{authorbibnamehash}{7c1195e43a21bf2effadf76369218dca}
+      \strng{authornamehash}{7c1195e43a21bf2effadf76369218dca}
+      \strng{authorfullhash}{7c1195e43a21bf2effadf76369218dca}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-1839}
+      \field{journaltitle}{Journal of Science Education and Technology}
+      \field{title}{Can Virtual Museums Motivate Students? Toward a Constructivist Learning Approach}
+      \field{volume}{24}
+      \field{year}{2015}
+      \field{pages}{776\bibrangedash 788}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/s10956-015-9563-7
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10956-015-9563-7
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10956-015-9563-7
+      \endverb
+    \endentry
+    \entry{Heidsiek2019}{book}{}
+      \name{author}{1}{}{%
+        {{hash=adf8286d102f50f434d94d3078780e7e}{%
+           family={Heidsiek},
+           familyi={H\bibinitperiod},
+           given={Katie},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Deutsches Auswandererhaus Bremerhaven, edition DAH}%
+      }
+      \strng{namehash}{adf8286d102f50f434d94d3078780e7e}
+      \strng{fullhash}{adf8286d102f50f434d94d3078780e7e}
+      \strng{bibnamehash}{adf8286d102f50f434d94d3078780e7e}
+      \strng{authorbibnamehash}{adf8286d102f50f434d94d3078780e7e}
+      \strng{authornamehash}{adf8286d102f50f434d94d3078780e7e}
+      \strng{authorfullhash}{adf8286d102f50f434d94d3078780e7e}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-9817-8619-4}
+      \field{title}{Berührt es mich? Virtual Reality und ihre Wirkung auf das Besuchserlebnis in Museen – eine Untersuchung am Deutschen Auswandererhaus}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://dah-bremerhaven.de/beruehrt-es-mich-virtual-reality-und-ihre-wirkung-auf-das-besuchserlebnis-in-museen-eine-untersuchung-am-deutschen-auswandererhaus/
+      \endverb
+      \verb{url}
+      \verb https://dah-bremerhaven.de/beruehrt-es-mich-virtual-reality-und-ihre-wirkung-auf-das-besuchserlebnis-in-museen-eine-untersuchung-am-deutschen-auswandererhaus/
+      \endverb
+    \endentry
+    \entry{heydenreich2017lucas}{book}{}
+      \name{author}{4}{}{%
+        {{hash=ec72771ffa9e23c98fb76d1ddd5926d1}{%
+           family={Heydenreich},
+           familyi={H\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b8337d9ab8dc43cc2e32a9cda0f64d7a}{%
+           family={Görres},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=638a9137217e3c877a5b0d86c2a808f6}{%
+           family={Wismer},
+           familyi={W\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=af051dd8a6b38fa1e188d4d102a300c9}{%
+           family={Bonnet},
+           familyi={B\bibinitperiod},
+           given={A.M.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Museum Kunstpalast}%
+      }
+      \strng{namehash}{c9968d8419a5034dd00e67968aafe310}
+      \strng{fullhash}{7c5d269876cb74ba4a1bb9163fe9042c}
+      \strng{bibnamehash}{c9968d8419a5034dd00e67968aafe310}
+      \strng{authorbibnamehash}{c9968d8419a5034dd00e67968aafe310}
+      \strng{authornamehash}{c9968d8419a5034dd00e67968aafe310}
+      \strng{authorfullhash}{7c5d269876cb74ba4a1bb9163fe9042c}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-777-42744-7}
+      \field{title}{Lucas Cranach der Ältere: Meister, Marke, Moderne}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.hirmerverlag.de/de/titel-87-2/lucas_cranach_der_aeltere-1463/
+      \endverb
+      \verb{url}
+      \verb https://www.hirmerverlag.de/de/titel-87-2/lucas_cranach_der_aeltere-1463/
+      \endverb
+    \endentry
+    \entry{Huennekens2002}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b75413a97bb306fbf33e91e5ff8fbd71}{%
+           family={Hünnekens},
+           familyi={H\bibinitperiod},
+           given={Annette},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Bielefeld}%
+      }
+      \list{publisher}{1}{%
+        {transcript}%
+      }
+      \strng{namehash}{b75413a97bb306fbf33e91e5ff8fbd71}
+      \strng{fullhash}{b75413a97bb306fbf33e91e5ff8fbd71}
+      \strng{bibnamehash}{b75413a97bb306fbf33e91e5ff8fbd71}
+      \strng{authorbibnamehash}{b75413a97bb306fbf33e91e5ff8fbd71}
+      \strng{authornamehash}{b75413a97bb306fbf33e91e5ff8fbd71}
+      \strng{authorfullhash}{b75413a97bb306fbf33e91e5ff8fbd71}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-8394-0089-0}
+      \field{title}{Expanded Museum - Kulturelle Erinnerung und virtuelle Realität}
+      \field{year}{2002}
+      \verb{urlraw}
+      \verb https://www.transcript-verlag.de/978-3-933127-89-1/expanded-museum/
+      \endverb
+      \verb{url}
+      \verb https://www.transcript-verlag.de/978-3-933127-89-1/expanded-museum/
+      \endverb
+    \endentry
+    \entry{Slater2009}{article}{}
+      \name{author}{1}{}{%
+        {{hash=df83b602f850d5091f5ab7de4726e66e}{%
+           family={Slater},
+           familyi={S\bibinitperiod},
+           given={Mel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{df83b602f850d5091f5ab7de4726e66e}
+      \strng{fullhash}{df83b602f850d5091f5ab7de4726e66e}
+      \strng{bibnamehash}{df83b602f850d5091f5ab7de4726e66e}
+      \strng{authorbibnamehash}{df83b602f850d5091f5ab7de4726e66e}
+      \strng{authornamehash}{df83b602f850d5091f5ab7de4726e66e}
+      \strng{authorfullhash}{df83b602f850d5091f5ab7de4726e66e}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phil. Trans. of the Royal Society B}
+      \field{number}{364: 3549–3557}
+      \field{title}{Place illusion and plausibility can lead to realistic behaviour in immersive virtual environments}
+      \field{year}{2009}
+      \verb{doi}
+      \verb http://doi.org/10.1098/rstb.2009.0138
+      \endverb
+    \endentry
+    \entry{Witmer1998}{article}{}
+      \name{author}{2}{}{%
+        {{hash=559ea9c7c38ef70b3fbe506bd8d0567d}{%
+           family={Witmer},
+           familyi={W\bibinitperiod},
+           given={Bob\bibnamedelima G.},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=ae973f57f8d91dbc23ef758f0a378b23}{%
+           family={Singer},
+           familyi={S\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{704e2a5352971bcd89ff1c21e4848dab}
+      \strng{fullhash}{704e2a5352971bcd89ff1c21e4848dab}
+      \strng{bibnamehash}{704e2a5352971bcd89ff1c21e4848dab}
+      \strng{authorbibnamehash}{704e2a5352971bcd89ff1c21e4848dab}
+      \strng{authornamehash}{704e2a5352971bcd89ff1c21e4848dab}
+      \strng{authorfullhash}{704e2a5352971bcd89ff1c21e4848dab}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The effectiveness of virtual environments (VEs) has often been linked to the sense of presence reported by users of those VEs. (Presence is defined as the subjective experience of being in one place or environment, even when one is physically situated in another.) We believe that presence is a normal awareness phenomenon that requires directed attention and is based in the interaction between sensory stimulation, environmental factors that encourage involvement and enable immersion, and internal tendencies to become involved. Factors believed to underlie presence were described in the premier issue of Presence: Teleoperators and Virtual Environments. We used these factors and others as the basis for a presence questionnaire (PQ) to measure presence in VEs. In addition we developed an immersive tendencies questionnaire (ITQ) to measure differences in the tendencies of individuals to experience presence. These questionnaires are being used to evaluate relationships among reported presence and other research variables. Combined results from four experiments lead to the following conclusions: the PQ and ITQ are internally consistent measures with high reliability; there is a weak but consistent positive relation between presence and task performance in VEs; individual tendencies as measured by the ITQ predict presence as measured by the PQ; and individuals who report more simulator sickness symptoms in VE report less presence than those who report fewer symptoms.}
+      \field{journaltitle}{Presence: Teleoperators and Virtual Environments}
+      \field{number}{3}
+      \field{title}{Measuring Presence in Virtual Environments: A Presence Questionnaire}
+      \field{volume}{7}
+      \field{year}{1998}
+      \field{pages}{225\bibrangedash 240}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1162/105474698565686
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1162/105474698565686
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1162/105474698565686
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1162/105474698565686
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
