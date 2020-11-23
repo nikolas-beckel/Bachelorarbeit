@@ -29,7 +29,7 @@ AFRAME.registerComponent<PaintingComponent>('painting', {
 
         this.setPaintingAttributes(id, src, paintingHeight);
         this.createFrame(paintingHeight);
-        this.createDetailPoints(id, closeUps, paintingHeight);
+        this.createDetailPoints(id, closeUps);
     },
 
     /**
@@ -68,9 +68,8 @@ AFRAME.registerComponent<PaintingComponent>('painting', {
      * @param id ID des Gemäldes.
      * @param closeUps URL-Pfad der Nahaufnahmen inklusive
      *        ihrer Positionen und IDs.
-     * @param paintingHeight Höhe des Gemäldes.
      */
-    createDetailPoints(id: string, closeUps: CloseUp[], paintingHeight: number) {
+    createDetailPoints(id: string, closeUps: CloseUp[]) {
         const detailSphereElements: Entity[] = [];
         closeUps.forEach(it => {
             const sphere = document.createElement('a-sphere');

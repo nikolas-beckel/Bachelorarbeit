@@ -13,6 +13,7 @@ AFRAME.registerComponent<WorkshopScene>('workshop-scene', {
             firstPainting.id,
             firstPainting.src,
             firstPainting.closeUps,
+            firstPainting.ratio,
             scene
         );
         this.renderDescription(
@@ -22,6 +23,7 @@ AFRAME.registerComponent<WorkshopScene>('workshop-scene', {
             firstPainting.support,
             firstPainting.id,
             firstPainting.src,
+            firstPainting.ratio,
             scene
         )
     },
@@ -33,17 +35,19 @@ AFRAME.registerComponent<WorkshopScene>('workshop-scene', {
      * @param src Der URL-Pfad des Gemäldes.
      * @param closeUps Die Nahaufnahmen des Gemäldes.
      * @param scene Die Szene, in der das Gemälde gerendert werden soll.
+     * @param ratio Verhältnis der Bildbreite und -höhe.
      */
-    renderPainting(id: string, src: string, closeUps: CloseUp[], scene: HTMLElement) {
+    renderPainting(id: string, src: string, closeUps: CloseUp[],  ratio: number, scene: HTMLElement) {
         const painting = document.createElement('a-image');
         painting.setAttribute(
             'painting',
             'id:' + id + ';' +
             'src:' + src + ';' +
-            'closeUps:' + JSON.stringify(closeUps)
+            'closeUps:' + JSON.stringify(closeUps) + ';' +
+            'ratio:' + ratio
         );
-        painting.object3D.position.set(2.509, 1.422, 2.587);
-        painting.object3D.rotation.set(degToRad(-22), degToRad(-142.757), 0);
+        painting.object3D.position.set(2.482, 1.308, 2.521);
+        painting.object3D.rotation.set(degToRad(-156.876), degToRad(-35.117), degToRad(-166.179));
         painting.object3D.scale.set(0.5, 0.5, 0.5);
 
         scene.appendChild(painting);
@@ -59,6 +63,7 @@ AFRAME.registerComponent<WorkshopScene>('workshop-scene', {
      * @param id ID des Gemäldes.
      * @param src URL-Pfad des Gemäldes.
      * @param scene Die Szene, in die die Beschreibung gerendert werden soll.
+     * @param ratio ratio Verhältnis der Bildbreite und -höhe.
      */
     renderDescription(
         title: string,
@@ -67,6 +72,7 @@ AFRAME.registerComponent<WorkshopScene>('workshop-scene', {
         support: string,
         id: string,
         src: string,
+        ratio: number,
         scene: HTMLElement
     ) {
         const description = document.createElement('a-entity');
@@ -77,7 +83,8 @@ AFRAME.registerComponent<WorkshopScene>('workshop-scene', {
             'attribution:' + attribution + ';' +
             'support:' + support + ';' +
             'id:' + id + ';' +
-            'src:' + src
+            'src:' + src + ';' +
+            'ratio:' + ratio
         );
         description.object3D.position.set(1.878, 2.687, 3.599);
         description.object3D.rotation.set(0, degToRad(180), 0);
